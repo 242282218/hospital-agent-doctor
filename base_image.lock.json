@@ -1,0 +1,6 @@
+{
+  "digest": "sha256:348745a6710b872087d61c18f5313a64b378522169bc1558d8ef59348d93548c",
+  "media_type": "application/vnd.docker.distribution.manifest.v2+json",
+  "repository": "modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/python",
+  "tag": "3.9"
+}

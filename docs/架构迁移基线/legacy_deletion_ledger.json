@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "id": "direct-sdk-actions",
+      "legacy_symbols": [
+        "MyDoctorAgent._run_agent:self.actions.ask_patient",
+        "MyDoctorAgent._run_agent:self.actions.order_examination",
+        "MyDoctorAgent._run_agent:self.actions.prescribe_treatment"
+      ],
+      "owner_stage": "2",
+      "replacement": "agent.runtime.ActionGateway",
+      "status": "deleted",
+      "deleted_in_stage": "2",
+      "deletion_evidence": [
+        "tests/deployment/test_agent_entrypoint.py::test_sdk_action_methods_exist_only_in_sdk_adapter",
+        "tests/mechanism/test_action_gateway.py::test_gateway_preserves_sdk_argument_shape_and_success_values"
+      ]
+    },
+    {
+      "id": "inline-evaluation",
+      "legacy_symbols": [
+        "MyDoctorAgent._run_agent:self.actions.evaluation"
+      ],
+      "owner_stage": "2",
+      "replacement": "agent.runtime.EvaluationCollector",
+      "status": "deleted",
+      "deleted_in_stage": "2",
+      "deletion_evidence": [
+        "tests/mechanism/test_evaluation_collector.py::test_train_collector_returns_attachment_and_attempts_once",
+        "tests/mechanism/test_evaluation_collector.py::test_test_mode_never_calls_evaluation"
+      ]
+    },
+    {
+      "id": "external-batch-evaluation-runner",
+      "legacy_symbols": [
+        "test.py:evaluate_test_output:actions.batch_evaluation"
+      ],
+      "owner_stage": "7A",
+      "replacement": "offline Experiment Runner (offline/gates.py + offline/experiments.py)",
+      "status": "deleted",
+      "deleted_in_stage": "7A",
+      "deletion_evidence": [
+        "tests/mechanism/test_run_trace_and_offline.py::test_gate_report_avoids_self_hash_cycle",
+        "tests/mechanism/test_architecture_boundaries.py::test_agent_does_not_import_offline"
+      ]
+    },
+    {
+      "id": "dict-case-state",
+      "legacy_symbols": [
+        "MyDoctorAgent._run_agent:case_state"
+      ],
+      "owner_stage": "3",
+      "replacement": "agent.clinical.online_runtime.run_online_clinical_case + ClinicalOrchestrator",
+      "status": "deleted",
+      "shadowed_in_stage": "3",
+      "final_deletion_stage": "7C",
+      "deleted_in_stage": "7C",
+      "deletion_evidence": [
+        "tests/mechanism/test_online_orchestrator_authority.py::test_production_run_agent_source_uses_online_orchestrator_only",
+        "tests/mechanism/test_online_orchestrator_authority.py::test_online_runtime_mutates_only_via_orchestrator_and_gateway",
+        "agent/clinical/online_runtime.py"
+      ]
+    },
+    {
+      "id": "legacy-intake-control",
+      "legacy_symbols": [
+        "select_required_intake_question",
+        "is_repeated_answered_intake_question",
+        "should_force_examination",
+        "should_stop_patient_questions",
+        "append_eleventh_round_facts"
+      ],
+      "owner_stage": "4",
+      "replacement": "IntakeExtractor + QuestionPlanner + InformationGap",
+      "status": "deleted",
+      "deleted_in_stage": "4",
+      "deletion_evidence": [
+        "tests/mechanism/test_clinical_loop.py::test_question_planner_is_read_only",
+        "tests/mechanism/test_delta_control_writes.py::test_orchestrator_applies_proposal_via_validator_only",
+        "agent/skills/intake.py"
+      ]
+    },
+    {
+      "id": "legacy-diagnosis-exam-loop",
+      "legacy_symbols": [
+        "extract_intake_facts",
+        "select_diagnosis_axes",
+        "select_exam_plan",
+        "open_coverage_gaps"
+      ],
+      "owner_stage": "5",
+      "replacement": "HypothesisBuilder + ExamIntentPlanner + ResultInterpreter + SafeEscalationPlan",
+      "status": "deleted",
+      "deleted_in_stage": "5",
+      "deletion_evidence": [
+        "tests/mechanism/test_clinical_loop.py::test_intake_to_hypothesis_to_selected_to_safe_or_final",
+        "tests/mechanism/test_clinical_loop.py::test_skill_runtime_reservation_increments_before_proposal",
+        "agent/clinical/diagnosis_exam_closure.py"
+      ]
+    },
+    {
+      "id": "legacy-treatment-patch-chain",
+      "legacy_symbols": [
+        "apply_treatment_safety",
+        "final_verifier",
+        "apply_axis_risk_gate",
+        "apply_treatment_specificity_gate"
+      ],
+      "owner_stage": "6",
+      "replacement": "TreatmentPlanner + FinalVerifier + TreatmentDraftSanitizer + RunTraceStore",
+      "status": "deleted",
+      "deleted_in_stage": "6",
+      "deletion_evidence": [
+        "tests/mechanism/test_clinical_loop.py::test_final_verifier_and_sanitizer_do_not_free_rewrite",
+        "tests/mechanism/test_run_trace_and_offline.py::test_run_trace_external_seal_and_episode_ingest"
+      ]
+    },
+    {
+      "id": "markdown-runtime-memory",
+      "legacy_symbols": [
+        "agent.memory.MarkdownMemory",
+        "MyDoctorAgent._run_agent:self.memory.append_case_reflection"
+      ],
+      "owner_stage": "7B",
+      "replacement": "VerifiedRegistryReader + offline Candidate/Promotion hash chain",
+      "status": "deleted",
+      "deleted_in_stage": "7B",
+      "deletion_evidence": [
+        "tests/mechanism/test_run_trace_and_offline.py::test_promotion_requires_real_decision_hash_chain",
+        "agent/memory/verified_registry_reader.py"
+      ]
+    },
+    {
+      "id": "round-named-regression-files",
+      "legacy_symbols": [
+        "tests/test_eighth_round_offline_axes.py",
+        "tests/test_agent_first_round_guards.py",
+        "tests/test_ninth_round_offline_axes.py",
+        "tests/test_tenth_round_offline_failures.py",
+        "tests/test_eleventh_round_offline_failures.py",
+        "tests/test_twelfth_round_offline_failures.py",
+        "tests/test_twelfth_round_three_case_axes.py",
+        "tests/test_thirteenth_round_offline_failures.py",
+        "tests/test_fourteenth_round_offline_axes.py",
+        "tests/test_sixteenth_round_online_path.py",
+        "tests/test_latest_round_ear_safety.py",
+        "tests/test_latest_round_evidence_axes.py",
+        "tests/test_offline_regression_topics.py:test_*_round_*"
+      ],
+      "owner_stage": "7C",
+      "replacement": "tests/mechanism + tests/regression mechanism-named suites",
+      "status": "deleted",
+      "deleted_in_stage": "7C",
+      "deletion_evidence": [
+        "tests/mechanism/test_architecture_boundaries.py",
+        "tests/mechanism/test_clinical_loop.py",
+        "tests/mechanism/test_run_trace_and_offline.py"
+      ]
+    }
+  ],
+  "schema_version": "legacy-deletion-ledger/v1"
+}

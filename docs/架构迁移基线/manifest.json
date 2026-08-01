@@ -1,0 +1,1063 @@
+{
+  "base_image": {
+    "digest": "sha256:348745a6710b872087d61c18f5313a64b378522169bc1558d8ef59348d93548c",
+    "media_type": "application/vnd.docker.distribution.manifest.v2+json",
+    "repository": "modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/python",
+    "tag": "3.9"
+  },
+  "baseline_gate": {
+    "failure_reasons": [],
+    "passed": true
+  },
+  "catalog_hashes": {
+    "data/ref_data/departments.json": "869896dc6f8acc69f5a93b85800811c9e586c5a55941032882037e812f0756f4",
+    "data/ref_data/diseases_catalog.json": "6c2300f008da0480926694ebf990b0626723b8b70655b5e191a90e5ab58bc712",
+    "data/ref_data/examinations_catalog.json": "098ad044a30ec7a7e7e8fa91bf3e2d8760caa905857731ec40d291e9ff944483"
+  },
+  "git": {
+    "available": true,
+    "dirty_paths": [
+      "docs/superpowers/plans/2026-07-09-诊断规范化层实现计划.md"
+    ],
+    "head": "30cc94bb03eb99584f524b54ae30d63a93a710ab"
+  },
+  "historical_runs": [
+    {
+      "artifact_hashes": {
+        "evaluation_results.jsonl": "7ad4e2ce4321fb6f077a2d2c7bb1694f5b988d02e85a0301f6d00fb5f66af0dd",
+        "events.jsonl": "cf08774cfa3404d7a45bdc16affb8fba77326c52caa9d815bc377498251e59ad",
+        "final_results.jsonl": "89c2dd2fe22c3b2a1207e6ac82bc4cf679ab8b8f331116b3bd4818d278e085bf"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": true,
+      "mode": "train",
+      "run_id": "train_20260708_135147_839655"
+    },
+    {
+      "artifact_hashes": {
+        "evaluation_results.jsonl": "9dd3afb74c59a059f51221417cb1e066d851a8b9da42dd847aa6fb63ff61aa4c",
+        "events.jsonl": "ff2893ecd29495acfd5eb78c24f77582a299d13944359a79155b6e4e1e0f31a3",
+        "final_results.jsonl": "f6851c7e56068edb9b53fc8970bc216dd409b3cdbddb548ba48a598b9e0dd048"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": true,
+      "mode": "train",
+      "run_id": "train_20260708_142755_344372"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "9d78d80a7c6dd2db34c4340e4ee2fbfded11950f0f1f2211d9699fb546735a0c"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "train",
+      "run_id": "train_20260708_142956_263729"
+    },
+    {
+      "artifact_hashes": {
+        "evaluation_results.jsonl": "b42d7eb52509efd1d9183a4cbbc360437bbee906b9e0954370c2292ba4285955",
+        "events.jsonl": "b3826344b011a43eed19d0778b60f6b3b70d3f0511cb31c444cd41e432f67e52",
+        "final_results.jsonl": "65edbe4df7e45c0d220d81c6d2ea32b895e1d4dbc4f4277f78cccac8a28380ba"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": true,
+      "mode": "train",
+      "run_id": "train_20260708_143711_754818"
+    },
+    {
+      "artifact_hashes": {
+        "evaluation_results.jsonl": "ae407a7be3f5b54d72bc2a70d22a164e706b9da4668b97b8a45ab5daef06a514",
+        "events.jsonl": "3377789cb8605cb7eae99ca30079ba0db03e742068d1ea00415de47ab31a7621",
+        "final_results.jsonl": "ae483b53138f241a49748645165932e07d2bad278444aba24519676f7e568554"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": true,
+      "mode": "train",
+      "run_id": "train_20260709_005105_636595"
+    },
+    {
+      "artifact_hashes": {
+        "evaluation_results.jsonl": "ce4eb3889953df83dadc907b4c35de40087e8d1f1c01af94ed7a353383fded5f",
+        "events.jsonl": "aec8f65a805e481940ad4d0c8dfb0336dcda0ab61ebc65516090a6b8eb5b2568",
+        "final_results.jsonl": "a77698282f736efa8a610d098e36a2002f6d5e7af02b7a73648187c39802af1d"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": true,
+      "mode": "train",
+      "run_id": "train_20260709_011019_001332"
+    },
+    {
+      "artifact_hashes": {
+        "evaluation_results.jsonl": "f6904e72e176612620453decc976e91bcbf40891c6d1504e2e8feae2c1eca53f",
+        "events.jsonl": "531df22f34db3bf617a37093ea883fc86b276fc91cbaf9fa9401b9dad3dbb477",
+        "final_results.jsonl": "f1f38df59c6aa8be8fe34e06204342e811bd9ae7175b5bbddb329bac17e6a799"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": true,
+      "mode": "train",
+      "run_id": "train_20260709_021649_219366"
+    },
+    {
+      "artifact_hashes": {
+        "evaluation_results.jsonl": "97bc18257bd1faa02f195c2db52a6f683cf7b1e8877c8d76004684a1269b2f34",
+        "events.jsonl": "a35227c91c3575d1cf5a45b69ecf75b204c702d036a0ba559737115496592ad7",
+        "final_results.jsonl": "347264f0d3248d5068d4cbf77a406fc0d7416fa73019cfbac884dfb33bad96c5"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": true,
+      "mode": "train",
+      "run_id": "train_20260709_022613_598703"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "e9764fa7dc8a24ac173ec847fd3c91c3513574332f39bf407991596e66aa3806",
+        "final_results.jsonl": "3406e353085adfdb931068963ed629b4500047e09c941b82f4a7338cb5701f7c"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260709_034525_523134"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "c13591cc27421db15fa481251643a6bda4c3f87906c0d1b1224f6ff88ced0872",
+        "final_results.jsonl": "21a36feff227658bfb8cda698aa8ce0c8d5314afce21ddff4c1aa9789ac4b327"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260709_111144_897379"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "fb020166668f3d9a7a1616a2fa9cd739e19d87b51abaea1594212f878916c0f7",
+        "final_results.jsonl": "fb761c5baa21ebcf6e997041cb0a48972c6529d51082c51853b05d3e569eb10f"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260709_122604_502798"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "18a38ed3144ca136d46a86e71f476878ce17a11646220d247e8df7c4a286579b",
+        "final_results.jsonl": "a5c3be7d2e79b7d8e8f9eeca250cf38da20a566cc3536102261eee5cf4bd4ce6"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260709_122949_618959"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "ddd429b0bfcbb9af0330dcda911e8bd41f9cbb5b830f8899567c6e1ef7f7844f",
+        "final_results.jsonl": "18e6e02d265a9f903988d73a453d516ebe7c5c2b2f14c3c744b92c4ed27b0ba4"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260709_184800_190081"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "52e751968400a8c40efed695151a4c124b296736e573e52c68091c66fbecd722",
+        "final_results.jsonl": "92389054a9c9d3828fa8d75c0e6496f09709ffca86ab509446197432ae0e720a"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_041128_593719"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "4b3db341acf1457ae887e10004a7c227ba7476bb3cf78bc2f8ac024437eaf9f7"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_045241_780620"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "469e97eadd4e3bef9a92ff50a63b2fdc52f432944a82e664622632f2b9696bb1",
+        "final_results.jsonl": "084cb5c77a5443b5524356099c8655696910d31ca59cc58f4416f1fe0bf992a0"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_045336_177696"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "21f06cc475c8c76690117b00479814be5c1652d6689b4cb9a724d80a4238c3a0",
+        "final_results.jsonl": "d3826dbd7c7949e5dc39e8623acd834fe95cbdf48d08a5c6e8636de201d69258"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_050735_788292"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "d4de01735765dd15786dcc33a4aa01ecd2ab64c9f72cea4bd51536e7db96fec0",
+        "final_results.jsonl": "193faf512110e584e53ae8eb026b8b05ba96a7278328f90dc873002eca5e4665"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_110333_224111"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "ebe4bb514bae75926adb69577fa403c914e65a147a7c24ab2b49220ba04c5696",
+        "final_results.jsonl": "13ccd80d184756086abf370f7e631c83e3bd00b0267273dcda1fce3560535e26"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_124026_425879"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "d98f7dabfffc330099ff7680783d2f3c090ea0f4c8460cb82a05c1b116ee227b",
+        "final_results.jsonl": "28e5c38d31bbaf14250876fd46b7b28e0cfbefdfcfd057426a5d2ac256ff4412"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_153159_537153"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "18404ce64dbfba3f6e0e8ac53e6e4565445a4096e697164ef2b3d2f046374ef3",
+        "final_results.jsonl": "7d95868bb048e97a04e1a917d430a6d3125a565dc30548e9b8892bf9c9bacfa7"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_161736_450294"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "8172bcd6722c338586a597ebacd3f8ade771a4da207edcace0a6e0b23e9fac87",
+        "final_results.jsonl": "b053c51927624dea6bc8727fec077170d358d72041259fddeda47bfc3c18bf94"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_163305_606023"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "3da38868900a0e96836d1ffac6d9940cb9540a99efbb169dd68c9ba095b6d9c7",
+        "final_results.jsonl": "db9e8010dbd7de573377118a17cdfe1a3320a80fc24d2ff50891e7a92d9be53f"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_164559_867655"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "3353da96c17551dbfc37a819212a621d1341a9c98842ee9c10eb055c12f129f8",
+        "final_results.jsonl": "6e5e84f0e169eb57cbc683169527745c9334da70bc482d07165682ae63269ebc"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_165407_169311"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "cd685332fc49370ab9f0554b35150de9670117b9446684aaae5037e3f436ba06",
+        "final_results.jsonl": "68a75706df09afd18cbcb203b82b48287bdca1b55a8359f4411db8cccea6c353"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_170953_171245"
+    },
+    {
+      "artifact_hashes": {
+        "events.jsonl": "3dced9c95ae2c372cbaab12eaf237fc2840b51d824c8af57d02991cdfabcd189",
+        "final_results.jsonl": "5423232c67988714674e6c0754391f14062b59e1811eeb4e43702c38f727c63a"
+      },
+      "dataset_layer": "HistoricalReplay",
+      "has_evaluation": false,
+      "mode": "test",
+      "run_id": "test_20260710_174042_607055"
+    }
+  ],
+  "knowledge_hashes": {
+    "agent/knowledge/alias_map.json": "2c647a1407b5390f829222b05c4606a5ef05a92429d030aae7ae889af109b697",
+    "agent/knowledge/diagnosis_exam_profiles.json": "0c79595e0a02ad6a0634bb50c0d58d40ee8851ca413daf6aa2bca7a8ca94d67d",
+    "agent/knowledge/exam_intent_map.json": "9500d3a90672c61cf9b1fa785aade8c4993aa29df7328163061561218dcce13c",
+    "agent/knowledge/treatment_safety_profiles.json": "600212ea4e410b599aeda99aed07af1f58b69ab27b08a801b120d362ab819e76"
+  },
+  "locked_dockerfile_hash": "7f07889d6cbd5ee1904782bd2393f8fefb6c1a151f9c087df60c69c97f8bf44f",
+  "manifest_hash": "1abc06601e053130d5b7cab4d468856a0ad45d103eed38fda49410a8d646d407",
+  "schema_version": "architecture-baseline/v1",
+  "snapshot": {
+    "files": [
+      {
+        "bytes": 145,
+        "path": ".dockerignore",
+        "sha256": "ebc0ae5127e1112390aaadaa90c6d045c551fa6abcf809894f63c8e59907f818"
+      },
+      {
+        "bytes": 149,
+        "path": "agent/__init__.py",
+        "sha256": "5591c42e035ee61f0cbd93460f257d3c385c4c0e7bb3af237205e1b995b315f5"
+      },
+      {
+        "bytes": 343175,
+        "path": "agent/agent.py",
+        "sha256": "49d610807bff0150893ee342a080302f40f2840bc3ce8fefa9704afc4ced882a"
+      },
+      {
+        "bytes": 2176,
+        "path": "agent/knowledge/alias_map.json",
+        "sha256": "2c647a1407b5390f829222b05c4606a5ef05a92429d030aae7ae889af109b697"
+      },
+      {
+        "bytes": 3509,
+        "path": "agent/knowledge/diagnosis_exam_profiles.json",
+        "sha256": "0c79595e0a02ad6a0634bb50c0d58d40ee8851ca413daf6aa2bca7a8ca94d67d"
+      },
+      {
+        "bytes": 25899,
+        "path": "agent/knowledge/exam_intent_map.json",
+        "sha256": "9500d3a90672c61cf9b1fa785aade8c4993aa29df7328163061561218dcce13c"
+      },
+      {
+        "bytes": 1009,
+        "path": "agent/knowledge/treatment_safety_profiles.json",
+        "sha256": "600212ea4e410b599aeda99aed07af1f58b69ab27b08a801b120d362ab819e76"
+      },
+      {
+        "bytes": 7053,
+        "path": "agent/memory.py",
+        "sha256": "939b3c7fcc8ee9bebb10884a7490f6c035b08f59c5faeac79da22bd7a2d38a1e"
+      },
+      {
+        "bytes": 13643,
+        "path": "agent/prompt.py",
+        "sha256": "30148e953e94268bdbf1a4f4850a387f489e4079d2e462306cc966fa3d01b498"
+      },
+      {
+        "bytes": 2174,
+        "path": "analyze_eval.py",
+        "sha256": "8ea778ebcd64ee11b436719b8cf034be188fa6e3309eb06ff6920f8a6d5d27fe"
+      },
+      {
+        "bytes": 267,
+        "path": "base_image.lock.json",
+        "sha256": "a550d748c3a3d8fb8bbec622f751d6d861ed2898a89e5606f12d7c5c1e5969a4"
+      },
+      {
+        "bytes": 673,
+        "path": "config.yaml",
+        "sha256": "f20413185ea3a35d5065d3cc550e6cc84e54d4f74eb03622871fbd3a6f13489c"
+      },
+      {
+        "bytes": 361,
+        "path": "data/ref_data/departments.json",
+        "sha256": "869896dc6f8acc69f5a93b85800811c9e586c5a55941032882037e812f0756f4"
+      },
+      {
+        "bytes": 19634,
+        "path": "data/ref_data/diseases_catalog.json",
+        "sha256": "6c2300f008da0480926694ebf990b0626723b8b70655b5e191a90e5ab58bc712"
+      },
+      {
+        "bytes": 146320,
+        "path": "data/ref_data/examinations_catalog.json",
+        "sha256": "098ad044a30ec7a7e7e8fa91bf3e2d8760caa905857731ec40d291e9ff944483"
+      },
+      {
+        "bytes": 367,
+        "path": "Dockerfile",
+        "sha256": "6372daaa2c78a67a37cc2916686a2350c1f0a757a8cbcbb502872481290f2764"
+      },
+      {
+        "bytes": 1205,
+        "path": "requirements.txt",
+        "sha256": "18039138c0b0c541e6b30dca2ad228c91088c9b9f4c56be6d759f08ce3743994"
+      },
+      {
+        "bytes": 38,
+        "path": "scripts/__init__.py",
+        "sha256": "82349a1bc285efec0e2dc23bcbc114bb4d8fb8115d822c1447db109bd426c72e"
+      },
+      {
+        "bytes": 40,
+        "path": "scripts/architecture/__init__.py",
+        "sha256": "dcd77643492837b87c322fa848f0f9b3fcfb3b92d6bec77303b4c8d731c3e55f"
+      },
+      {
+        "bytes": 31943,
+        "path": "scripts/architecture/freeze_baseline.py",
+        "sha256": "8795b7a243384ae6fcfea2738444ad1cb8dec4551818245c2e406cd54daad1c9"
+      },
+      {
+        "bytes": 3911,
+        "path": "test.py",
+        "sha256": "1ae8297c14f2c9600c671ee8b3735aa7499947ea515c8ffb765ed6c8d97e702a"
+      },
+      {
+        "bytes": 19446,
+        "path": "tests/mechanism/test_baseline_freeze.py",
+        "sha256": "b88a817939dcdf1179b988b1ae03f74cf29cae7d43c9989f4782de0e98c06387"
+      },
+      {
+        "bytes": 14389,
+        "path": "tests/test_agent_first_round_guards.py",
+        "sha256": "1b0cf85ac5113277992768fecf2bce71f7e3c21cb0bc6703fa9e8d38016ef30e"
+      },
+      {
+        "bytes": 15847,
+        "path": "tests/test_agent_optimization_modules.py",
+        "sha256": "88bde898a8c459346f6f4a8429e23a00ccc75a13a4a9fd67d1c79a0e70b14dda"
+      },
+      {
+        "bytes": 4524,
+        "path": "tests/test_answer_leakage_guards.py",
+        "sha256": "227f7c95f90379250d15b4886577e1c2eed3c695f7f3577b86f327608ae01517"
+      },
+      {
+        "bytes": 13978,
+        "path": "tests/test_diagnosis_normalization.py",
+        "sha256": "8c1e6a2865c960d0909d9cfab3049f5bbe584d0b13b53f7e9a9b80457caf449a"
+      },
+      {
+        "bytes": 21174,
+        "path": "tests/test_eighth_round_offline_axes.py",
+        "sha256": "1924240cf0fac55ad00d790ad1dea4df23a1c59ab38a67e17ac2d2de953ec384"
+      },
+      {
+        "bytes": 65823,
+        "path": "tests/test_eleventh_round_offline_failures.py",
+        "sha256": "38a65346254c8fa18348dfe91a712221a1a321629193febfdc80a2643d910f16"
+      },
+      {
+        "bytes": 8240,
+        "path": "tests/test_fourteenth_round_offline_axes.py",
+        "sha256": "113db77bf5e020f2fe2880a338b93ba9938bb1b6a23f57852f60f05d46418d1c"
+      },
+      {
+        "bytes": 3430,
+        "path": "tests/test_latest_round_ear_safety.py",
+        "sha256": "3e3f46e68d2c2b6959d10316c039c65e1c649668c15389bc47ef7f0a9aa01373"
+      },
+      {
+        "bytes": 5526,
+        "path": "tests/test_latest_round_evidence_axes.py",
+        "sha256": "b8f7f9a6c4f0e3e6c978d4338f5c2aaad661da975a4d302bc32c482937092980"
+      },
+      {
+        "bytes": 35514,
+        "path": "tests/test_ninth_round_offline_axes.py",
+        "sha256": "f5de4fa0f2bbee1fc1dee24b623e0a7ec1f0f62ccd96932512f302dcd2aa01f0"
+      },
+      {
+        "bytes": 57768,
+        "path": "tests/test_offline_regression_topics.py",
+        "sha256": "11dd9e1a6d970c8e9862fdf0b7e4d1ceea12751dbeffc924922e5b04f8e73dcb"
+      },
+      {
+        "bytes": 25385,
+        "path": "tests/test_tenth_round_offline_failures.py",
+        "sha256": "561ffc4ebf419326786231e6097ac3e715a7fa1c51d88b04af0f1a5ccfc1139d"
+      },
+      {
+        "bytes": 8911,
+        "path": "tests/test_thirteenth_round_offline_failures.py",
+        "sha256": "5523a774ae029dca1e3ef28b96ee2aaf8d39035c6780b62bce2d0840b29fdf11"
+      },
+      {
+        "bytes": 15669,
+        "path": "tests/test_twelfth_round_offline_failures.py",
+        "sha256": "ea97fc04131b7e5c60907d4c5560071347c6de5548507be0f6d1027ed7e40d6c"
+      },
+      {
+        "bytes": 11284,
+        "path": "tests/test_twelfth_round_three_case_axes.py",
+        "sha256": "6e1995a44c248a6b8cece4eb1911f0da34e6172b4ec542731b19b6b44e5e9959"
+      },
+      {
+        "bytes": 480,
+        "path": "train.py",
+        "sha256": "f0c58d4079a2a673159a654633cd41a5b259c6f086861cd6b040d3439c4981a1"
+      }
+    ],
+    "sha256": "00b24e699fbf552c7d2216a1b64d28b49e2a93e9c6203ca60f93a4fc138fd836"
+  },
+  "source_scan": {
+    "direct_action_calls": [
+      {
+        "action": "ask_patient",
+        "line": 254,
+        "path": "agent/agent.py"
+      },
+      {
+        "action": "order_examination",
+        "line": 300,
+        "path": "agent/agent.py"
+      },
+      {
+        "action": "order_examination",
+        "line": 382,
+        "path": "agent/agent.py"
+      },
+      {
+        "action": "prescribe_treatment",
+        "line": 553,
+        "path": "agent/agent.py"
+      },
+      {
+        "action": "evaluation",
+        "line": 563,
+        "path": "agent/agent.py"
+      },
+      {
+        "action": "prescribe_treatment",
+        "line": 713,
+        "path": "agent/agent.py"
+      },
+      {
+        "action": "evaluation",
+        "line": 724,
+        "path": "agent/agent.py"
+      },
+      {
+        "action": "batch_evaluation",
+        "line": 92,
+        "path": "test.py"
+      }
+    ],
+    "experiment_round_names": [
+      {
+        "line": 1703,
+        "path": "agent/agent.py",
+        "value": "append_eleventh_round_facts"
+      },
+      {
+        "line": 367,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_llm_axis_validator_keeps_supported_axis_only"
+      },
+      {
+        "line": 466,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_axis_first_exam_plan_survives_wrong_candidate_diagnosis"
+      },
+      {
+        "line": 502,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_rule_axes_positive_and_negative_boundaries"
+      },
+      {
+        "line": 520,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_final_gate_blocks_infection_steroid_and_unsupported_exclusion"
+      },
+      {
+        "line": 574,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_final_gate_adds_sle_and_bleeding_risk_goals"
+      },
+      {
+        "line": 600,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_final_gate_blocks_estrogen_contraception_with_sle_thrombosis_risk"
+      },
+      {
+        "line": 655,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_seventh_round_validator_drops_sle_risk_without_sle_evidence"
+      },
+      {
+        "line": 687,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_seventh_round_final_gate_does_not_add_sle_patch_to_non_sle_case"
+      },
+      {
+        "line": 713,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_seventh_round_exam_plan_filters_female_prostate_exams"
+      },
+      {
+        "line": 746,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_seventh_round_extracts_family_history_separately_from_personal_history"
+      },
+      {
+        "line": 764,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_seventh_round_final_verifier_blocks_family_history_as_personal_hypertension"
+      },
+      {
+        "line": 795,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_seventh_round_extracts_symptomatic_large_renal_cyst_features"
+      },
+      {
+        "line": 812,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_seventh_round_final_verifier_patches_undertreated_symptomatic_renal_cyst"
+      },
+      {
+        "line": 843,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_extracts_recurrent_epistaxis_deviated_septum_context"
+      },
+      {
+        "line": 861,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "test_sixth_round_final_verifier_patches_deviated_septum_recurrent_epistaxis_care"
+      }
+    ],
+    "files_over_150_lines": [
+      {
+        "lines": 7968,
+        "path": "agent/agent.py"
+      },
+      {
+        "lines": 1453,
+        "path": "tests/test_eleventh_round_offline_failures.py"
+      },
+      {
+        "lines": 1210,
+        "path": "tests/test_offline_regression_topics.py"
+      },
+      {
+        "lines": 937,
+        "path": "scripts/architecture/freeze_baseline.py"
+      },
+      {
+        "lines": 872,
+        "path": "tests/test_ninth_round_offline_axes.py"
+      },
+      {
+        "lines": 593,
+        "path": "tests/test_tenth_round_offline_failures.py"
+      },
+      {
+        "lines": 552,
+        "path": "tests/mechanism/test_baseline_freeze.py"
+      },
+      {
+        "lines": 486,
+        "path": "tests/test_eighth_round_offline_axes.py"
+      },
+      {
+        "lines": 390,
+        "path": "tests/test_agent_optimization_modules.py"
+      },
+      {
+        "lines": 381,
+        "path": "agent/prompt.py"
+      },
+      {
+        "lines": 366,
+        "path": "tests/test_agent_first_round_guards.py"
+      },
+      {
+        "lines": 351,
+        "path": "tests/test_twelfth_round_offline_failures.py"
+      },
+      {
+        "lines": 322,
+        "path": "tests/test_diagnosis_normalization.py"
+      },
+      {
+        "lines": 262,
+        "path": "tests/test_twelfth_round_three_case_axes.py"
+      },
+      {
+        "lines": 196,
+        "path": "tests/test_thirteenth_round_offline_failures.py"
+      },
+      {
+        "lines": 182,
+        "path": "agent/memory.py"
+      },
+      {
+        "lines": 179,
+        "path": "tests/test_fourteenth_round_offline_axes.py"
+      }
+    ],
+    "functions_over_40_lines": [
+      {
+        "line": 117,
+        "lines": 635,
+        "name": "_run_agent",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 4070,
+        "lines": 322,
+        "name": "open_coverage_gaps",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 2077,
+        "lines": 294,
+        "name": "select_diagnosis_axes",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 5397,
+        "lines": 265,
+        "name": "apply_diagnosis_specific_treatment_gate",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 1539,
+        "lines": 162,
+        "name": "extract_intake_facts",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 5063,
+        "lines": 132,
+        "name": "apply_treatment_specificity_gate",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 3689,
+        "lines": 127,
+        "name": "final_verifier",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 1164,
+        "lines": 116,
+        "name": "extract_case_features",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 6563,
+        "lines": 113,
+        "name": "select_exam_plan",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 5898,
+        "lines": 104,
+        "name": "apply_axis_risk_gate",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 141,
+        "lines": 84,
+        "name": "scan_python_source",
+        "path": "scripts/architecture/freeze_baseline.py"
+      },
+      {
+        "line": 7130,
+        "lines": 83,
+        "name": "normalize_candidates_from_diagnostic_context",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 4819,
+        "lines": 78,
+        "name": "apply_negative_evidence_scope_gate",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 3240,
+        "lines": 76,
+        "name": "apply_treatment_safety",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 430,
+        "lines": 65,
+        "name": "test_deployment_bundle_is_deterministic_and_contains_commit_files",
+        "path": "tests/mechanism/test_baseline_freeze.py"
+      },
+      {
+        "line": 6689,
+        "lines": 63,
+        "name": "select_prefinal_axis_exam_plan",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 1953,
+        "lines": 59,
+        "name": "cryoglobulin_payload_status",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 7269,
+        "lines": 59,
+        "name": "prune_unsupported_disease_candidates",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 214,
+        "lines": 58,
+        "name": "test_offline_topic_osteopetrosis_alias_and_candidate_ranking",
+        "path": "tests/test_offline_regression_topics.py"
+      },
+      {
+        "line": 1442,
+        "lines": 56,
+        "name": "normalize_diagnosis",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 1372,
+        "lines": 53,
+        "name": "accept_normalization_suggestion",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 974,
+        "lines": 52,
+        "name": "review_introduces_unsupported_sensitive_facts",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 7215,
+        "lines": 52,
+        "name": "merge_axis_disease_candidates",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 1703,
+        "lines": 51,
+        "name": "append_eleventh_round_facts",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 4621,
+        "lines": 51,
+        "name": "hypoxia_evidence_status",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 289,
+        "lines": 51,
+        "name": "check_manifest",
+        "path": "scripts/architecture/freeze_baseline.py"
+      },
+      {
+        "line": 6004,
+        "lines": 50,
+        "name": "allows_monitored_steroid_bridge_for_life_threatening_bleeding",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 1050,
+        "lines": 50,
+        "name": "test_llm_axis_cannot_override_pending_cryoglobulin_result",
+        "path": "tests/test_eleventh_round_offline_failures.py"
+      },
+      {
+        "line": 7534,
+        "lines": 49,
+        "name": "disease_context_boost",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 885,
+        "lines": 49,
+        "name": "main",
+        "path": "scripts/architecture/freeze_baseline.py"
+      },
+      {
+        "line": 1395,
+        "lines": 49,
+        "name": "systemic_infection_safety_features",
+        "path": "tests/test_eleventh_round_offline_failures.py"
+      },
+      {
+        "line": 273,
+        "lines": 47,
+        "name": "test_offline_topic_osteopetrosis_alias_from_non_official_suggestion",
+        "path": "tests/test_offline_regression_topics.py"
+      },
+      {
+        "line": 926,
+        "lines": 46,
+        "name": "validate_treatment_review",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 367,
+        "lines": 46,
+        "name": "test_sixth_round_llm_axis_validator_keeps_supported_axis_only",
+        "path": "tests/test_offline_regression_topics.py"
+      },
+      {
+        "line": 2679,
+        "lines": 45,
+        "name": "glucose_evidence_status",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 4559,
+        "lines": 44,
+        "name": "urine_culture_evidence_status",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 71,
+        "lines": 44,
+        "name": "_case_block",
+        "path": "agent/memory.py"
+      },
+      {
+        "line": 753,
+        "lines": 43,
+        "name": "_git_state",
+        "path": "scripts/architecture/freeze_baseline.py"
+      },
+      {
+        "line": 203,
+        "lines": 42,
+        "name": "test_high_energy_hindfoot_sprain_only_plan_is_blocked",
+        "path": "tests/test_twelfth_round_three_case_axes.py"
+      },
+      {
+        "line": 859,
+        "lines": 41,
+        "name": "_write_prompt_log",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 2422,
+        "lines": 41,
+        "name": "validate_single_axis",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 6056,
+        "lines": 41,
+        "name": "marker_present_active",
+        "path": "agent/agent.py"
+      },
+      {
+        "line": 227,
+        "lines": 41,
+        "name": "build_manifest",
+        "path": "scripts/architecture/freeze_baseline.py"
+      }
+    ],
+    "patient_id_literals": [
+      {
+        "line": 74,
+        "path": "tests/mechanism/test_baseline_freeze.py",
+        "value": "Patient_123"
+      },
+      {
+        "line": 86,
+        "path": "tests/mechanism/test_baseline_freeze.py",
+        "value": "Patient_123"
+      },
+      {
+        "line": 115,
+        "path": "tests/mechanism/test_baseline_freeze.py",
+        "value": "Patient_1"
+      },
+      {
+        "line": 122,
+        "path": "tests/mechanism/test_baseline_freeze.py",
+        "value": "Patient_1"
+      },
+      {
+        "line": 333,
+        "path": "tests/test_agent_first_round_guards.py",
+        "value": "Patient_001"
+      },
+      {
+        "line": 338,
+        "path": "tests/test_agent_first_round_guards.py",
+        "value": "Patient_002"
+      },
+      {
+        "line": 343,
+        "path": "tests/test_agent_first_round_guards.py",
+        "value": "Patient_001"
+      },
+      {
+        "line": 354,
+        "path": "tests/test_agent_first_round_guards.py",
+        "value": "Patient_001"
+      },
+      {
+        "line": 53,
+        "path": "tests/test_answer_leakage_guards.py",
+        "value": "Patient_02654"
+      },
+      {
+        "line": 57,
+        "path": "tests/test_answer_leakage_guards.py",
+        "value": "Patient_02654"
+      },
+      {
+        "line": 67,
+        "path": "tests/test_answer_leakage_guards.py",
+        "value": "Patient_02654"
+      },
+      {
+        "line": 81,
+        "path": "tests/test_offline_regression_topics.py",
+        "value": "Patient_02654"
+      }
+    ]
+  },
+  "verification": {
+    "base_image_lock": {
+      "digest": "sha256:348745a6710b872087d61c18f5313a64b378522169bc1558d8ef59348d93548c",
+      "dockerfile_from": "FROM modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/python:3.9",
+      "expected_from": "FROM modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/python:3.9",
+      "status": "passed"
+    },
+    "compileall": {
+      "command": [
+        "D:\\PROJECT_ZZZZZZZZZ\\硅基医生ai比赛\\hospital_agent_example\\.venv\\Scripts\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "agent",
+        "tests",
+        "scripts"
+      ],
+      "exit_code": 0,
+      "status": "passed",
+      "summary": "exit code 0"
+    },
+    "dependency_lock": {
+      "missing_packages": [],
+      "package_count": 11,
+      "status": "passed",
+      "unhashed_packages": []
+    },
+    "json": {
+      "checked_count": 7,
+      "invalid_paths": [],
+      "missing_paths": [],
+      "status": "passed"
+    },
+    "leakage_scan": {
+      "findings": [],
+      "patient_id_literal_count": 0,
+      "status": "passed"
+    },
+    "pytest": {
+      "command": [
+        "D:\\PROJECT_ZZZZZZZZZ\\硅基医生ai比赛\\hospital_agent_example\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "status": "passed",
+      "summary": "320 passed, 95 subtests passed"
+    }
+  }
+}

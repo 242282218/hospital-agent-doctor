@@ -1,0 +1,17 @@
+{
+  "schema_version": "incomplete-isolation/v1",
+  "frozen_count": 300,
+  "train_layer_incomplete_count": 0,
+  "train_union_patient_count": 300,
+  "frozen_subset_of_train_union": true,
+  "approval_rejected_count": 0,
+  "selection_attempted_count": 376,
+  "selection_attempted_not_frozen": 101,
+  "frozen_not_in_selection": 25,
+  "canary_run_failures": [
+    "Patient_07907"
+  ],
+  "goal_claimed_incomplete": 30,
+  "goal_claim_reconstructed_as_distinct_patients": false,
+  "note": "30 incomplete cannot be reconstructed as 30 distinct patient records from disk; closest verifiable gap is selection_attempted_not_frozen (101, mixed canary/confirmation/test). Do NOT fabricate 30 rows. Frozen 300 has empty intersection with all incomplete sets."
+}

@@ -1,0 +1,1887 @@
+{
+  "schema_version": "treatment-safety-audit/v1",
+  "pack": "release_C_case_memory_20260724_v_final_300cases",
+  "scanned": 300,
+  "flagged": 125,
+  "layer_counts": {
+    "剂量人群": 50,
+    "药物禁忌": 14,
+    "急症时序": 82
+  },
+  "quarantine_candidates": [
+    {
+      "patient_id": "Patient_00061",
+      "diagnoses": [
+        "结节性硬化症"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "按儿童体重基础剂量启动依维莫司治疗，并进行治疗药物监测，以针对室管膜下结节、减少癫痫发作频率并控制肾血管平滑肌脂肪瘤。在开始依维莫司治疗前/开始时，应由心脏科评估现有的频发室性早搏/间歇性室性二联律伴心动过速，并安排更密切的心律监测（开始用"
+    },
+    {
+      "patient_id": "Patient_00110",
+      "diagnoses": [
+        "右位心"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "该新生儿为孤立性镜像型右位心，且无结构性心脏缺陷，因此无需心脏方面治疗。右位心是一种偶然发现的解剖学变异，不能解释咳嗽。应以呼吸系统管理为主：确认并监测在室内空气下氧饱和度正常，并评估呼吸情况/呼吸做功；今日肺部听诊清晰。对持续性咳嗽采取保"
+    },
+    {
+      "patient_id": "Patient_00144",
+      "diagnoses": [
+        "肺弓形虫病"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "nsaid_in_renal_transplant",
+          "needle": "肾移植"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "因有过敏史，磺胺类抗生素和磺胺嘧啶禁用，应开始使用乙胺嘧啶联合克林霉素治疗；同时给予乙胺嘧啶联合亚叶酸补充，以预防骨髓抑制。鉴于肾移植状态及同时使用吗替麦考酚酯/泼尼松，应在治疗开始前或开始时获取基线全血细胞计数（CBC）以及基线肾功能/肝"
+    },
+    {
+      "patient_id": "Patient_00413",
+      "diagnoses": [
+        "多发性骨髓瘤"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始采用硼替佐米、来那度胺和地塞米松（VRd方案）进行多发性骨髓瘤诱导治疗。对于高钙血症，给予生理盐水静脉补液，加用降钙素以快速降低血钙，并考虑地舒单抗作为对肾脏更安全的抗骨吸收治疗选择；糖皮质激素可作为辅助用药（也包含在骨髓瘤治疗方案中）"
+    },
+    {
+      "patient_id": "Patient_00435",
+      "diagnoses": [
+        "蜂窝织炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "休克"
+        }
+      ],
+      "treatment_excerpt": "患者将根据血培养分离菌的药敏结果及所报告的青霉素过敏史接受静脉克林霉素治疗。过敏史表现为数十年前出现的远期皮疹，无过敏性休克、血管性水肿、呼吸受损或严重皮肤反应病史。应抬高患腿并进行冷敷，以减轻肿胀和不适。她应保持充足水分摄入、营养均衡的素"
+    },
+    {
+      "patient_id": "Patient_00530",
+      "diagnoses": [
+        "成人发病型斯蒂尔病"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "开始中等剂量口服泼尼松以控制全身炎症，鉴于患者存在高热、炎症指标显著升高及功能受损。在开始甲氨蝶呤治疗前，需通过尿液或血清hCG检测阴性来获取并记录已排除妊娠的证据，并进行致畸风险宣教，包括在使用甲氨蝶呤期间及停药后建议的时间间隔内严格避孕"
+    },
+    {
+      "patient_id": "Patient_00669",
+      "diagnoses": [
+        "视神经萎缩"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        }
+      ],
+      "treatment_excerpt": "在缺乏活动性炎症复发客观证据的慢性视神经萎缩情况下，不要常规启动全身性泼尼松治疗。应优先安排神经眼科随访，进行密切观察和结构化视觉功能监测（视力、色觉、视野、如有条件可做OCT RNFL/GCC，以及根据临床指征重复VEP）。重点识别并处理"
+    },
+    {
+      "patient_id": "Patient_00729",
+      "diagnoses": [
+        "克里格勒-纳贾尔综合征"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "立即开始强化光疗，每日 12–14 小时，并间歇性暴露皮肤以降低非结合胆红素，同时确保充足补液和营养支持，通过继续母乳喂养并辅以配方奶补充来维持热量摄入并促进胆红素排泄。鉴于总胆红素为 22.0 mg/dL，在强化光疗期间应进行并记录频繁的"
+    },
+    {
+      "patient_id": "Patient_00785",
+      "diagnoses": [
+        "前列腺结石"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "进行尿培养（结果可得后根据结果调整抗生素），并治疗与前列腺内结石及前列腺尿道支架部分结垢相关的疑似急性细菌性前列腺炎/前列腺尿道炎症。鉴于左氧氟沙星对前列腺组织穿透性较好，且存在WBC升高/脓尿，经验性治疗起始左氧氟沙星500 mg口服，每"
+    },
+    {
+      "patient_id": "Patient_00840",
+      "diagnoses": [
+        "腺病毒性结膜炎"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        }
+      ],
+      "treatment_excerpt": "主要干预措施为左氧氟沙星 0.5% 滴眼液，每只眼每次 1 滴，每日 4 次，连续 7 天，以处理腺病毒性结膜炎背景下疑似继发性细菌性结膜炎/金黄色葡萄球菌重叠感染（表现为黏脓性分泌物/眼睑结痂及革兰染色见炎症细胞）。辅助治疗包括频繁使用不"
+    },
+    {
+      "patient_id": "Patient_00965",
+      "diagnoses": [
+        "腺病毒性肺炎"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "患者将接受支持治疗，同时需明确评估是否存在细菌合并感染，因为其有原发性免疫缺陷且炎症指标升高（WBC 17.8，CRP 48），而PCT仅轻度升高（0.18）。当前表现（病毒性前驱期伴鼻塞、干咳、喘鸣）及胸片解读应复查是否存在局灶性肺叶实变"
+    },
+    {
+      "patient_id": "Patient_00966",
+      "diagnoses": [
+        "肾血管性高血压"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "患者将因左肾动脉重度狭窄接受经皮腔内肾动脉成形术并支架植入。术前及术后降压治疗将使用氨氯地平5mg每日一次以控制血压。继续他汀治疗，并开始每日81mg小剂量阿司匹林以发挥抗血小板作用。由于担心存在具有临床意义的肾动脉狭窄并有肌酐急性升高和高"
+    },
+    {
+      "patient_id": "Patient_00991",
+      "diagnoses": [
+        "手足搐搦症"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "立即开始紧急处理，使用面罩给氧并建立静脉通路。在持续心电图监护下，缓慢静脉给予10%葡萄糖酸钙100 mg/kg（1 mL/kg），于10-20分钟内输注，以纠正急性低钙血症（避免快速推注）；随后给予维持性静脉钙输注（例如元素钙50-75 "
+    },
+    {
+      "patient_id": "Patient_01012",
+      "diagnoses": [
+        "室性早搏（PVCs）"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "继续当前β受体阻滞剂治疗，同时维持ACE抑制剂/ARB、他汀和利尿剂方案，以管理基础心肌病。应优化β受体阻滞剂剂量以控制室性早搏，而不是加用其他抗心律失常药物。请立即核对您居家使用的抗心律失常药：您最近重新开始服用胺碘酮；不要服用氟卡尼或普"
+    },
+    {
+      "patient_id": "Patient_01053",
+      "diagnoses": [
+        "黑热病"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "elderly_fragile",
+          "needle": "高龄"
+        }
+      ],
+      "treatment_excerpt": "患者将接受静脉注射脂质体两性霉素B，作为其内脏利什曼病的一线治疗，考虑到其免疫抑制状态及血液学受损。治疗前及治疗期间，应密切监测肾功能和电解质（血清肌酐/eGFR、钾、镁、碳酸氢盐），并根据需要采取肾脏保护性支持措施，包括补液和电解质补充方"
+    },
+    {
+      "patient_id": "Patient_01061",
+      "diagnoses": [
+        "三房心"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        }
+      ],
+      "treatment_excerpt": "该婴儿需要紧急手术切除分隔左心房的纤维肌性膜，手术应在中度低温体外循环下进行。术前，针对心力衰竭的辅助药物治疗包括开始使用呋塞米以减轻肺水肿，并严密监测血流动力学和液体平衡。避免使用新生儿禁忌药物（尤其是头孢曲松和阿司匹林/水杨酸盐；同时避"
+    },
+    {
+      "patient_id": "Patient_01243",
+      "diagnoses": [
+        "肺炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "鉴于患者为重症肺炎并伴有急性低氧性呼吸衰竭，需要立即住院治疗。抗生素治疗主要依据抗菌药物敏感性试验（AST）结果和疾病严重程度选择：该分离株对大环内酯类耐药，对头孢曲松中介，而对左氧氟沙星敏感（MIC低）；因此选择静脉注射左氧氟沙星作为有效"
+    },
+    {
+      "patient_id": "Patient_01256",
+      "diagnoses": [
+        "动脉导管未闭"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "对于该婴儿，最佳治疗是进行动脉导管未闭关闭，因为其存在症状性心力衰竭、生长不良以及明显的左心容量负荷过重；基于患者/解剖及技术方面的考虑（例如体重较低和/或导管解剖条件不利、血管通路受限，使器械封堵在当前时点不太适合，符合本机构儿科实践），"
+    },
+    {
+      "patient_id": "Patient_01319",
+      "diagnoses": [
+        "室上性心动过速"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "主要干预措施包括启动美托洛尔进行心率控制，同时紧急处理重度贫血，并会诊血液科评估是否需要输血。通过静脉补充钾和镁来纠正电解质异常。甲状腺功能亢进需要内分泌科会诊以进行适当管理。应优化目前针对冠状动脉疾病、高血压和糖尿病的用药，坚持使用他汀类"
+    },
+    {
+      "patient_id": "Patient_01437",
+      "diagnoses": [
+        "痛风"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "对于急性痛风的处理，给予秋水仙碱 0.6 mg 每日一次（根据 eGFR 约 52 进行肾功能调整），用于急性发作期，最长 3 天，随后停用秋水仙碱，直至按下述方案开始预防治疗。同时给予泼尼松 30 mg 每日一次，连用 3 天；在使用泼尼"
+    },
+    {
+      "patient_id": "Patient_01602",
+      "diagnoses": [
+        "垂体前叶功能减退"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "对急性继发性肾上腺功能不全应立即给予静脉注射氢化可的松（应激剂量）及按需给予含葡萄糖的静脉补液，随后过渡至长期口服氢化可的松维持治疗。在开始左甲状腺素治疗前，必须先建立并持续保证糖皮质激素覆盖；仅在类固醇替代治疗已落实后再开始左甲状腺素，且"
+    },
+    {
+      "patient_id": "Patient_01662",
+      "diagnoses": [
+        "心内膜垫缺损"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        }
+      ],
+      "treatment_excerpt": "鉴于该婴儿存在完全性房室间隔缺损、心力衰竭症状及中度肺动脉高压，建议行双心室修复的根治性外科矫治，包括用补片关闭房间隔缺损和室间隔缺损，并修复共同房室瓣。术前将开始使用呋塞米和螺内酯进行药物治疗以控制心力衰竭，同时避免使用阿司匹林。在手术前"
+    },
+    {
+      "patient_id": "Patient_01682",
+      "diagnoses": [
+        "黄体囊肿"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "大出血"
+        }
+      ],
+      "treatment_excerpt": "若血流动力学稳定，首先开始保守治疗，包括严格卧床休息、必要时静脉补液、连续腹部查体，并严密监测生命体征和尿量；动态观察血红蛋白/红细胞压积，若疼痛加重或贫血进展，重复盆腔超声/FAST 检查。若出现不稳定指标（如低血压、心动过速、晕厥、尽管"
+    },
+    {
+      "patient_id": "Patient_01804",
+      "diagnoses": [
+        "右心室双出口"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "该新生儿需立即在心脏重症监护病房进行稳定处理，并仔细监测血氧饱和度、灌注情况和代谢状态。术前管理包括通过审慎的氧疗维持足够氧合，并精细管理液体平衡以优化心输出量。由于喂养时易疲劳且经口摄入不足，应根据需要经鼻胃管提供营养支持，并评估/监测误"
+    },
+    {
+      "patient_id": "Patient_01840",
+      "diagnoses": [
+        "臂丛神经损伤"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "对于疑似产伤性上干（C5–C6）臂丛神经损伤，初始治疗以保守治疗为主：轻柔摆位与抱持、每日在指导下进行被动关节活动度训练和儿童物理治疗以预防挛缩，并对照护者进行宣教，在喂养和转移时支托右上肢。鉴于X线检查提示锁骨移位性骨折，应给予骨折护理，"
+    },
+    {
+      "patient_id": "Patient_01866",
+      "diagnoses": [
+        "角膜病"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "哮喘"
+        }
+      ],
+      "treatment_excerpt": "工作诊断：角膜病项下的细菌性角膜溃疡（金黄色葡萄球菌感染性角膜炎）。开始局部使用氟喹诺酮类抗生素滴眼液（如 0.5% 莫西沙星或 1.5% 左氧氟沙星），在最初 48 小时内清醒时每 2 小时一次，随后减至每日 4 次。加用局部睫状肌麻痹剂"
+    },
+    {
+      "patient_id": "Patient_02321",
+      "diagnoses": [
+        "病毒性脑膜炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "治疗方案包括支持治疗和症状管理（如使用对乙酰氨基酚控制头痛/发热，以及在可耐受情况下口服补液），但鉴于其HIV感染及抗逆转录病毒治疗依从性不一致，出院前应进行安全分层。记录最近一次CD4计数和HIV病毒载量；如未知/无法获得，则按可能存在免"
+    },
+    {
+      "patient_id": "Patient_02335",
+      "diagnoses": [
+        "脆性X综合征"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        }
+      ],
+      "treatment_excerpt": "治疗方案重点在于早期干预和支持治疗。首先开展婴儿专项早期干预服务，包括针对肌张力低下的物理治疗，以及针对含接困难的喂养支持。采用正向强化的行为策略以促进安抚和社会互动。每3-6个月定期随访发育行为儿科和遗传科。监测胃食管反流、斜视和中耳炎的"
+    },
+    {
+      "patient_id": "Patient_02549",
+      "diagnoses": [
+        "链球菌性咽炎"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "该婴儿已确诊A组链球菌性咽炎，明确治疗方案为阿莫西林疗程10天，并根据其体重给予合适剂量，以清除感染并预防并发症。支持治疗包括按体重给予对乙酰氨基酚以退热和缓解疼痛，鼓励频繁少量啜饮凉性液体并进食软食以维持水分和营养，并确保其在安静环境中充"
+    },
+    {
+      "patient_id": "Patient_02654",
+      "diagnoses": [
+        "卡波西水痘样疹"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "由于存在全身性疾病表现和免疫抑制状态，明确治疗应为静脉注射阿昔洛韦。针对疑似/确诊的金黄色葡萄球菌细菌性继发感染，加用静脉注射头孢唑林；待甲氧西林敏感性结果回报后重新评估并调整抗生素选择，经验性覆盖时还应考虑当地 MRSA 风险。支持治疗包"
+    },
+    {
+      "patient_id": "Patient_02819",
+      "diagnoses": [
+        "黑热病"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "该内脏利什曼病的确定性治疗包括停用甲氨蝶呤，并开始静脉注射脂质体两性霉素 B 治疗，方案需针对免疫抑制状态的儿科患者进行调整，同时输注浓缩红细胞以纠正重度贫血。辅以高热量、易消化食物及富含铁的软食进行营养支持，对于对抗体重下降和促进恢复至关"
+    },
+    {
+      "patient_id": "Patient_03097",
+      "diagnoses": [
+        "咖啡牛奶斑"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        }
+      ],
+      "treatment_excerpt": "最佳方案是在密切临床监测咖啡牛奶斑并定期进行发育筛查的基础上进行随访，鉴于该婴儿有1型神经纤维瘤病及其他相关综合征的强烈家族史。目前不建议进行积极的皮肤科治疗，因为这些皮损无症状，且在婴儿期进行美容性干预存在复发和不良反应的风险。这些皮损在"
+    },
+    {
+      "patient_id": "Patient_03170",
+      "diagnoses": [
+        "慢性扁桃体炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "患者需要口服青霉素VK治疗10天，以控制慢性扁桃体炎的急性细菌性加重。对于发热和疼痛，优先使用对乙酰氨基酚；鉴于肌酐升高，以及在脱水和尿液分析异常背景下可能存在AKI风险，在肾功能恢复正常前应避免使用布洛芬/其他NSAIDs。为促进恢复，患"
+    },
+    {
+      "patient_id": "Patient_03269",
+      "diagnoses": [
+        "先天性喉软化症"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        }
+      ],
+      "treatment_excerpt": "最佳治疗方案为保守管理，结合体位调整策略以缓解症状，包括在喂奶时及喂奶后20–30分钟内让婴儿保持直立，并采用少量多次喂养，以减少呼吸负担并改善摄入。对于以母乳喂养为主的婴儿，开始常规补充维生素D（如每日400 IU）以支持骨骼健康；这并非"
+    },
+    {
+      "patient_id": "Patient_03343",
+      "diagnoses": [
+        "晕动病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "开始使用口服茶苯海明，于预计乘车前1-2小时给药以预防症状（按标准参考资料采用儿科基于体重的剂量；不要超过推荐的最大剂量/给药频率，通常不应频于每6-8小时一次）。告知家长，茶苯海明可引起嗜睡，少数情况下可出现反常性躁动；避免与其他镇静类药"
+    },
+    {
+      "patient_id": "Patient_03534",
+      "diagnoses": [
+        "耶氏肺孢子菌肺炎（PJP）"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始静脉注射喷他脒治疗耶氏肺孢子菌肺炎，并因严重低氧血症（ABG中PaO2 58 mmHg；符合重症PJP标准）加用口服泼尼松辅助治疗，采用标准减量/给药方案参考（例如：第1–5天泼尼松40 mg口服每日2次，第6–10天40 mg每日1次"
+    },
+    {
+      "patient_id": "Patient_03763",
+      "diagnoses": [
+        "化脓性扁桃体炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "开始使用阿莫西林混悬液，按体重计算剂量，疗程 10 天，以治疗已确认的 A 组链球菌性扁桃体炎，并辅以对乙酰氨基酚进行退热和镇痛。确保充分补液，少量多次饮水，并提供柔软、凉爽的食物以减轻吞咽不适。记录/确认气道稳定（无喘鸣、无三脚架体位、氧"
+    },
+    {
+      "patient_id": "Patient_04057",
+      "diagnoses": [
+        "肾结石"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "对于急性疼痛管理，优先使用阿片类镇痛药联合解痉药；仅在肾功能保持稳定时考虑短程使用NSAIDs，并因可能存在梗阻性尿路病变/肾积水及AKI风险而谨慎使用。开始每日一次坦索罗辛 0.4 mg 以促进结石排出。根据药敏试验结果启动针对大肠埃希菌"
+    },
+    {
+      "patient_id": "Patient_04148",
+      "diagnoses": [
+        "关节积液"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "针对已确诊感染性关节炎所致的关节积液（滑液培养见金黄色葡萄球菌），并考虑可能合并结晶相关性炎症进行治疗。继续按体重给予静脉万古霉素，并根据肾功能调整剂量，作为已确诊感染的抗生素治疗，并依据药敏结果调整方案。诊断性关节穿刺及滑液分析/培养已完"
+    },
+    {
+      "patient_id": "Patient_04176",
+      "diagnoses": [
+        "慢性喉炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始使用奥美拉唑20 mg，每日2次，疗程12周，以控制反流。实施嗓音保护，减少说话而非完全禁声。采取利于控制反流的饮食，避免辛辣、酸性食物及夜宵。参加戒烟项目以防复吸，并避免二手烟暴露。立即转诊至言语语言病理师进行嗓音治疗，或在初步控制反"
+    },
+    {
+      "patient_id": "Patient_04192",
+      "diagnoses": [
+        "包虫病（棘球蚴病）"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "休克"
+        }
+      ],
+      "treatment_excerpt": "患者应接受肝囊肿手术切除，术前先给予阿苯达唑治疗，以尽量降低术中播散和术后复发的风险。术后将继续联合使用阿苯达唑药物治疗，以确保清除任何残余病灶。围手术期管理应包括严格预防囊液外溢/囊肿破裂的措施（控制性抽吸/隔离术野，按方案使用杀头节剂）"
+    },
+    {
+      "patient_id": "Patient_04207",
+      "diagnoses": [
+        "小耳畸形"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "鉴于在小耳畸形背景下已明确存在传导性听力损失，且染色体微阵列显示致病性 22q11.2 缺失，应立即开始听力学管理，为右耳配戴骨传导助听装置以支持听觉发育。转诊至多学科颅面/耳科-听力学团队进行长期管理和分期手术规划（耳廓重建通常考虑在 6"
+    },
+    {
+      "patient_id": "Patient_04316",
+      "diagnoses": [
+        "前脑无裂畸形"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "按重度（无叶型）前脑无裂畸形的胎儿/新生儿规划病例进行管理：协调母胎医学、新生儿科/NICU、临床遗传学及围产期姑息治疗开展联合咨询，讨论预后、预期结局，并制定以家庭为中心的照护目标。讨论包括根据当地法规继续妊娠或终止妊娠等选择；如继续妊娠"
+    },
+    {
+      "patient_id": "Patient_04478",
+      "diagnoses": [
+        "巨细胞病毒感染"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "将当前表现解读为伴有中枢神经系统受累的先天性CMV感染：CMV NAT/IgM在先天性感染诊断窗口期内获取（检测约在生后第7天进行，即生后前21天内），且MRI表现（脑室周围异常/钙化模式伴脑室扩大）被解释为与先天性CMV相关的中枢神经系统"
+    },
+    {
+      "patient_id": "Patient_04550",
+      "diagnoses": [
+        "肠道病毒感染"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "开始使用儿童电解质口服补液液进行口服补液治疗，以纠正脱水；必要时可加用对乙酰氨基酚缓解发热或不适。给予清淡饮食，以清流质和易消化食物为主，如香蕉或苹果泥，避免乳制品和含糖饮料。确保充分休息，并严格保持卫生习惯，以防止家庭内传播。监测严重脱水"
+    },
+    {
+      "patient_id": "Patient_04593",
+      "diagnoses": [
+        "流行性感冒"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "根据估算 eGFR 约 45 mL/min/1.73m^2（中度 CKD；无需进行严重肾功能减量），开始口服奥司他韦 75 mg，每日 2 次，疗程 5 天。给予支持治疗：休息、在家隔离并远离她的寄养儿童，以及充分补液，选择富含电解质的液体"
+    },
+    {
+      "patient_id": "Patient_04606",
+      "diagnoses": [
+        "化脓性扁桃体炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "在首次使用任何抗生素之前，应明确既往与抗生素相关的弥漫性皮疹/瘙痒情况（尽可能确认药物名称；服药后出现症状的时间；皮疹形态，如荨麻疹或斑丘疹；以及是否伴有血管性水肿、喘鸣、呼吸困难、低血压或过敏性休克）。如果怀疑为速发型β-内酰胺过敏，应避"
+    },
+    {
+      "patient_id": "Patient_04626",
+      "diagnoses": [
+        "蜂窝织炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始静脉注射青霉素G治疗化脓性链球菌性蜂窝织炎，并辅以抬高左下肢及在可耐受情况下进行温热敷，以减轻肿胀和不适。继续使用当前二甲双胍和胰岛素方案，严格控制血糖，以促进愈合并预防并发症；监测肾功能和水合状态，如出现肾功能受损或明显脱水，重新评估"
+    },
+    {
+      "patient_id": "Patient_04627",
+      "diagnoses": [
+        "大理石骨病"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "在程序性镇静下对胫骨远端骨折进行闭合复位和石膏固定。由于存在禁忌，避免使用可待因和曲马多；在可行情况下使用局部/区域麻醉及非阿片类镇痛药（如无其他禁忌，可用对乙酰氨基酚和/或布洛芬）。如需程序性镇静，按当地方案采用以氯胺酮为基础的儿童程序性"
+    },
+    {
+      "patient_id": "Patient_04724",
+      "diagnoses": [
+        "慢性阻塞性肺疾病"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "慢性阻塞性肺疾病"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "按慢阻肺急性加重伴疑似细菌感染处理（痰培养流感嗜血杆菌生长；需结合临床背景解读，若怀疑定植应重新评估）。使用单一疗程抗生素并明确疗程：在开始任何β-内酰胺类药物前，鉴于既往接近致命的过敏性休克，应进行结构化抗生素过敏评估（明确可疑药物/类别"
+    },
+    {
+      "patient_id": "Patient_04812",
+      "diagnoses": [
+        "颞下颌关节脱位（TMJ）"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "休克"
+        }
+      ],
+      "treatment_excerpt": "即刻治疗应为手法复位颞下颌关节脱位，仅在临床确有需要时使用尽可能少的药物。鉴于她曾因一种未知抗生素发生过接近致命的过敏性休克，且强烈避免使用新药，应采取关注过敏风险的处理方式：（1）在给予任何药物前，尽可能核实并记录既往药物反应史；（2）避"
+    },
+    {
+      "patient_id": "Patient_05010",
+      "diagnoses": [
+        "枫糖尿病"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "失代偿"
+        }
+      ],
+      "treatment_excerpt": "该婴儿需要紧急实施适用于新生儿的体外清除治疗（优选CRRT/血液滤过；在适当情况下可考虑腹膜透析），以快速降低血浆亮氨酸水平；间歇性血液透析仅应在具备新生儿专业经验、合适血管通路和血流动力学支持的条件下使用。补充静脉葡萄糖以纠正低血糖，并谨"
+    },
+    {
+      "patient_id": "Patient_05065",
+      "diagnoses": [
+        "战壕热"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "启动口服盐酸多西环素，作为疑似五日热巴尔通体感染的一线抗菌治疗，标准疗程为 14 天，并加用对乙酰氨基酚以控制发热、头痛和肌痛。在急性期确保严格卧床休息，通过增加口服液体摄入提供补液支持，并给予营养补充以应对摄入减少和非故意体重下降。进行彻"
+    },
+    {
+      "patient_id": "Patient_05164",
+      "diagnoses": [
+        "缺铁性贫血"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "鉴于其铁蛋白低、血清铁低及总铁结合力升高已证实为缺铁性贫血，同时伴有月经过多和胃肠道失血，开始口服硫酸亚铁 325 mg 每日一次，并联合维生素C 500 mg 以增强吸收。尽管患者否认可见黑便/呕血/便血，但应向其解释胃肠道出血可为隐匿性"
+    },
+    {
+      "patient_id": "Patient_05171",
+      "diagnoses": [
+        "脐膨出"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "尽管在行政流程上归入普通外科，但该病例的主要临床管理应由母胎医学（MFM）牵头，并结合遗传学和新生儿科对胎儿异常进行评估；普通外科并非主要产科服务科室，将在需要时协调配合。此次妊娠合并胎儿脐膨出及胎儿18三体（胎儿核型47,XY,+18；男"
+    },
+    {
+      "patient_id": "Patient_05212",
+      "diagnoses": [
+        "晕动病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "对于晕动病的预防，可考虑在出行前约1小时服用美克洛嗪 12.5-25 mg（可能引起嗜睡和抗胆碱能不良反应）。安全宣教：避免将美克洛嗪与非处方助眠药或其他镇静药合用；服药后进行需要保持警觉的活动（如骑自行车/过马路）时应谨慎。采取行为干预策"
+    },
+    {
+      "patient_id": "Patient_05220",
+      "diagnoses": [
+        "甲状腺癌"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "休克"
+        }
+      ],
+      "treatment_excerpt": "明确治疗方案为行甲状腺全切除术联合左侧颈侧区治疗性淋巴结清扫（II–V 区），以处理原发肿瘤及已证实的淋巴结转移；中央区（VI 区）仅在有指征/怀疑受累时进行清扫。术后开始左甲状腺素替代治疗，用于激素补充，并根据复发风险进行 TSH 抑制。"
+    },
+    {
+      "patient_id": "Patient_05284",
+      "diagnoses": [
+        "晕动病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "您的治疗方案首先是避免诱发运动刺激：停止看手机，坐直并注视地平线；在通风处躺下也可进一步缓解症状。药物方面，鉴于您既往对此较敏感，建议在今后乘坐渡轮前约 1 小时服用茶苯海明片，以预防复发。补液方面，如有条件可通过口服补液盐（ORS）少量多"
+    },
+    {
+      "patient_id": "Patient_05317",
+      "diagnoses": [
+        "耳鸣"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "最佳治疗方案首先应开始耳鸣习服治疗，使用可穿戴声音发生器，每日佩戴数小时，并结合认知行为治疗，包括睡眠卫生策略，以应对失眠和焦虑。由于听力测定显示双侧高频感音神经性听力损失，应加入助听器评估；助听器（包括助听器与耳鸣掩蔽器组合设备）可能改善"
+    },
+    {
+      "patient_id": "Patient_05472",
+      "diagnoses": [
+        "多形性红斑"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "立即停用磺胺类抗生素，因为其与多形性红斑发作相关，属禁忌；指导患者今后避免所有磺胺类抗生素，并确保所有处方医生/药房均记录该过敏信息。开始口服泼尼松 40 mg 每日一次，连用 5 天，随后在 10 天内逐渐减量，以抑制急性界面性皮炎；同时"
+    },
+    {
+      "patient_id": "Patient_05492",
+      "diagnoses": [
+        "小脑扁桃体下疝畸形"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "根治性治疗为后颅窝减压联合硬脑膜成形术，以缓解枕骨大孔拥挤并恢复正常脑脊液流动。\n\n术前等待手术期间的管理：\n- 在可行情况下尽量减少增加用力或类似Valsalva动作诱发因素的活动（例如尽可能避免诱发剧烈哭闹，避免剧烈玩耍），并鉴于步态不"
+    },
+    {
+      "patient_id": "Patient_05498",
+      "diagnoses": [
+        "二尖瓣狭窄"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "noac_in_mitral_stenosis",
+          "needle": "二尖瓣狭窄"
+        }
+      ],
+      "treatment_excerpt": "鉴于该患者存在有症状的中重度二尖瓣狭窄并伴肺动脉压力升高，需要进行介入治疗以解除瓣膜梗阻。在术前评估证实瓣膜解剖结构适合的前提下（如形态较理想、无明显禁忌性的钙化或瓣下病变，且存在可分离的交界融合），并且二尖瓣反流不超过轻至中度时，可首选经"
+    },
+    {
+      "patient_id": "Patient_05510",
+      "diagnoses": [
+        "骨质疏松症"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始使用唑来膦酸 5 mg 每年一次静脉输注治疗，并每日补充柠檬酸钙 600 mg 和维生素D 2000 IU，以纠正缺乏及膳食摄入不足。在首次输注前（以及此后每次输注前），检查血清钙和25-OH维生素D，并纠正任何低钙血症或维生素D缺乏；"
+    },
+    {
+      "patient_id": "Patient_05610",
+      "diagnoses": [
+        "卵睾性别发育异常（Ovotesticular DSD）"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "当前的即时计划是在建立由小儿内分泌科、泌尿科、心理科和遗传学组成的多学科照护团队的同时，推迟不可逆干预，以指导父母在观察等待和咨询期间作出决定。新生儿阶段暂无药物治疗指征；重点是支持治疗，包括常规婴儿喂养和常规新生儿监测。在鉴别外生殖器模糊"
+    },
+    {
+      "patient_id": "Patient_05635",
+      "diagnoses": [
+        "马蹄内翻足"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        }
+      ],
+      "treatment_excerpt": "最终治疗方案为启动Ponseti方法，先进行连续手法矫正和长腿石膏固定，逐步纠正双侧马蹄内翻畸形，首次石膏固定安排在本周内进行。矫正后，将实施经皮跟腱切断术以处理马蹄位，随后患儿将过渡为全天佩戴足外展支具以维持矫正效果。围手术期疼痛控制将遵"
+    },
+    {
+      "patient_id": "Patient_05652",
+      "diagnoses": [
+        "脑炎后遗症"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "治疗方案将启动综合性神经康复，重点进行物理治疗和作业治疗，以改善运动协调和日常生活技能，同时配合言语语言治疗以应对找词困难。针对局灶性癫痫样活动，将开始使用左乙拉西坦以预防癫痫再次发作。为管理疲劳，必须建立结构化的日常作息并安排固定休息时间"
+    },
+    {
+      "patient_id": "Patient_05773",
+      "diagnoses": [
+        "乙型肝炎（HBV感染）"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "评估/分期澄清：HBV血清学显示IgM抗-HBc阳性，提示近期感染或急性发作；然而，TE 11.8 kPa，伴轻度脾肿大以及血小板减少/白细胞减少，更符合慢性HBV近期急性发作/可能的慢加急性再激活。后续随访中在进一步明确分期的同时，管理将"
+    },
+    {
+      "patient_id": "Patient_05885",
+      "diagnoses": [
+        "角膜溃疡"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "立即停止佩戴隐形眼镜；开始强化治疗：莫西沙星0.5%滴眼液每30分钟一次，昼夜持续48小时，随后在3周内缓慢减量；同时使用强化妥布霉素1.5%每小时一次，与莫西沙星交替滴用，并在夜间继续使用杆菌肽-多黏菌素B眼膏作为辅助治疗。给予5%后马托"
+    },
+    {
+      "patient_id": "Patient_06398",
+      "diagnoses": [
+        "苯丙酮尿症"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "立即启动新生儿 PKU 管理：开始使用苯丙氨酸受限的代谢配方奶作为主要蛋白来源，并谨慎定量/限制母乳或标准婴儿配方奶，以满足生长需要，并根据连续血苯丙氨酸水平调整苯丙氨酸摄入量。应频繁监测血苯丙氨酸（例如，饮食调整后当天/次日复查，初期随后"
+    },
+    {
+      "patient_id": "Patient_06419",
+      "diagnoses": [
+        "慢性蝶窦炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始综合性药物治疗方案：首先给予标准剂量口服阿莫西林-克拉维酸，疗程14天，同时每日两次进行大容量生理盐水鼻腔冲洗，并持续使用处方鼻用糖皮质激素喷雾8周。辅以短期口服黏液溶解剂以稀释分泌物；鉴于其有过敏性鼻炎病史，加入第二代口服抗组胺药，疗"
+    },
+    {
+      "patient_id": "Patient_06421",
+      "diagnoses": [
+        "手足搐搦症"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "休克"
+        }
+      ],
+      "treatment_excerpt": "给予10%葡萄糖酸钙 1–2 mL/kg（最大10 mL）静脉注射，持续10–15分钟，并进行心脏监测；如痉挛持续，可重复一次。开始口服碳酸钙 500 mg，每日2次，随餐服用，并每日给予胆钙化醇 2,000 IU；1周后复查钙、磷、25-"
+    },
+    {
+      "patient_id": "Patient_06616",
+      "diagnoses": [
+        "脊柱裂"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "当前的紧急治疗计划是在未来72小时内行脊髓脊膜膨出修补术，切除膨出囊，松解栓系脊髓，并实现一期关闭，以预防感染并保留神经功能。辅助治疗包括启动肠道和膀胱管理方案，采用间歇导尿和大便软化剂，同时会诊神经内科和泌尿外科以进行全面管理。鉴于尿流细"
+    },
+    {
+      "patient_id": "Patient_06642",
+      "diagnoses": [
+        "肾结石"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "给予静脉补液以纠正脱水，并使用阿片类镇痛药（如吗啡联合解痉药）控制疼痛。避免使用阿司匹林/水杨酸盐类；对于非阿司匹林NSAIDs，仅在补液充足且肾功能保持稳定时考虑短期谨慎使用（eGFR 65，轻度降低），若肾功能指标恶化则停用。根据培养结"
+    },
+    {
+      "patient_id": "Patient_06711",
+      "diagnoses": [
+        "急性鼻窦炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始口服阿莫西林-克拉维酸875/125 mg，每日2次，疗程10天，以治疗此次经培养证实为肺炎链球菌感染的发作；继续使用糠酸莫米松喷雾，每日每侧鼻孔各喷2下；并因右侧阻塞较明显，右侧鼻孔早晚使用0.05%羟甲唑啉鼻喷雾剂（每次2喷/揿） "
+    },
+    {
+      "patient_id": "Patient_06776",
+      "diagnoses": [
+        "外耳道胆脂瘤"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "明确治疗方案是在局部麻醉下行外耳道成形术，手术切除胆脂瘤，因为已观察到局灶性骨质侵蚀和肉芽组织。由于视野受限，目前无法可靠确认鼓膜完整性；因此，在鼓膜状态不明确时，将采用合适的无耳毒性局部治疗方案。同时，为控制急性炎症并预防术后感染，将开始"
+    },
+    {
+      "patient_id": "Patient_06805",
+      "diagnoses": [
+        "急性细菌性前列腺炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "根据药敏结果显示大肠埃希菌对头孢曲松敏感，收入院给予头孢曲松 2 克静脉注射，每24小时一次。持续静脉治疗直至退热至少48小时，然后根据药敏结果改为前列腺组织穿透性可靠的口服药物序贯治疗（如环丙沙星 500 mg 每日两次或左氧氟沙星 50"
+    },
+    {
+      "patient_id": "Patient_06893",
+      "diagnoses": [
+        "慢性肾脏病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "首先处理高钾血症：当前 K+ 为 5.8 mmol/L，在钾得到纠正并复查前，暂缓开始使用赖诺普利；一旦 K+ 得到控制，可考虑以低剂量开始，并严格监测钾和肌酐。鉴于聚苯乙烯磺酸钠为禁忌，应立即采取降钾措施：严格低钾饮食，并复核/停用可升高"
+    },
+    {
+      "patient_id": "Patient_06978",
+      "diagnoses": [
+        "腓总神经损伤"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "按亚急性石膏/夹板后压迫性腓总神经病处理。立即确保完全去除任何外部压迫（石膏/夹板/绑带），告知家属避免对膝外侧施压，并穿着合脚、无束缚的鞋。启动4–6周保守治疗：针对足下垂/足趾拖地风险使用踝足矫形器，进行温和、以游戏为基础的物理治疗以维"
+    },
+    {
+      "patient_id": "Patient_07014",
+      "diagnoses": [
+        "色盲"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "今日针对偏头痛（已知合并症）的处理：仅在需要时继续使用非处方NSAIDs，但避免频繁使用/过度使用（一般目标：急性头痛药物限制在每月≤10天）。在偏头痛发作时口服50 mg舒马曲坦，如仅部分缓解，可在2小时后重复一次；限制为每月≤10天。筛"
+    },
+    {
+      "patient_id": "Patient_07145",
+      "diagnoses": [
+        "早产儿视网膜病变"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "尽快安排双眼玻璃体腔内注射贝伐珠单抗（0.625 mg），使用不含防腐剂的表面/局部麻醉药（例如不含防腐剂的丙美卡因/丁卡因滴眼液，并可根据NICU方案选择小剂量不含防腐剂的利多卡因用于局部麻醉），并给予非镇静性镇痛支持（优先选择非阿片类措"
+    },
+    {
+      "patient_id": "Patient_07163",
+      "diagnoses": [
+        "先天性风疹综合征"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        }
+      ],
+      "treatment_excerpt": "鉴于患儿已明确存在动脉导管未闭和肺动脉狭窄，且伴有症状（喂养/哭闹时发绀、呼吸急促），我们将紧急请小儿心脏科和心胸外科会诊，共同协调病情稳定、转运时机及转运至小儿心脏重症监护病房的接收安排，以便进一步处理及潜在的手术规划。由于患儿目前仍在持"
+    },
+    {
+      "patient_id": "Patient_07407",
+      "diagnoses": [
+        "双胎妊娠"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "开始使用昂丹司琼 4 mg 口服，每8小时一次，并给予吡哆醇 25 mg，每日3次，以治疗妊娠剧吐；加用多西拉敏 12.5 mg，睡前服用。每日维持补液：饮水2升加口服补液盐，并安排每3小时一次高蛋白、小份量进餐，同时避免气味诱因。妊娠剧吐"
+    },
+    {
+      "patient_id": "Patient_07869",
+      "diagnoses": [
+        "腺病毒性肺炎"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "主要干预措施为支持治疗，包括补液和按需氧疗以纠正低氧血症，同时继续其每日吸入性糖皮质激素，并在喘鸣时按需使用沙丁胺醇。辅助治疗包括住院隔离以防止传播，并鉴于其原发性免疫缺陷及病情严重，考虑使用静脉注射免疫球蛋白，同时避免所有禁忌药物及花生暴"
+    },
+    {
+      "patient_id": "Patient_07923",
+      "diagnoses": [
+        "肺放线菌病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "患者将开始静脉注射青霉素G疗程，作为已确诊肺放线菌病的针对性抗菌治疗，并辅以高热量、高蛋白饮食和营养补充，以纠正其贫血和体重下降。鉴于其基础疾病包括COPD、糖尿病以及持续使用糖皮质激素，住院治疗计划中将纳入对潜在药物相互作用和血糖控制的密"
+    },
+    {
+      "patient_id": "Patient_07971",
+      "diagnoses": [
+        "军团菌病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "针对已确诊的嗜肺军团菌肺炎，开始静脉给予左氧氟沙星治疗。给予静脉补液并补充电解质，以处理发热和腹泻导致的体液丢失；对呼吸困难给予补充氧疗。由于存在活动性严重感染，她必须立即停用甲氨蝶呤。此次急性发病期间应避免使用NSAIDs，尤其在脱水/腹"
+    },
+    {
+      "patient_id": "Patient_08012",
+      "diagnoses": [
+        "门静脉高压"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "检查结果最符合近期静脉曲张出血（过去5天有黑便发作，EGD显示近期出血征象），目前无大量持续性出血；但患者存在临界性低血压并有体位性变化、贫血和凝血功能障碍，因此应按近期/可能仍有活动性出血风险进行处理。应进行内镜下食管静脉曲张套扎，并做好"
+    },
+    {
+      "patient_id": "Patient_08051",
+      "diagnoses": [
+        "终末期肾病"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "nsaid_in_renal_transplant",
+          "needle": "肾移植"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "鉴于其晚期肾衰竭（eGFR 8 mL/min/1.73m²）并伴有尿毒症症状、高钾血症和酸中毒，应按需紧急启动血液透析的终末期肾病（ESRD）处理（就诊时尚未确定为透析依赖）。在安排临时血管通路和紧急血液透析的同时，立即实施高钾血症安全管理"
+    },
+    {
+      "patient_id": "Patient_08148",
+      "diagnoses": [
+        "尿道上裂"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "根治性治疗包括全面的外科重建，具体包括膀胱颈修复、尿道重建和阴蒂靠拢术，计划在约18月龄时实施；术后疼痛管理应避免使用禁忌的可待因和曲马多，并选用其他镇痛方案。尽管最终诊断仍为尿道上裂，但临床情况记录为外翻-尿道上裂谱系中的尿道上裂，并且持"
+    },
+    {
+      "patient_id": "Patient_08221",
+      "diagnoses": [
+        "心内膜垫缺损"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "开始精确的、基于体重的口服地高辛糖浆和口服呋塞米治疗方案，以控制心力衰竭。鉴于肌酐升高，采用考虑肾功能的给药策略：从婴儿剂量范围的低端开始，避免快速上调剂量，并将地高辛谷浓度目标设定为较低治疗范围（如 0.5–0.9 ng/mL）；达到稳态"
+    },
+    {
+      "patient_id": "Patient_08277",
+      "diagnoses": [
+        "先天性青光眼"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        }
+      ],
+      "treatment_excerpt": "在全身麻醉下于48小时内行双眼房角切开术，以开放发育异常的房角并使眼压恢复正常。在手术前，鉴于需尽快手术，仅将局部药物治疗作为短期过渡措施，以在术前降低眼压和减轻角膜水肿。使用噻吗洛尔0.25%滴眼液，每眼每日1次，每次1滴，采用最低有效剂"
+    },
+    {
+      "patient_id": "Patient_08426",
+      "diagnoses": [
+        "X三体综合征（47,XXX）"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "基于患者年龄、已确诊的X三体综合征以及目前表现出的发育迟缓和肌张力低下，治疗计划将重点放在发育支持和监测上。主要干预措施是转诊至早期干预服务，通过物理治疗和作业治疗改善大运动发育迟缓和肌张力低下，并通过言语-语言病理服务支持语言发育。为帮助"
+    },
+    {
+      "patient_id": "Patient_08451",
+      "diagnoses": [
+        "创伤后脑损伤综合征"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始以胞磷胆碱钠胶囊进行对症药物治疗，主要用于认知支持（注意力/短期记忆），并将其头痛按偏头痛样创伤后表型进行管理，因其存在畏光/畏声以及屏幕/噪声诱发因素。实施以偏头痛为重点的非药物措施（规律睡眠-觉醒时间表、补充水分、规律进餐、分级恢复"
+    },
+    {
+      "patient_id": "Patient_08472",
+      "diagnoses": [
+        "肩峰下滑囊炎"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "哮喘"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开具口服塞来昔布100 mg，每日2次，连续14天（前提是确认无胃肠道溃疡/出血史、肾脏疾病或NSAID诱发哮喘/NSAID不良反应，并确认未怀孕）；右肩在最初48–72小时内或炎症明显期间，每日3次冰敷/冷敷，每次15分钟，待急性炎症缓解"
+    },
+    {
+      "patient_id": "Patient_08731",
+      "diagnoses": [
+        "根尖囊肿"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "休克"
+        }
+      ],
+      "treatment_excerpt": "对于这个引起面部不对称的有症状根尖囊肿，确定性治疗方案为分两期手术。鉴于影像显示病变较大且您对青霉素过敏，我们将先对失活的切牙进行根管治疗，随后进行囊肿减压术和造袋术，以保留颌骨结构。应避免使用青霉素类；如果围手术期临床上需要使用抗生素，我"
+    },
+    {
+      "patient_id": "Patient_08788",
+      "diagnoses": [
+        "急性鼓膜炎"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "对于这名足月新生儿的急性鼓膜炎，耳镜下见鼓膜表面溃疡/大疱样改变伴结痂及发热，提示很可能存在细菌成分；开始经验性阿莫西林治疗，并明确按体重给药：45 mg/kg/次，口服，每12小时1次（总量90 mg/kg/天），疗程7–10天，并根据当"
+    },
+    {
+      "patient_id": "Patient_08830",
+      "diagnoses": [
+        "双胎妊娠"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "治疗恶心/呕吐时应重点强调补液：鼓励口服补液（少量多次啜饮、口服补液盐）及少量多餐、清淡饮食；如无法维持摄入或持续存在酮尿，应安排静脉补液和电解质评估。开始妊娠期安全的止吐治疗（如多西拉敏-吡哆醇），若症状持续，提供升级治疗方案。继续在可耐"
+    },
+    {
+      "patient_id": "Patient_08915",
+      "diagnoses": [
+        "枫糖尿病"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "失代偿"
+        }
+      ],
+      "treatment_excerpt": "按新生儿代谢急症处理，在儿科（代谢）团队监护下给予NICU/PICU级别监测；立即启动CRRT进行紧急亮氨酸降低治疗。开始高糖静脉支持：10%葡萄糖约200 ml/kg/d（调整以维持血糖80-120 mg/dL），使用含钠的等渗或接近等渗"
+    },
+    {
+      "patient_id": "Patient_09176",
+      "diagnoses": [
+        "痔"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "开始每日随餐服用车前子壳 3.4 g，每日3次，并配合饮水 1.5 L，以形成柔软、无需用力的粪便；每次排便后及睡前涂抹 2% 利多卡因/0.5% 氢化可的松软膏，连续 7 天；每日2次进行 37 °C 温水坐浴，每次 10 分钟。强化排便"
+    },
+    {
+      "patient_id": "Patient_09368",
+      "diagnoses": [
+        "处女膜闭锁"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "确切治疗为尽快行外科处女膜切开成形术，采用十字切口，并在符合年龄的麻醉下进行（程序性镇静或全身麻醉，需儿科麻醉参与），以引流积血阴道和积血子宫，随后切除多余的处女膜组织并用可吸收缝线缝合。术后镇痛应优先选择非阿片类药物，如对乙酰氨基酚和/或"
+    },
+    {
+      "patient_id": "Patient_09436",
+      "diagnoses": [
+        "鳃裂囊肿"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始大剂量阿莫西林-克拉维酸治疗急性感染（阿莫西林成分 45 mg/kg/天，口服，每12小时分次给药），疗程10天；继续每日热敷两次；在全身麻醉下完整手术切除后给予术后护理（切除已完成）。疼痛时按需给予对乙酰氨基酚 15 mg/kg，每6"
+    },
+    {
+      "patient_id": "Patient_09446",
+      "diagnoses": [
+        "子宫黏膜下平滑肌瘤"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "鉴于急性严重出血和贫血，应立即行宫腔镜下肌瘤切除术以切除黏膜下肌瘤。在最终宫腔镜切除前，已紧急实施扩张和刮宫术（D&C）作为暂时性措施，以帮助控制出血并获取子宫内膜组织以排除恶性病变/增生；病理显示为良性增生期子宫内膜。给予静脉补铁，如术后"
+    },
+    {
+      "patient_id": "Patient_09469",
+      "diagnoses": [
+        "先天性白内障"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "计划在未来2周内于全身麻醉下行双侧白内障摘除术联合前段玻璃体切除术及后囊切开术；推迟人工晶状体植入至2岁，并在术后1周内验配硅橡胶接触镜以矫正术后无晶状体眼状态。术后2周开始，对视力较好眼实施交替性全天遮盖治疗，按月龄每月每日遮盖1小时；并"
+    },
+    {
+      "patient_id": "Patient_09592",
+      "diagnoses": [
+        "脑动静脉畸形"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "儿童"
+        }
+      ],
+      "treatment_excerpt": "安排在两周内进行小儿神经外科评估，讨论右侧颞叶 Spetzler–Martin 1–2 级血管团的治疗方案。该病灶目前无出血相关症状，治疗方案包括显微外科切除。立即开始左乙拉西坦 20 mg/kg/天，分每日两次服用，以控制癫痫发作。头痛处"
+    },
+    {
+      "patient_id": "Patient_09663",
+      "diagnoses": [
+        "流行性感冒"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "患儿"
+        }
+      ],
+      "treatment_excerpt": "奥司他韦：记录体重24 kg；无已知肾脏疾病；估算eGFR >90 mL/min/1.73 m^2（符合年龄，肾功能无需调整剂量）。奥司他韦按体重给药：60 mg 口服，每日2次，连用5天（按药房说明使用合适的颗粒剂/混悬液体积），而不是3"
+    },
+    {
+      "patient_id": "Patient_09719",
+      "diagnoses": [
+        "1型糖尿病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始以0.1 U/kg/h静脉持续输注胰岛素，同时积极进行0.9%生理盐水复苏。钾的管理应根据实测血清K+和肾功能指导：如果K+ <3.3 mEq/L，暂停胰岛素并补钾，直到>3.3；如果K+为3.3–5.2，一旦确认有尿量，每升静脉输液中"
+    },
+    {
+      "patient_id": "Patient_09906",
+      "diagnoses": [
+        "先天性风疹综合征"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "新生儿"
+        }
+      ],
+      "treatment_excerpt": "收入新生儿重症监护室，进行持续心肺监测和支持治疗，并优先请小儿心脏科/心胸外科会诊，处理伴肺动脉高压的大型动脉导管未闭。监测导管前后SpO2变化趋势及临床呼吸做功情况；对疑似间歇性双向/右向左分流发作，给予支持性呼吸治疗（如按需吸氧/呼吸支"
+    },
+    {
+      "patient_id": "Patient_09939",
+      "diagnoses": [
+        "急性淋巴细胞白血病"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始诱导化疗，方案包括长春新碱（静脉给药，按体重计量）、柔红霉素（静脉给药，监测累积剂量）、地塞米松（口服，按减量方案）和 PEG-门冬酰胺酶（皮下注射，避免肌内注射途径）。鉴于脑脊液 CNS 阳性（存在淋巴母细胞），应按照方案给予中枢神经"
+    },
+    {
+      "patient_id": "Patient_Comorbid-00622",
+      "diagnoses": [
+        "多囊肾病",
+        "肾结石"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "每晚服用坦索罗辛 0.4 mg，持续四周，以促进左侧远端 6 mm 输尿管结石排出。疼痛时每六小时按需使用对乙酰氨基酚 1 g，恶心时按需使用昂丹司琼 4 mg；避免使用所有NSAIDs。短期内（梗阻/尿量减少期间）：按口渴程度补液，如条件"
+    },
+    {
+      "patient_id": "Patient_Comorbid-00687",
+      "diagnoses": [
+        "心力衰竭",
+        "心房颤动"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "收治入院，给予静脉用药控制心室率并减轻淤血。伴快速心室反应的房颤很可能由甲状腺毒症和急性心力衰竭诱发或加重：使用足以同时控制心率和甲亢症状的β受体阻滞剂（根据频繁生命体征监测/遥测结果滴定美托洛尔；如高肾上腺素能症状持续且无禁忌证，可考虑普"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01122",
+      "diagnoses": [
+        "系统性红斑狼疮",
+        "肺隐球菌病"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "nsaid_in_renal_transplant",
+          "needle": "肾功能不全"
+        }
+      ],
+      "treatment_excerpt": "开始口服氟康唑治疗肺隐球菌病，鉴于疾病表现为轻至中度、氧合稳定/无需补充氧气且存在肾功能不全（因此较肾毒性更强的替代方案更倾向选择氟康唑）；同时评估是否存在播散（如进行血培养并复核有无肺外体征），以支持口服治疗方案的选择。继续使用羟氯喹和 "
+    },
+    {
+      "patient_id": "Patient_Comorbid-01177",
+      "diagnoses": [
+        "慢性肾脏病",
+        "肥胖症"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急诊"
+        }
+      ],
+      "treatment_excerpt": "当前的首要任务是纠正高钾血症（K+ 5.7）和代谢性酸中毒（HCO3- 19）。目前没有记录显示患者正在服用 ACEi/ARB；在钾水平得到控制且随访时明确核对用药清单之前，避免启动 ACEi/ARB。尽快复查/确认血清钾和碳酸氢盐，并审查"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01190",
+      "diagnoses": [
+        "子宫复旧不全",
+        "缺铁性贫血"
+      ],
+      "flags": [
+        {
+          "layer": "剂量人群",
+          "label": "pediatric_weight_dose_missing",
+          "needle": "婴儿"
+        }
+      ],
+      "treatment_excerpt": "开始口服硫酸亚铁 325 mg，每日两次，并每日补充维生素 C 500 mg，以纠正缺铁性贫血；鉴于患者存在症状性贫血且铁蛋白低，可考虑静脉补铁以更快补充铁储备。立即通过生命体征（包括体位性血压/脉搏变化）评估当前严重程度和稳定性，并评估是"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01259",
+      "diagnoses": [
+        "室上性心动过速",
+        "慢性阻塞性肺疾病"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "慢性阻塞性肺疾病"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "对于与房室结折返性心动过速（AVNRT）一致的规则性窄QRS波室上性心动过速（SVT）（经迷走神经刺激/腺苷反应证实），开始使用地尔硫卓进行心率控制；同时针对慢性阻塞性肺疾病急性加重，依据流感嗜血杆菌感染情况制定抗生素方案，并联合指南推荐的"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01302",
+      "diagnoses": [
+        "白血病",
+        "肛瘘"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "我们需要紧急收治该患者住院管理。启动覆盖革兰阴性菌和厌氧菌的广谱静脉抗生素治疗，以处理肛周脓肿和全身性感染。鉴于骨髓/流式结果提示复发或转化并伴原始细胞升高，应暂停其慢性白血病维持治疗，并紧急请血液科/肿瘤科重新评估，以确认疾病状态并指导明"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01340",
+      "diagnoses": [
+        "心力衰竭",
+        "系统性红斑狼疮"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "收入院给予呋塞米静脉注射40 mg，每日2次（根据尿量和肾功能检查调整），并给予甲泼尼龙静脉注射1 g，每日1次，连用3天，以控制狼疮性心肌炎和肾炎活动。鉴于避孕措施不稳定且末次月经为2周前，立即进行尿/血hCG检测并进行致畸风险宣教；在妊"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01366",
+      "diagnoses": [
+        "慢性咽炎",
+        "慢性扁桃体炎"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "针对当前与链球菌活动一致的慢性基础上急性加重，给予口服青霉素V治疗10天，并辅以规律生理盐水漱口和充分补液，以缓解咽部黏膜不适。针对促发因素如鼻后滴流/过敏性鼻炎，在有症状期间每日进行生理盐水鼻腔冲洗，并试用鼻用糖皮质激素，同时避免环境诱因"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01490",
+      "diagnoses": [
+        "室性早搏（PVCs）",
+        "心力衰竭"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "启动射血分数降低型心力衰竭的指南导向药物治疗：卡维地洛3.125 mg每日2次，沙库巴曲缬沙坦24/26 mg每日2次（起始剂量），计划根据耐受情况逐步上调剂量，达格列净10 mg每日1次，以及螺内酯25 mg每日1次。鉴于同时使用MRA/"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01494",
+      "diagnoses": [
+        "心力衰竭",
+        "风湿性二尖瓣关闭不全"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "哮喘"
+        },
+        {
+          "layer": "药物禁忌",
+          "label": "noac_in_mitral_stenosis",
+          "needle": "风湿性二尖瓣"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "大出血"
+        }
+      ],
+      "treatment_excerpt": "开始呋塞米40 mg，每日清晨口服一次，并配合摄入富含钾的食物；开始比索洛尔2.5 mg，每日口服一次，以及依那普利5 mg，每日口服两次；另加用螺内酯25 mg，每日口服一次，以促进逆向重构和控制液体潴留。鉴于在风湿性二尖瓣疾病背景下存在"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01602",
+      "diagnoses": [
+        "心力衰竭",
+        "青光眼"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "休克"
+        }
+      ],
+      "treatment_excerpt": "启动多学科治疗方案，针对心力衰竭及伴快速心室率（RVR）的心房颤动给予指南指导的药物治疗，包括使用 ACE 抑制剂和 SGLT2 抑制剂，以支持心功能并进行容量管理，同时结合肾功能监测（获取基线肌酐/eGFR 和钾，起始用药或剂量调整后 1"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01697",
+      "diagnoses": [
+        "哮喘",
+        "肺不张"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "哮喘"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "启动高剂量吸入性糖皮质激素-福莫特罗联合治疗以控制哮喘，并给予全身性糖皮质激素以快速减轻气道炎症，同时联合雾化支气管扩张剂治疗急性支气管痉挛。实施胸部物理治疗、体位引流及按计划使用高渗盐水进行黏液溶解雾化，以促进导致肺不张的顽固黏液栓排出。"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01703",
+      "diagnoses": [
+        "多发性肌炎",
+        "系统性红斑狼疮"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始系统性糖皮质激素治疗，使用泼尼松 0.5-1 mg/kg/日，以控制多发性肌炎和系统性红斑狼疮的急性发作。若狼疮性肾炎已被确认/分期，则启用吗替麦考酚酯作为激素减量药物；在决定进行长期针对肾炎的免疫抑制治疗前，获取尿蛋白定量（随机尿蛋白"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01712",
+      "diagnoses": [
+        "心力衰竭",
+        "心房颤动"
+      ],
+      "flags": [
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "首先稳定急性失代偿性射血分数降低型心力衰竭（HFrEF）和伴快速心室率（RVR）的心房颤动：开始袢利尿治疗，并在启动或上调β受体阻滞剂治疗前重新评估容量状态/血流动力学（症状、体重、出入量、血压/心率及BNP趋势）。根据耐受情况开始使用沙库"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01824",
+      "diagnoses": [
+        "哮喘",
+        "慢性蝶窦炎"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "哮喘"
+        },
+        {
+          "layer": "急症时序",
+          "label": "urgent_stabilize_before_drug",
+          "needle": "急性"
+        }
+      ],
+      "treatment_excerpt": "开始联合气道管理：使用氟替卡松/沙美特罗 250/50 mcg，每次 1 吸、每日 2 次以控制哮喘；同时使用糠酸莫米松鼻喷雾剂，每侧鼻孔每日 2 喷以治疗慢性鼻窦炎。加用孟鲁司特 10 mg，每晚一次，以同时针对上下气道炎症及嗜酸性粒细胞"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01889",
+      "diagnoses": [
+        "外斜视",
+        "开角型青光眼"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "哮喘"
+        }
+      ],
+      "treatment_excerpt": "开始对左眼使用前列腺素类似物降低眼压，并仅在记录完成心肺筛查后才考虑加用局部β受体阻滞剂（哮喘/COPD/喘鸣病史、基线脉搏和血压，以及心动过缓/房室传导阻滞/晕厥病史）；如存在任何禁忌证或筛查结果不确定，则改用其他替代/加用药物（如局部碳"
+    },
+    {
+      "patient_id": "Patient_Comorbid-01944",
+      "diagnoses": [
+        "慢性阻塞性肺疾病",
+        "肺放线菌病"
+      ],
+      "flags": [
+        {
+          "layer": "药物禁忌",
+          "label": "beta_blocker_in_asthma_copd",
+          "needle": "慢性阻塞性肺疾病"
+        }
+      ],
+      "treatment_excerpt": "针对肺放线菌病，开始高剂量静脉注射头孢曲松 2g，每日一次，疗程2-4周；鉴于已有青霉素过敏记录，随后改为口服多西环素 100mg、每日两次的长期疗程，使总治疗时长达到6-12个月。优化其长期氧疗以维持SpO2 >90%，并继续其吸入支气管"
+    }
+  ],
+  "note": "Static heuristic scan only. Flags for human stratified review; NOT a clinical verdict. P0 quarantine requires confirmed 药物禁忌/剂量人群/急症时序 violation, not mere keyword presence."
+}
