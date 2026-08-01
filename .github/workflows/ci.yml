@@ -51,7 +51,9 @@ jobs:
                   if ".git" in path.parts:
                       continue
                   raw = path.read_bytes()
-                  normalized = raw.replace(b"\\r\\n", b"\\n").replace(b"\\r", b"\\n")
+                  normalized = raw.replace(bytes((13, 10)), bytes((10,))).replace(
+                      bytes((13,)), bytes((10,))
+                  )
                   if normalized != raw:
                       path.write_bytes(normalized)
           PY
