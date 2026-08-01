@@ -75,6 +75,9 @@ jobs:
           print("health smoke: ok")
           PY
 
+      - name: Run offline regression suite
+        run: python -m pytest -q
+
   docker-check:
     name: Docker build and health smoke
     runs-on: ubuntu-latest
