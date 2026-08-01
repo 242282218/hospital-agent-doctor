@@ -1,0 +1,2477 @@
+{
+  "all_passed": true,
+  "code_identity_typed_rule_count": null,
+  "dual_count": 47,
+  "rows": [
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:89f5a56d96614eeff1c42cd137a964bf16841fc3713aa178abb74f132b813e59",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "斑秃",
+        "桥本甲状腺炎"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "斑秃",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "桥本甲状腺炎",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00108",
+      "per_diagnosis": [
+        {
+          "diagnosis": "斑秃",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "桥本甲状腺炎",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "464423b5c9a8d94ad45963b4f3149d4c571d62a87f58b02bb4af45497730fe40",
+      "treatment_full": "该患者需立即开始左甲状腺素治疗，以纠正其有症状的甲状腺功能减退，同时对活动性斑秃皮损外用高效价糖皮质激素。综合辅助方案包括心理支持，以应对其显著的压力和情绪症状，并结合营养师会诊，制定抗炎营养策略，重点保证稳定的维生素D摄入，并考虑在推荐每日摄入量范围内通过饮食优化硒摄入（避免高剂量硒补充），同时停用未经处方的碘/海带补充剂并避免过量碘摄入（因过量碘可能加重自身免疫性甲状腺炎并干扰甲状腺功能稳定）。实施结构化睡眠卫生方案，以改善其慢性失眠并减轻炎症负担；计划于六周后复查甲状腺功能，并于八周后进行皮肤科随访，以评估毛发再生情况并调整局部治疗",
+      "treatment_sha256": "0ea365caa58870ff5fec12c4adbf183ac8a9b396a206fc71d1b0617857a8b416"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:c60d0c79d1520eb10a3f5b57d3689dbc925ab990348bea4916a0e113a986065f",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "乳糜胸",
+        "肺癌"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "乳糜胸",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "化疗"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肺癌",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "化疗"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00120",
+      "per_diagnosis": [
+        {
+          "diagnosis": "乳糜胸",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肺癌",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "9ce9caf2d54094844d6b6d5a972de04badee1b3f493fb7137b033309c0ae6d03",
+      "treatment_full": "立即进行治疗性胸腔穿刺，排出大量乳糜胸液并缓解呼吸功能受损，随后置入小口径胸腔引流管以进行控制性引流并测量每日乳糜液输出量。针对非小细胞肺癌启动卡铂联合紫杉醇的全身治疗，卡铂剂量按AUC采用Calvert公式并基于当前肾功能（GFR）计算，必要时根据CKD进行剂量调整。化疗前，进行适应状况和支持治疗评估（体能状态、鉴于体重下降/低白蛋白血症的营养评估），并制定止吐和营养支持计划。同时，严格实施低脂MCT饮食，并补充以中链甘油三酯油为基础的膳食，作为减少乳糜生成的主要策略。仅在有明确指征时补充白蛋白，依据量化的胸腔引流乳糜液输出/蛋白丢失及临床容量状态决定，而非每周常规输注；应监测血清白蛋白、电解质、每日体重/水肿、血流动力学及肾功能。停止所有能量饮料；不要为了减少乳糜而限制自由饮水——如需限制液体摄入，也仅应基于钠/容量状态用于容量或胸腔积液管理，并密切监测水合状态和肾功能。睡眠时将床头抬高45度，清醒期间每两小时使用一次激励性肺量计，以预防肺不张。安排1周后肿瘤科随访，以评估化疗耐受性和胸管引流量；如出现体温>38°C、胸管日引流量>1 L、新发意识混乱或因恶心加重而无法耐受MCT饮食，须严格遵循返院警示及时就医",
+      "treatment_sha256": "ea565b7de69103abf0f53e46572b6707fb6e1dcebe4210b10fffc662a5f37909"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:5ed08215d8a11b8cd71b245db46b93fb46f563a9c8f35d8e4f15a01c74e13c0b",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "乳糜泻",
+        "骨质疏松症"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "乳糜泻",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "骨质疏松症",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00164",
+      "per_diagnosis": [
+        {
+          "diagnosis": "乳糜泻",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "骨质疏松症",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "5de70441d7d13a3e86a658c44be7b8bf30fe1314ac578172ee3e6725ca3e33d6",
+      "treatment_full": "立即开始严格且终身的无麸质饮食，去除小麦、大麦和黑麦，并以价格较低、天然无麸质的主食如大米、土豆和经认证的玉米制品替代，以阻止吸收不良和肠道炎症。处方高剂量维生素D3，每日 2000 IU，并联合每日 1200 mg 元素钙分次补充，同时补充无麸质复合维生素；鉴于正在评估中的慢性正细胞性贫血及吸收不良风险，在诊断评估进行期间继续经验性补充铁剂和维生素B族，并根据铁代谢检查（铁蛋白、铁/TIBC 或转铁蛋白饱和度）及维生素B12/叶酸结果指导继续或调整，且每 3 个月监测一次 CBC。在开始每周口服阿仑膦酸钠 70 mg 前，确认双膦酸盐用药安全前提：校正后血清钙正常，25-OH 维生素D充足（或正在积极补充并于首次用药前复查），肾功能可接受，无吞咽困难/活动性食管炎或已知食管动力障碍/狭窄，且患者能保持直立至少 30 分钟；如低钙血症/维生素D缺乏仍持续，应推迟阿仑膦酸钠治疗直至补充完成；如口服途径不安全，可考虑非口服骨质疏松症治疗。若开始用药，阿仑膦酸钠应空腹以 200 mL 水送服，并保持直立 30 分钟，同时确保与左甲状腺素间隔 4 小时服用。6 周后复诊以重新评估症状，12 个月后重复进行双能X线吸收测定法（DEXA）；紧急警示症状包括严重且持续的腹泻并伴体重下降超过 5 磅、轻微外伤后出现新发骨折，或无法耐受口服药物",
+      "treatment_sha256": "7ccd037ef3bb7735b0a42a336b584d7e1533eff4b37b1f1af83b62b7d86a4309"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:9ef62d18245d399098a5313c310f32ee03187b3282bdfbad916750ff8f4195af",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "十二指肠炎",
+        "慢性胃炎"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "十二指肠炎",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性胃炎",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00354",
+      "per_diagnosis": [
+        {
+          "diagnosis": "十二指肠炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "慢性胃炎",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "499763f435a1a7b3489df94d6ff6dd39cb04f58c3c680c193bf3c9849e2f7b74",
+      "treatment_full": "开始为期14天的幽门螺杆菌根除四联治疗：埃索美拉唑 40 mg，每日2次；枸橼酸铋（非水杨酸盐制剂，如可获得）按标准剂量；甲硝唑 500 mg，每日3次；多西环素 100 mg，每日2次，并每日联合使用益生菌。疼痛管理方面，立即停用所有口服 NSAIDs，并以对乙酰氨基酚替代，同时转诊进行骨关节炎的物理治疗。鉴于 FOBT 阳性并伴有小细胞性改变，将贫血主要按缺铁性贫血处理，考虑可能由隐匿性胃肠道失血所致，同时纠正并存的营养缺乏：开始口服铁剂、补充维生素 B12 和叶酸；监测 CBC/红细胞指数及铁代谢检查、维生素 B12/叶酸的治疗反应，若贫血未改善则重新评估。提供强有力的行为支持，包括转诊至结构化戒酒项目，并通过尼古丁替代治疗进行戒烟。在根除治疗后继续使用同一种 PPI（埃索美拉唑）进行抑酸，以完成总计6周的 PPI 治疗，并加用硫糖铝以保护黏膜；避免同时额外联合其他 PPI 治疗。安排在治疗结束后6周复查尿素呼气试验以确认根除效果，并监测贫血及症状的改善情况；治疗期间密切监测任何明显胃肠道出血的迹象 经验性使用甲硝唑须条件化：记录指征（十二指肠炎；慢性胃炎），并在培养药敏结果回报后立即调整；暂无药敏前不得声称敏感或耐药",
+      "treatment_sha256": "88442008f465c299e4256d9b0a735ddf3277d2b531f3798861b56a807b405833"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:8d104fb412a93828294306507f67bf9dc7b5a5dd746a1539d137664a9b098697",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "晶状体脱位",
+        "青光眼"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "晶状体脱位",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "青光眼",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00414",
+      "per_diagnosis": [
+        {
+          "diagnosis": "晶状体脱位",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "青光眼",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "f3dd1713572785dad7e1848f67319e0d55a45693cce320de8a6eaecb4e550daa",
+      "treatment_full": "静脉给予甘露醇 1 g/kg，于45分钟内输注完毕，并局部使用多佐胺-噻吗洛尔，每日2次，以快速将眼压降至25 mmHg以下。在给予口服乙酰唑胺 250 mg 每6小时1次之前，应明确既往与药物相关的皮疹/瘙痒情况（识别药物/药物类别、发生时间及严重程度；评估是否存在磺胺类药物敏感性）。如怀疑存在磺胺类药物过敏/敏感，或无法排除，则避免使用乙酰唑胺，依靠甘露醇联合局部药物治疗，并尽快推进确定性手术减压。应在24小时内紧急行经睫状体平坦部晶状体切除术联合前段玻璃体切除术及缝线固定后房型人工晶状体植入术，以解除瞳孔阻滞和晶状体所致房角关闭。始终佩戴防护性聚碳酸酯眼镜，睡眠时将眼罩固定覆盖于术眼，术后1周内避免弯腰、提重物或用力。若出现突发视力丧失、剧烈眼痛、恶心或闪光感，应立即复诊；并于术后第1天、第1周和第1个月按时随访，进行眼压检查和视神经评估",
+      "treatment_sha256": "eb5d094a78796ed28e5c4296655ac2739a86d769ae482b0cff279d95e79e2cbf"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:cb5d9615d193ab621273fa1dcf1f8ee54d87eec116bbb0a5697bd47e05bb8501",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "泪腺炎",
+        "流行性感冒"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "泪腺炎",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素",
+            "他汀",
+            "他汀类"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "流行性感冒",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素",
+            "他汀",
+            "他汀类"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00434",
+      "per_diagnosis": [
+        {
+          "diagnosis": "泪腺炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "流行性感冒",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "a90c0284817b1985521699f99b7d85a272bbe664fb65c05c4ddf3332f3907afd",
+      "treatment_full": "开始口服奥司他韦治疗流行性感冒。鉴于其肌酐升高，发热、肌痛和疼痛应使用对乙酰氨基酚而非NSAIDs进行处理。继续使用其氨氯地平和他汀类药物。对于泪腺炎，CT所见与泪腺肿大并强化一致；考虑为与流感相关的病毒性/炎症性泪腺炎。对左上眼睑进行冷敷，并处方局部抗生素滴眼液，如莫西沙星，但需注意局部滴眼液对泪腺的渗透有限，主要用于眼表覆盖。3天后进行临床复评；如果疼痛/肿胀加重、发热超过预期病程仍持续、出现新的脓性分泌物、发生视力改变/眼球突出，或呼吸状态恶化，应及时重新评估是否存在细菌合并感染，并考虑复查CBC/CRP及胸部评估，同时启动/考虑全身性抗生素治疗并紧急进行眼科复评。强调口服补液，密切监测其液体摄入情况，并鼓励其落实建议的家庭安全改造措施以预防跌倒。告知其如出现新的视力改变、剧烈头痛、颈部僵硬或呼吸急促，应及时返诊",
+      "treatment_sha256": "f27dd56f5cf33bf9675960a2458a3e382ead8463652fe073fa73125425080599"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:06ad6c126a7d197333eef86699ac3ace7e1538630162fe6574aceb32c49ed462",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "多毛症",
+        "寻常痤疮"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "多毛症",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "激素",
+            "胰岛素"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "寻常痤疮",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "激素",
+            "胰岛素"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00436",
+      "per_diagnosis": [
+        {
+          "diagnosis": "多毛症",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "寻常痤疮",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "72d0f25c3bee9492b32a97c107c0442ac730f854f2ea552104b59e92d3eb0102",
+      "treatment_full": "开始个体化口服复方激素避孕方案，包含醋酸环丙孕酮，以调节月经并改善雄激素敏感相关症状；鉴于 BMI 33.2 及代谢危险因素，需记录共同决策过程以及风险获益评估。开始治疗前筛查雌激素禁忌证：血压 118/76 mmHg，否认静脉血栓栓塞（VTE）病史，否认伴先兆偏头痛，并确认不吸烟。进行宣教，强调必须严格每日按时服用，并建议采取可靠的避孕策略（例如持续规范使用 CHC，同时使用安全套以预防 STI，并作为开始用药前 7 天及任何漏服情况下的补充避孕措施）；同时强调其既往避孕使用并不规律。继续外用克林霉素联合过氧化苯甲酰治疗炎症性痤疮皮损。实施结构化的每日饮食记录，并保证每周至少 150 分钟中等强度运动，重点进行体重管理，以改善胰岛素抵抗和整体代谢健康。基线 ALT 轻度升高（62 U/L），结合当前情况最符合代谢相关/NAFLD 风险；患者报告无肝炎危险因素。避免过量饮酒及肝毒性补充剂/药物；开始治疗后 6-8 周复查肝酶（如出现黄疸、右上腹痛、瘙痒或尿色加深则应更早复查），并于 12 周结合代谢参数重新评估；若 ALT 升至正常上限的 2 倍以上或持续/进一步升高，应考虑进一步肝脏评估",
+      "treatment_sha256": "2ef228a5832177544fbfdf529ba0fb0ae31178680248fe7cb0ecdb81c83cb9d3"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:efa49059cf21363b4fc23122539ba69d8a5b7faca6ac9f92b7fb591a881b182d",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "多囊肾病",
+        "肾结石"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "多囊肾病",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肾结石",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00622",
+      "per_diagnosis": [
+        {
+          "diagnosis": "多囊肾病",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肾结石",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "26e3fd6c8e39088b1f1f30f23c29c48dc5f817838fd23d4e4ab5f9ea103e2d3f",
+      "treatment_full": "每晚服用坦索罗辛 0.4 mg，持续四周，以促进左侧远端 6 mm 输尿管结石排出。疼痛时每六小时按需使用对乙酰氨基酚 1 g，恶心时按需使用昂丹司琼 4 mg；避免使用所有NSAIDs。短期内（梗阻/尿量减少期间）：按口渴程度补液，如条件允许，以尿液呈淡黄色为目标；若出现呕吐、疼痛加重或接近无尿，避免强迫饮水；如尿量持续很低或停止（无尿），应立即就医。结石排出/梗阻解除后且容量状态恢复正常时：增加液体摄入，以尿量达到≥2.5 L/日为目标；钠摄入保持低于 2 g/日，动物蛋白控制在 0.8 g/kg/日以预防复发。开始每日服用赖诺普利 10 mg，血压目标为 <130/80 mmHg。目前暂缓使用枸橼酸钾，因为缺乏基线尿液pH/结石类型信息，且与ACE抑制剂合用有高钾血症风险；如结石分析或代谢评估提示/证实尿酸结石、胱氨酸结石或低枸橼酸尿，可在之后考虑启用。现在获取基线血清钾（若后续考虑尿液碱化，也应检测尿液pH），并于一周后复查肌酐和钾；肌酐升高最符合梗阻/脱水导致的急性肾损伤，背景可能存在ADPKD基线异常，待梗阻解除后重新评估。安排在一个月内转诊肾内科，以进行整合性的ADPKD管理。感染评估与随访：如出现发热或症状加重，复查尿液分析（包括白细胞酯酶/亚硝酸盐）及尿培养；鉴于存在梗阻，应降低紧急评估门槛。若出现体温≥38 °C、难治性疼痛、呕吐或无尿，请立即就医",
+      "treatment_sha256": "87868b014a7940d6b248887d3efb2f38fe37e530f07230141a1029506bf0c650"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:2d6aa8a744e20cd264d02c9b00a36212e66f2c03e1e4c747f25c2206d2dd8e84",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "心力衰竭",
+        "心房颤动"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心力衰竭",
+          "drug_interaction": "pass",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "抗凝",
+            "acei"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心房颤动",
+          "drug_interaction": "pass",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "抗凝",
+            "acei"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00687",
+      "per_diagnosis": [
+        {
+          "diagnosis": "心力衰竭",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "心房颤动",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "7d545469134e4071b1003c43a219019169d96011223721528fa43bcf94df778c",
+      "treatment_full": "收治入院，给予静脉用药控制心室率并减轻淤血。伴快速心室反应的房颤很可能由甲状腺毒症和急性心力衰竭诱发或加重：使用足以同时控制心率和甲亢症状的β受体阻滞剂（根据频繁生命体征监测/遥测结果滴定美托洛尔；如高肾上腺素能症状持续且无禁忌证，可考虑普萘洛尔）。继续使用甲巯咪唑，并进行甲状腺毒症病因评估（TSI/TRAb、TPO抗体；视情况考虑甲状腺超声/放射性碘摄取率检查），申请内分泌科会诊以指导急性期管理；短间隔复查FT4/TSH（如住院期间48–72小时，随后门诊每周复查）。开始静脉呋塞米，并结合肾功能调整剂量（如初始20 mg静脉每日一次，随后根据反应调整），严格记录出入量，每日测体重；静脉利尿期间至少每日检查BMP（Na/K/Cr），并根据需要补充电解质。鉴于Cr 1.5/eGFR 42且正在使用ACEi+MRA，应降低AKI/高钾血症风险：若肌酐较基线明显升高、尿量下降或K+升高（如K+ ≥5.5），则暂停或减量赖诺普利/螺内酯，并重新评估利尿剂/RAAS治疗策略。抗凝治疗：记录体重并确认阿哌沙班剂量标准（仅当以下至少满足2项时减至2.5 mg每日2次：年龄≥80岁、体重≤60 kg、血清Cr ≥1.5）；评估出血风险/药物相互作用并监测肾功能。胸闷伴轻度肌钙蛋白升高：获取连续心电图并复查肌钙蛋白，以评估急性冠脉综合征还是由快速性心律失常/心力衰竭导致的需求性损伤；如变化模式稳定且临床怀疑度低，则按需求性心肌缺血处理，同时继续进行临床风险分层。6MWT出现低氧血症（SpO2最低88%）：进行静息和活动状态血氧测定；如有指征，给予补充氧疗以维持目标氧饱和度；利尿后重新评估，以判断氧减饱和是否随淤血改善而缓解，或是否需要进一步肺部评估（考虑OSA的影响；继续CPAP规划并随访呼吸科）。继续限制液体和钠摄入，进行戒酒/戒烟宣教，并安排密切随访以进行心律和药物剂量调整",
+      "treatment_sha256": "8ec18bc3260888b2148c0d87cb9ef0f4dea991a484aa23f07cbf05a72c22a3e7"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:65dac8082295df6a7fe68a03cc1f2829f8984da249c04569e62d75cc19b7c916",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "冷球蛋白血症",
+        "多发性肌炎"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "冷球蛋白血症",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗病毒"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "多发性肌炎",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗病毒"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00723",
+      "per_diagnosis": [
+        {
+          "diagnosis": "冷球蛋白血症",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "多发性肌炎",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "b6c50c4ea4ca1786e0be562876be6fd146a372b9f8c9bd9cc8653db4d0d51ea9",
+      "treatment_full": "开始口服泼尼松每日40 mg，并按当地方案加用硫唑嘌呤（通常按体重给药）；治疗前进行基线全血细胞计数（CBC）和肝功能检查，并在当地常规要求时于治疗开始前或治疗早期考虑进行TPMT/NUDT15检测。密切监测CBC/LFTs，鉴于慢性丙型肝炎需特别加强肝脏监测；治疗期间继续监测肾功能（肌酐/eGFR）。启动肝病专科会诊，以开展针对基础丙型肝炎感染的抗病毒治疗。为保护骨骼，处方钙剂/维生素D及质子泵抑制剂。建议患者避免使用NSAIDs，并采取避寒措施，包括穿保暖打底裤和戴手套。鉴于抗Jo-1抗体阳性，安排基线肺部评估，包括胸部X线和肺功能检查（肺量计、肺容量、DLCO）；如肺功能异常或出现呼吸道症状，则行高分辨率CT。于免疫抑制治疗前或同时明确感染预防相关检查，包括HBV血清学（HBsAg、anti-HBc、anti-HBs）；如按当地指南评估为无免疫力，则接种甲型和乙型肝炎疫苗；继续既定的HCV检测/监测计划。安排两周后复诊，复查肌酐/eGFR、肌酸激酶、全血细胞计数和肝功能；并嘱如出现无力加重、深色尿液、新发咳嗽或呼吸困难、指端溃疡或新发紫癜，需提前就诊",
+      "treatment_sha256": "ee5c301994acfe28e653632bc5fdda8d5125120481912c19c796be5d5949712e"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:3800df2528f55156aeb33d2f51bd7629192cf315e58d0de6e3a53bf2a84366ea",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "多形性红斑",
+        "非霍奇金淋巴瘤"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "多形性红斑",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "化疗"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "非霍奇金淋巴瘤",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "化疗"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00813",
+      "per_diagnosis": [
+        {
+          "diagnosis": "多形性红斑",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "非霍奇金淋巴瘤",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "9c9752323c2a796884132ccbb4f66968d80dca8cfb9c2d1d07a93b56f9688983",
+      "treatment_full": "立即开始 CHOP 化疗（环磷酰胺、阿霉素、长春新碱、泼尼松）联合利妥昔单抗，以治疗累及骨髓和脾脏的侵袭性 B 细胞淋巴瘤；同时加用阿昔洛韦 400 mg 每日 2 次预防性治疗，以抑制触发其多形性红斑发作的 HSV 再激活。对活动性靶形皮损每日 2 次外用 0.1% 戊酸倍他米松软膏，并继续每日使用洗必泰漱口液处理口腔溃疡；保持充足水化，并使用对乙酰氨基酚代替 NSAIDs，以在肌酐 1.5 mg/dL 的情况下保护肾功能。保持步行习惯，但因预期会出现中性粒细胞减少，应避免前往人群密集场所；保证高热量少量多餐以对抗体重下降；在第 1 个疗程期间每周复查 CBC、肾功能面板和 LDH，之后在每个化疗周期前复查。若出现发热 ≥38°C、新发瘀斑或出血、血尿加重，或任何伴水疱或黏膜脱落的皮疹，应立即返诊",
+      "treatment_sha256": "84860be7a6bb99544378c37dbdede87bd80adee763841f9b1d061fc31d04dca8"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:30a7ebf3910031c099a1ae280e4c771d0f771c8ba26c808912ac1467a59df929",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "心力衰竭",
+        "毒性弥漫性甲状腺肿"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心力衰竭",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "抗凝",
+            "华法林"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "毒性弥漫性甲状腺肿",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "抗凝",
+            "华法林"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00964",
+      "per_diagnosis": [
+        {
+          "diagnosis": "心力衰竭",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "毒性弥漫性甲状腺肿",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "482e293444c6571093a6b4d3343033bb8cb2187514a828392ad2e0e4e35b8822",
+      "treatment_full": "开始甲巯咪唑30 mg每日一次，用于治疗甲状腺毒症。对于伴快速心室反应的心房颤动，使用卡维地洛6.25 mg每日两次进行心率控制，并密切监测血压、心率和淤血情况；如出现低血压、心动过缓或容量负荷加重，应减少剂量/暂停卡维地洛，并在继续甲状腺根本治疗的同时考虑替代性心率控制策略（如谨慎滴定β1选择性药物）。为减轻淤血及进行射血分数降低型心力衰竭（HFrEF）治疗，加用呋塞米40 mg每晨一次和螺内酯25 mg每日一次，并每日监测体重；开始沙库巴曲/缬沙坦24/26 mg每日两次，并根据耐受情况逐步加量。立即补钾，目标血钾K >=4.0 mEq/L；在开始或调整利尿剂/螺内酯/沙库巴曲缬沙坦后2-3天内复查BMP（Na/K/Cr），随后1周再次复查，并根据肾功能和电解质调整药物。如无禁忌且肾功能允许，开始DOAC抗凝以预防心房颤动相关卒中；按方案监测CBC和肾功能（除非选择华法林，否则无需监测INR）。限制饮食钠摄入<2 g，停止食用海藻零食或补充碘剂；坐着写字时每2小时抬高双腿15分钟；每日两次进行10分钟缓慢走廊步行，如SpO2 <90%则停止。若出现胸痛、晕厥或一夜之间体重增加>=3磅，应提前就诊",
+      "treatment_sha256": "4610661948ca6e6094faa8028115fbc42d13c0a5db78d6fcd7c54123065cd9e9"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:5e475dd9a637d78a05698679b6819c998ea7ac26795e02d43e04c6f41a46c1eb",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "乳突炎",
+        "贫血"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "乳突炎",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "贫血",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-00998",
+      "per_diagnosis": [
+        {
+          "diagnosis": "乳突炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "贫血",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "a5166c9497a5d9560191e53aed1ec95e9cac1b92664289af34d541a76d7590dd",
+      "treatment_full": "开始静脉给予哌拉西林-他唑巴坦 3.375 g，每 8 小时一次，以治疗铜绿假单胞菌性乳突炎；监测肌酐和电解质，如肾功能恶化则调整抗生素剂量（基线 eGFR 约 52）。尽快安排耳鼻喉科会诊，在贫血稳定后评估是否行皮质乳突切除术；围手术期血红蛋白范围由耳鼻喉科/麻醉科共同确定。贫血考虑为炎症相关性/功能性缺铁，并合并维生素B12/叶酸缺乏：静脉给予维生素B12 1000 µg 每日一次，共 7 天，随后改为每周一次，并口服叶酸 1 mg 每日一次。因有症状性贫血（直立性低血压/心悸/心动过速），立即输注 1 单位浓缩红细胞，并重新评估症状及输血后血红蛋白，而非以固定 >100 g/L 为目标。继续进行富含铁饮食宣教，仅作为支持措施；同时进一步评估/检查，包括网织红细胞计数和炎症标志物（CRP/ESR），并结合粪便隐血试验和/或胃肠道评估，排查隐匿性失血，鉴于贫血明显且伴有体重下降。鼓励安静的户外散步以维持体力，通过社区送餐服务确保充足的高蛋白饮食，并将床头抬高 30° 以利于耳部分泌物引流并减轻夜尿。若耳后肿胀加重、新发面瘫、呼吸困难或胸痛，应立即就诊；48 小时内于耳鼻喉科门诊常规复诊，并于两周后至血液科复诊以重新评估血细胞计数和肾功能，每次就诊均需测量血压并进行直立位血压检查 经验性使用哌拉西林须条件化：记录指征（乳突炎），并在培养药敏结果回报后立即调整；暂无药敏前不得声称敏感或耐药",
+      "treatment_sha256": "bd45ad47292432046f6c1159596044d97de65bf37d16fdf54767ae49a5981c92"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:ee04f3e1b41c0b5c4610fcd6098cf1ed860a988d3a44e185951e22ad7a3640a9",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "皮肤钙沉着症",
+        "系统性红斑狼疮"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "皮肤钙沉着症",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗凝",
+            "钙通道阻滞剂",
+            "阿司匹林"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "系统性红斑狼疮",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗凝",
+            "钙通道阻滞剂",
+            "阿司匹林"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01084",
+      "per_diagnosis": [
+        {
+          "diagnosis": "皮肤钙沉着症",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "系统性红斑狼疮",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "25bb5d31f29130dbf20944fc77fe6d40d786df6deee5730d9d95fbd1de099b32",
+      "treatment_full": "开始使用羟氯喹以抑制系统性红斑狼疮活动，并处理驱动钙沉着的基础炎症，同时继续其既往口服降糖药，并密切监测血糖。鉴于尿液分析示蛋白2+、潜血2+、约30个RBC/HPF，以及CBC显示细胞减少（白细胞减少/贫血/血小板减少），应按疑似活动性系统性红斑狼疮并可能累及肾脏和血液系统处理：尽快安排风湿科复诊和加急肾内科会诊；复查尿液分析及尿沉渣镜检，进行尿蛋白定量（随机尿蛋白/肌酐比或24小时尿蛋白），检查血清肌酐/eGFR、补体和抗dsDNA，并根据需要复查带分类的CBC及溶血评估。若出现肌酐升高、蛋白尿增加、红细胞管型、严重或加重的细胞减少、出血、感染/发热，或其他危险信号症状，应紧急升级至住院评估，并由专科主导实施符合狼疮性肾炎/细胞减少处理方案的免疫抑制治疗。对于有症状的钙沉着，开具口服地尔硫卓以减少钙盐沉积并促进病灶愈合，同时在溃疡性结节处外用硫代硫酸钠以促进局部消退。患者已按需使用一种用于雷诺现象的血管扩张剂；除非经过专门评估，地尔硫卓应替代（而非叠加）既往按需用药；如同时使用其他钙通道阻滞剂、硝酸酯类或PDE5抑制剂，应监测血压/心率并避免叠加的血管扩张或心动过缓效应。在抗磷脂抗体阳性（LA、aCL IgG、抗β2GPI IgG）但尚无明确血栓形成证据的情况下，目前不要启动治疗剂量抗凝；应进行血栓风险评估并宣教血栓警示症状。于>=12周后重复aPL检测以确认是否持续阳性，并仅在合适且符合当地方案/出血风险可接受时考虑使用小剂量阿司匹林进行一级预防。建立规律一致的日常作息并保证良好的睡眠卫生，以减轻压力并支持系统性疾病控制，同时注意手部轻柔护理，避免受累部位外伤。安排1-2周内密切随访（如病情加重则更早），以复查肾脏/血液学变化趋势及皮肤病灶进展，并嘱患者若出现溃疡加重、水肿、尿量减少、血尿、出血/瘀斑、发热、胸痛、呼吸困难、局灶性神经系统症状或单侧肢体肿胀，应立即就诊",
+      "treatment_sha256": "03aca4b7e56fc106618bf0e93178fbd653102410f0ebcd9bcce6502f39042949"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:11ed06426fbadf522b06927207ba99546c22ad4b63ed54ce41bb1000aed2d6b2",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "系统性红斑狼疮",
+        "肺隐球菌病"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "系统性红斑狼疮",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肺隐球菌病",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01122",
+      "per_diagnosis": [
+        {
+          "diagnosis": "系统性红斑狼疮",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肺隐球菌病",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "8da9ff4780320819b0bce0796ebd10310f79faf77acd071285edb1f6c7ed70f6",
+      "treatment_full": "开始口服氟康唑治疗肺隐球菌病，鉴于疾病表现为轻至中度、氧合稳定/无需补充氧气且存在肾功能不全（因此较肾毒性更强的替代方案更倾向选择氟康唑）；同时评估是否存在播散（如进行血培养并复核有无肺外体征），以支持口服治疗方案的选择。继续使用羟氯喹和 ACE 抑制剂治疗狼疮并保护肾脏；仅在确认感染稳定后才逐渐减量糖皮质激素。鉴于免疫抑制状态及血清 CrAg 阳性，建议进行中枢神经系统受累的基线评估（在可行时行腰椎穿刺测开放压/脑脊液检查；如因患者意愿或禁忌证而暂缓，应记录理由并安排密切监测，一旦出现任何神经系统症状，应以较低阈值紧急行腰穿/脑成像）。针对尿液分析异常和尿量减少，应评估肾脏炎症活动与尿路感染/其他肾脏过程的可能：获取尿培养，复查尿液分析加显微镜检查，定量蛋白尿（UPCR 或 24小时尿蛋白），并检查肾功能/血清学指标（肌酐趋势、补体/抗dsDNA），并尽快安排肾内科/风湿科随访。强调严格防晒、均衡营养和充分补液。密切监测咳嗽加重、发热、少尿或神经系统症状。安排 1 周后感染科及风湿科/肾内科密切随访。避免使用减毒活疫苗",
+      "treatment_sha256": "47e20c81ba9b9121b5a1e56d800be091e3f7c7a038415f24d3d2733431326dc8"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:62b9697178ebd6b2ade20dd7d4d38fbfa552793e11a3e29c1694716817c7dc98",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "慢性肾脏病",
+        "肥胖症"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性肾脏病",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "他汀",
+            "钙通道阻滞剂",
+            "arb",
+            "acei",
+            "他汀类"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肥胖症",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "他汀",
+            "钙通道阻滞剂",
+            "arb",
+            "acei",
+            "他汀类"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01177",
+      "per_diagnosis": [
+        {
+          "diagnosis": "慢性肾脏病",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肥胖症",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "adbb8c0a052798609ced993a64c4bc577af67130f709fd270b4f4f41802a73ff",
+      "treatment_full": "当前的首要任务是纠正高钾血症（K+ 5.7）和代谢性酸中毒（HCO3- 19）。目前没有记录显示患者正在服用 ACEi/ARB；在钾水平得到控制且随访时明确核对用药清单之前，避免启动 ACEi/ARB。尽快复查/确认血清钾和碳酸氢盐，并审查相关诱因（饮食中的钾、补充剂/代盐、脱水、便秘以及所有非处方药/草药产品）。获取心电图；如果 K+ 升高（如 ≥6.0）、出现心电图改变或出现症状，应紧急/急诊升级处理。实施低钾肾病饮食，并考虑符合已列禁忌证的慢性肾脏病适用降钾策略（避免使用与山梨醇合用的聚苯乙烯磺酸钠；如可获得且临床合适，可考虑新型钾结合剂）。对于代谢性酸中毒，如患者容量状态和血压允许，可考虑口服碳酸氢钠治疗，并进行监测。鉴于慢性肾脏病/高钾血症风险，应停用并避免 NSAIDs；对于头痛，首选对乙酰氨基酚，并优先采用非药物措施。如果偏头痛持续，可考虑非 NSAID 的偏头痛特异性治疗方案，并在选择时兼顾肾功能以及药物可及性/费用。尿液分析显示蛋白 3+，伴镜下血尿（RBC 8/HPF），同时有水肿/泡沫尿；应定量蛋白尿（如尿白蛋白/肌酐比值、尿蛋白/肌酐比值），并作为慢性肾脏病评估的一部分，评估可能的肾小球病因（根据临床指征考虑转诊肾内科及有针对性的血清学检查），但不改变当前诊断。对于血压和蛋白尿控制，在钾水平稳定并重新评估后，可考虑使用非肾素-血管紧张素-醛固酮系统药物，如钙通道阻滞剂（例如氨氯地平）。司美格鲁肽适用于体重管理和血糖控制。如条件允许，重新启用他汀类药物以处理高脂血症。安排 1 周内密切随访（最迟不超过 2 周），复查电解质、碳酸氢盐和肾功能；如异常加重，应更早复评。建议患者如出现严重头痛、胸痛、心悸/无力或气短加重，立即就医",
+      "treatment_sha256": "8b93fb449313b27952e604f0c6f64cffa03227b7a395091e924f03b5c914440e"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:9e46105d7194e2c323677385ab8a0a147031bcfb5d144bdaa5b78a5af7c208ef",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "子宫复旧不全",
+        "缺铁性贫血"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "子宫复旧不全",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "缺铁性贫血",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01190",
+      "per_diagnosis": [
+        {
+          "diagnosis": "子宫复旧不全",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "缺铁性贫血",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "88e1d735229f6d222fbd3bb41d221830e554c56e4f529fdcd489c48fd54813f5",
+      "treatment_full": "开始口服硫酸亚铁 325 mg，每日两次，并每日补充维生素 C 500 mg，以纠正缺铁性贫血；鉴于患者存在症状性贫血且铁蛋白低，可考虑静脉补铁以更快补充铁储备。立即通过生命体征（包括体位性血压/脉搏变化）评估当前严重程度和稳定性，并评估是否仍有持续失血；如果血流动力学不稳定、症状加重或出血变得明显，应紧急升级处理（包括根据方案/阈值考虑输血及紧急产科处理）。鉴于盆腔超声提示残留妊娠组织且仍有出血、子宫压痛及子宫质软，应尽快安排妇产科评估残留妊娠组织，并按规范处理，包括在有指征时考虑清宫，并酌情联合使用适当的宫缩药物作为辅助治疗。继续母乳喂养以促进内源性催产素释放。增加膳食蛋白摄入，可选择鸡蛋、豆腐等经济实惠的食物。安排密切随访，复查 CBC 并进行临床再评估，而不是仅依赖延迟进行的重复影像检查；在妇产科评估/处理后，根据临床需要复查盆腔超声。建议患者在婴儿睡觉时尽量休息；如出现任何大量出血（每小时浸透超过 1 片卫生巾）、发热、恶露异味、气短加重、胸痛、晕厥/昏倒或明显头晕，应立即就诊",
+      "treatment_sha256": "0e013b1cfbe1e1e13a7263bdab3cbf183e9866783533d78555ee8d13ea2d410c"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:97033b8c88e6eecc40c022d4df8c87effe48d0922f2600f7640a38670ddb47cb",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "结核性腹膜炎",
+        "肝硬化"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "结核性腹膜炎",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗结核"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肝硬化",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗结核"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01228",
+      "per_diagnosis": [
+        {
+          "diagnosis": "结核性腹膜炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肝硬化",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "0f7d5936d2be085dabea24e5f9e9a95d8a496f4cdc2d0ecb912ff4b4c688430f",
+      "treatment_full": "由于晚期肝硬化/凝血功能障碍（白蛋白 2.4 g/dL，INR 1.9），且希望避免使用标准的一线肝毒性药物（异烟肼/利福平/吡嗪酰胺），除非/直到感染科或肝病科认为安全，否则应启动以保肝为导向的抗结核方案，包括乙胺丁醇、左氧氟沙星和利奈唑胺。送检/确保对腹膜或活检标本进行分枝杆菌 PCR 和培养，并获取药物敏感性试验；根据结果及耐受性及时调整方案。评估是否存在肺结核累及（症状、必要时胸部影像），并落实感染病学及公共卫生防护措施（如怀疑/确诊肺或喉结核，则进行空气隔离/检测）。方案相关监测：利奈唑胺——基线时及至少每周复查 CBC（若计数下降则更频繁），因患者基线已有贫血（Hgb 108 g/L）和血小板减少（PLT 78 x10^9/L）；若血细胞减少加重或出现神经病变症状，应停用/调整利奈唑胺并考虑替代方案。乙胺丁醇——基线视力和色觉检查，之后定期复评，如出现视力变化应及时评估。左氧氟沙星——基线 ECG/QT 评估并定期复查；尽可能优化 K/Mg 并避免合用其他延长 QT 的药物；监测肌腱病/神经病变。继续使用螺内酯管理腹水，并严密监测电解质。根据需要进行治疗性腹腔穿刺并补充白蛋白以缓解症状。实施营养支持，适度蛋白摄入（0.8-1.0 g/kg/天）并补充支链氨基酸，同时给予硫胺素和复合维生素。安排内镜下静脉曲张监测，并提供全面的戒酒咨询和心理社会支持。安排密切随访，进行临床评估、肝功能检查、凝血功能全套、必要时 ECG/QT/电解质检查、以 CBC 为重点的毒性监测，以及肝性脑病或药物毒性的监测 经验性使用左氧氟沙星须条件化：记录指征（结核性腹膜炎），并在培养药敏结果回报后立即调整；暂无药敏前不得声称敏感或耐药。经验性使用氧氟沙星须条件化：记录指征（结核性腹膜炎），并在培养药敏结果回报后立即调整；暂无药敏前不得声称敏感或耐药。经验性使用利奈唑胺须条件化：记录指征（结核性腹膜炎），并在培养药敏结果回报后立即调整；暂无药敏前不得声称敏感或耐药",
+      "treatment_sha256": "f6ce11b46859aef1e1ffb83da27d8b0f201c59c55a2799ad1b0dc41359d761d6"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:f0e230687d11a021c5ea8feaf8e3187dd6cf5cb6dd2359e6f8fc4ea85741fa33",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "房性早搏（PACs）",
+        "缺铁性贫血"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "房性早搏（PACs）",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "激素"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "缺铁性贫血",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "激素"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01232",
+      "per_diagnosis": [
+        {
+          "diagnosis": "房性早搏（PACs）",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "缺铁性贫血",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "42b9dd4b99b805148cb8d07bc61f2c0a683b1fd7e8d48cae1adbf9b267d6514c",
+      "treatment_full": "开始口服硫酸亚铁325 mg，每日2次，并联合维生素C以增强吸收；同时提供书面用药指导，明确服药时间，以提高依从性。使用氯化钾补充纠正低钾血症，以稳定心肌兴奋性。建议采取规律的睡眠卫生措施，包括固定就寝流程，并限制中午后摄入咖啡因。处理可能的铁丢失来源：进行有针对性的月经出血病史询问和体格检查，并安排妇科转诊，以评估和处理月经过多（如结构性原因、激素治疗方案）。如病史提示可能存在出血性疾病（如终生月经过多、易瘀青、家族史），可考虑进行相关筛查。处理甲状腺因素对心动过速/异位搏动的可能影响：鉴于TSH受抑制（0.12 mIU/L），应开具进一步确认性甲状腺评估（游离T4和游离T3），并考虑进行甲状腺抗体检测（如TRAb/TSI、TPO抗体）。在确认性化验结果出来前，应记录对亚临床或显性甲状腺功能亢进的怀疑，作为窦性心动过速/房性早搏的潜在诱因；是否转诊内分泌科可根据结果和症状决定。2周后复诊，复查CBC和钾水平，并在结果可获得时复核甲状腺检查；同时嘱患者若心悸加重或出现晕厥，应立即就医",
+      "treatment_sha256": "253b39dc91cdeb77b7eaa97e22f835630e5b93ae320cf288c649df4fe355ce6a"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:c7ec8bef93c27ddf895b7faf00b6062697006142d126849e2dcd0005f61f75f7",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "心房颤动",
+        "肥胖低通气综合征"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心房颤动",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗凝"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肥胖低通气综合征",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗凝"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01237",
+      "per_diagnosis": [
+        {
+          "diagnosis": "心房颤动",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肥胖低通气综合征",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "4cd9fb97eaad333d078909997364e6dbb371498a64ea67860497375c0f459d52",
+      "treatment_full": "对肥胖低通气综合征启动气道正压治疗作为一线方案：开始使用CPAP；如果通气/PaCO2未改善或无法耐受CPAP，则升级为双水平气道正压通气（bilevel PAP）。鉴于已有慢性高碳酸血症的证据，不应常规加用补充氧；仅在优化PAP后低氧血症仍持续时才加用补充氧（滴定至满足需要的最低剂量），并在开始/调整治疗后通过夜间血氧监测/二氧化碳监测和/或复查ABG来监测反应。为预防卒中，开始使用阿哌沙班进行抗凝，但首先需确认癌症类型及当前/预计进行的肿瘤治疗或操作；评估出血风险，并在适用情况下与肿瘤科/外科协同制定围手术期抗凝管理方案，同时在治疗期间持续监测出血情况。对于心室率控制，需注意动态心电图记录到夜间停搏（最长至2.4秒），因此应谨慎以低剂量开始美托洛尔，并监测症状和心率；若心动过缓/停搏加重，应考虑替代性的心率控制策略，并在优化PAP治疗及启动药物后重新评估心律/停搏情况。实施结构化减重方案，强调持续低热量饮食和每日步行，并将所有指导内容写入书面计划以支持依从性。她应在四周后复诊，进行PAP滴定和药物复查；如出现呼吸困难加重、胸痛、晕厥/近晕厥或卒中征象，应立即就医",
+      "treatment_sha256": "512db87bede2199412ca8547474abafd74fa3e95503b6864f50f003371651623"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:bbe71bc704fdf2c5ede4a51ae2af952729093e87beb3bb1050f15f5ebd20b2af",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "室上性心动过速",
+        "慢性阻塞性肺疾病"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "室上性心动过速",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性阻塞性肺疾病",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01259",
+      "per_diagnosis": [
+        {
+          "diagnosis": "室上性心动过速",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "慢性阻塞性肺疾病",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "bf133aa9d9fe4c51612e87f604df97b9f3cbd86e59bc5acc5c9e0860b52f739b",
+      "treatment_full": "对于与房室结折返性心动过速（AVNRT）一致的规则性窄QRS波室上性心动过速（SVT）（经迷走神经刺激/腺苷反应证实），开始使用地尔硫卓进行心率控制；同时针对慢性阻塞性肺疾病急性加重，依据流感嗜血杆菌感染情况制定抗生素方案，并联合指南推荐的吸入治疗。通过静脉补充电解质纠正低钾血症和低镁血症，目标为钾>4.0 mmol/L、镁>2.0 mg/dL，随后复查心电图以重新评估QTc；在QTc延长（0.48秒）期间，以及在电解质纠正且QTc改善之前，应避免使用延长QT间期的抗心律失常药物（如索他洛尔、多非利特、伊布利特、氟卡尼、普罗帕酮）。给予补充氧疗以维持足够的氧饱和度，同时密切监测高碳酸血症。你必须立即戒烟，严格遵从处方吸入药物治疗，并尽快安排随访以更新疫苗接种；如出现气短加重、心悸持续不缓解、晕厥或意识混乱加重，应立即返回就诊或寻求急诊医疗帮助",
+      "treatment_sha256": "1f85d68a2934085bc4623143d322913699472fc2a532e257f77438ff807d609b"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:f4042fe2559fb9966af5512f192d51d1b5a58b9394fe9375504ccf38e5999d2f",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "外斜视",
+        "屈光不正"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "外斜视",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "屈光不正",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01264",
+      "per_diagnosis": [
+        {
+          "diagnosis": "外斜视",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "屈光不正",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "c046fda6eb2b8bbe59bd6cfc1670ead54b46baef4b8acf859506efef10aafaca",
+      "treatment_full": "开具依据完整主觉验光结果更新的矫正眼镜处方，以优化视力并减轻调节负担；同时启动结构化集合训练方案，如铅笔推近训练，每日进行，以增强融合控制。近距离用眼时严格遵循 20-20-20 规则以管理视疲劳，并安排 3 个月后复查眼科评估，以评估眼位稳定性和立体视敏度",
+      "treatment_sha256": "6defe95f37ec054b38bf8c8ab113e5119dbed6f92b4d90b2b8ee276f41ff8e22"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:8ffd6e4774fa202b58cd5303a359daeac5fa055e6188f4021ad25462e5bd9907",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "白血病",
+        "肛瘘"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "白血病",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素",
+            "胰岛素"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肛瘘",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素",
+            "胰岛素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01302",
+      "per_diagnosis": [
+        {
+          "diagnosis": "白血病",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肛瘘",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "05cd7df50b5def8801c6b466e3b7b44510b1b3a464d696cfd9f6740027b1a1c1",
+      "treatment_full": "我们需要紧急收治该患者住院管理。启动覆盖革兰阴性菌和厌氧菌的广谱静脉抗生素治疗，以处理肛周脓肿和全身性感染。鉴于骨髓/流式结果提示复发或转化并伴原始细胞升高，应暂停其慢性白血病维持治疗，并紧急请血液科/肿瘤科重新评估，以确认疾病状态并指导明确的白血病治疗。除非血液科明确建议，否则暂缓使用G-CSF（例如在严重感染、预期获益明确且在高原始细胞负荷背景下有清晰治疗计划时）。对于脓肿，在抗生素覆盖下行最小切开引流，避免在其血细胞计数和白血病治疗策略明确前进行任何确定性肛瘘手术。住院期间采用胰岛素为基础的方案控制高血糖，并停用或按肾功能调整那些在急性感染和肾功能异常（肌酐升高/AKI风险）期间可能不安全的口服降糖药。便秘方面，给予每日渗透性泻药（如聚乙二醇）并保证充足液体摄入及软化大便；在急性疼痛/感染期避免突然严格高纤维饮食，而应在症状改善后逐渐增加纤维摄入。安排对伤口和血细胞计数进行密切随访（或住院期间复评），并嘱患者如出现任何新发发热、疼痛加重或肿胀，立即返回就诊",
+      "treatment_sha256": "8e8007b32510e251a87173c6f03ee623fb9267c197f3d46a3409969c24c64e4a"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:7bfd16af572b1b45a0f01627cd86e933d838dac80b2724d790f0895658bd8d02",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "乳腺癌",
+        "克兰费尔特综合征"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "乳腺癌",
+          "drug_interaction": "fail",
+          "monitoring": "fail",
+          "named_drugs": [
+            "激素",
+            "化疗"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "克兰费尔特综合征",
+          "drug_interaction": "fail",
+          "monitoring": "fail",
+          "named_drugs": [
+            "激素",
+            "化疗"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01320",
+      "per_diagnosis": [
+        {
+          "diagnosis": "乳腺癌",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "克兰费尔特综合征",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "933139be47201b8c282500e3336998234127207363be05cc54de9c2f04346ce1",
+      "treatment_full": "开始每日20 mg他莫昔芬作为激素受体阳性浸润性导管癌的新辅助内分泌治疗，随后计划行左侧改良根治性乳房切除术联合腋窝淋巴结清扫。术后管理将包括辅助放疗，并根据最终手术病理考虑是否进行化疗，同时继续使用他莫昔芬至少五年。由于ER/PR+乳腺癌治疗期间存在禁忌，应避免睾酮治疗（不要重新开始；应记录为已停止/暂停）。您应坚持有益心脏健康的饮食，并进行规律体育活动，如快走，以控制体重和代谢健康。一周后返回进行手术方案制定；如出现任何新症状，例如呼吸急促、严重胸痛或乳房肿块突然增大，请立即报告",
+      "treatment_sha256": "e7a69758977a7a2672f751e04693be5f85a8691707a21efa334ece191b96d495"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:43291e4281a5bf9a73c3913b5ba7ca3b5f06593d41cfa4fb9726274a4390d533",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "心力衰竭",
+        "系统性红斑狼疮"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心力衰竭",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "他汀",
+            "arb",
+            "acei"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "系统性红斑狼疮",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "他汀",
+            "arb",
+            "acei"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01340",
+      "per_diagnosis": [
+        {
+          "diagnosis": "心力衰竭",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "系统性红斑狼疮",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "44215fafac585053e6105782c540901c3e93f507ad1b23a7ce175b57372c1d41",
+      "treatment_full": "收入院给予呋塞米静脉注射40 mg，每日2次（根据尿量和肾功能检查调整），并给予甲泼尼龙静脉注射1 g，每日1次，连用3天，以控制狼疮性心肌炎和肾炎活动。鉴于避孕措施不稳定且末次月经为2周前，立即进行尿/血hCG检测并进行致畸风险宣教；在妊娠状态确认前，不应仅因担心妊娠而停用吗替麦考酚酯/ACE抑制剂/他汀。若hCG阳性或高度怀疑妊娠，则停用吗替麦考酚酯、ACE抑制剂和他汀，并改用硫唑嘌呤1 mg/kg，每日1次；若hCG阴性，则仅在存在非妊娠相关指征时暂停ACE抑制剂/他汀/吗替麦考酚酯（如肾功能恶化/AKI趋势、高钾血症、低血压、感染或吗替麦考酚酯毒性），并记录触发原因。开始使用琥珀酸美托洛尔25 mg，每日1次。仅当基线K+可接受且肾功能稳定时开始螺内酯25 mg，每日1次；于48-72小时内及第7天再次复查K+/肌酐（以及任何ACEi/ARB调整时），若K+ >=5.0 mmol/L或肌酐显著升高，则暂停或减量。急性失代偿性心力衰竭且正在静脉利尿期间，暂缓启动达格列净；待容量状态恢复正常、血流动力学稳定且肾功能稳定（eGFR >=30）后可考虑开始，并密切随访肾功能和容量状态；如出现低血压、脱水或AKI则停用/暂停。继续维持羟氯喹200 mg，每日1次，酌情确保采用可靠的长效可逆避孕措施，并遵循钠摄入<2 g饮食。一周后复诊，评估体重、水肿、实验室检查并调整剂量；如出现发热、呼吸困难或尿量减少，及时就医",
+      "treatment_sha256": "a9beca005a0515fac4ccd56e00adb86457ce94d4bbe9028dfaa785703ca634e1"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:3b89ad3865d31e4645810952536e6a739afb8c64df8b552ee3e988dfc57cab85",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "幽门螺杆菌感染",
+        "特发性血小板减少性紫癜"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "幽门螺杆菌感染",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "特发性血小板减少性紫癜",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01350",
+      "per_diagnosis": [
+        {
+          "diagnosis": "幽门螺杆菌感染",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "特发性血小板减少性紫癜",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "8548ca1873b695f4d3890e8397a80e03314d642dc2e05d0302f94c2b493adaeb",
+      "treatment_full": "针对幽门螺杆菌根除治疗（考虑既往可能接触过克拉霉素），启动为期14天的铋剂四联疗法：埃索美拉唑 40 mg，每日2次 + 次水杨酸铋 524 mg，每日4次 + 四环素 500 mg，每日4次 + 甲硝唑 500 mg，每日3次。针对ITP，鉴于存在活动性胃肠道感染，开始较低剂量口服泼尼松 0.5 mg/kg，每日一次，并密切监测出血及胃肠道不良反应。辅助治疗包括口服硫酸亚铁以纠正小细胞性贫血，并严格避免所有NSAIDs；如有需要，疼痛控制可使用对乙酰氨基酚。记录支持缺铁的铁代谢评估结果：铁蛋白 8 ng/mL（低），转铁蛋白饱和度 6%（低），网织红细胞计数 1.0%（未升高），结合月经过多情况，符合缺铁表现；继续补铁治疗。实施结构化植物性饮食计划，以减少胃部刺激，并保持安全的居家环境，以尽量降低跌倒和出血风险。如出现任何明显出血征象，如瘀斑增多、黑便或月经过多且持续时间延长，应立即就诊，并安排两周后复诊，以重新评估血小板计数及幽门螺杆菌治疗反应 经验性使用甲硝唑须条件化：记录指征（幽门螺杆菌感染），并在培养药敏结果回报后立即调整；暂无药敏前不得声称敏感或耐药",
+      "treatment_sha256": "8fc05ce720acd1e51f3bc7d2ce320487cb3c0eed21d4eb968404a87e5ff90042"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:823fa18830aceaa2dde2b4588ed2562f9ed80062b4197ea894fcff5c560e2e5c",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "慢性咽炎",
+        "慢性扁桃体炎"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性咽炎",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性扁桃体炎",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01366",
+      "per_diagnosis": [
+        {
+          "diagnosis": "慢性咽炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "慢性扁桃体炎",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "881a4aa073da0ad9ce9383b3f27710f0afe5401c13a3d3394ab41b7da890608f",
+      "treatment_full": "针对当前与链球菌活动一致的慢性基础上急性加重，给予口服青霉素V治疗10天，并辅以规律生理盐水漱口和充分补液，以缓解咽部黏膜不适。针对促发因素如鼻后滴流/过敏性鼻炎，在有症状期间每日进行生理盐水鼻腔冲洗，并试用鼻用糖皮质激素，同时避免环境诱因（控制灰尘、减少过敏原暴露）。实施规范的睡眠卫生方案，以确保充分休息并减少发作诱因，同时保持温热液体摄入并避免饮食刺激物。安排两周后复诊以评估治疗反应；若症状复发，考虑在症状发作期间重复相关检查，并鉴于病情反复发作，讨论扁桃体切除术的潜在长期获益 经验性使用青霉素须条件化：记录指征（慢性咽炎；慢性扁桃体炎），并在培养药敏结果回报后立即调整；暂无药敏前不得声称敏感或耐药",
+      "treatment_sha256": "4586e0a0a052eaa3d94a922c7ef7b532e8624405bf4383acb518a95ecb3b78b9"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:111ea12e3c1c9ad7dc9fbcd8d5f004ff1a0af2f1c9cbbeaed85cf8734caa3b0e",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "室性早搏（PVCs）",
+        "心力衰竭"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "室性早搏（PVCs）",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "钙通道阻滞剂"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心力衰竭",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "钙通道阻滞剂"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01490",
+      "per_diagnosis": [
+        {
+          "diagnosis": "室性早搏（PVCs）",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "心力衰竭",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "3d5f3da40f53f6774afc64437d0629b99d8645d004137f1b03d4b62eaec4032b",
+      "treatment_full": "启动射血分数降低型心力衰竭的指南导向药物治疗：卡维地洛3.125 mg每日2次，沙库巴曲缬沙坦24/26 mg每日2次（起始剂量），计划根据耐受情况逐步上调剂量，达格列净10 mg每日1次，以及螺内酯25 mg每日1次。鉴于同时使用MRA/SGLT2i治疗且肾功能轻度受损，在开始治疗或调整剂量后应尽快复查血压、肾功能和血钾，并根据需要调整治疗。应明确处理淤血：开始使用袢利尿剂，并调整剂量至症状缓解和达到容量状态正常，同时每日晨起监测体重，并清楚告知呼吸困难/水肿加重时的返诊警示。继续2克钠饮食；液体限制应有条件地实施（例如，仅在出现低钠血症或严重/持续性淤血时考虑1.5 L/日），而非一律严格限制。QTc延长；应优化电解质，补充维持血钾>4.0 mEq/L、镁>2.0 mg/dL，并避免使用延长QT间期药物和兴奋剂。鉴于肝酶升高，不应使用胺碘酮；建议会诊心脏科/心脏电生理专科，评估导管消融，以处理较高的PVC负荷和非持续性室速。由于存在负性肌力作用及在HFrEF（LVEF 35%）中引发血流动力学恶化的风险，应避免使用非二氢吡啶类钙通道阻滞剂（维拉帕米/地尔硫卓）。安排一周后复诊，以重新评估电解质、肾功能和血压，并建议如出现急性心力衰竭失代偿症状应立即就医",
+      "treatment_sha256": "8190c4bed1fb85e43951c0b3c79ff9bfb5459222bd91e7a46f5c8c0394067e28"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:9c820e1e68f85e4430681d87440d85fbd5908604c0fa5ac90198a86f1877fbf4",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "心力衰竭",
+        "风湿性二尖瓣关闭不全"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心力衰竭",
+          "drug_interaction": "pass",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗凝",
+            "华法林"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "风湿性二尖瓣关闭不全",
+          "drug_interaction": "pass",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗凝",
+            "华法林"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01494",
+      "per_diagnosis": [
+        {
+          "diagnosis": "心力衰竭",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "风湿性二尖瓣关闭不全",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "26498d2e49c96b578c6753b898017842bcff26d716c1ad0f5fa8afe96fea00dc",
+      "treatment_full": "开始呋塞米40 mg，每日清晨口服一次，并配合摄入富含钾的食物；开始比索洛尔2.5 mg，每日口服一次，以及依那普利5 mg，每日口服两次；另加用螺内酯25 mg，每日口服一次，以促进逆向重构和控制液体潴留。鉴于在风湿性二尖瓣疾病背景下存在心悸并疑似/可能合并心房颤动，应记录卒中/出血风险：计算CHA2DS2-VASc评分并评估出血风险（如HAS-BLED），审查禁忌证（活动性重大出血、近期颅内出血、重度血小板减少），如无禁忌则针对瓣膜性房颤启动抗凝治疗。若无禁忌，开始华法林治疗，并完善基线CBC、PT/INR、肝/肾功能检查，同时进行药物/食物相互作用宣教；安排INR监测，目标INR 2.0–3.0，并根据结果调整剂量。鉴于偶尔使用沙丁胺醇，应进一步明确肺部病史（哮喘、COPD或间歇性喘鸣），并告知比索洛尔虽为β1选择性药物，但仍可能加重支气管痉挛；监测喘鸣/气短是否加重或急救吸入剂使用是否增加（如条件允许可监测峰流速），若反应性气道疾病明显或症状恶化，应改用其他心率控制策略。咯血（痰中带血丝）的鉴别诊断包括咳嗽相关刺激/支气管炎、心力衰竭所致肺水肿，以及可能性较低的感染或其他原因；如咯血持续或加重，应复查胸部X线和实验室检查（CBC及凝血功能/INR，尤其在抗凝治疗前或治疗期间），并根据需要评估感染，同时告知复诊警示症状。安排1周后进行适合轮渡出行的远程会诊，以复核症状、每日体重和电解质；鉴于重度MR、LVEF 40%及NYHA III/IV级症状，应在4周内加急转诊至瓣膜门诊，并开始苄星青霉素G 120万单位肌内注射，每4周一次，进行链球菌预防。限制饮食钠摄入至每日<2 g，乘坐轮渡时抬高双腿，并于每日清晨穿着相似衣物测量体重。如出现单夜体重增加>2 kg、端坐呼吸加重、伴头晕的心悸或持续性咯血，应立即就医",
+      "treatment_sha256": "9fef785f96279f1f3442c27e4d153f31a937bcd82c31f57a1e0611a2f2ba8878"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:f3c9c54b341e3489527baeac0916d4ff621cadb739f4d1c2573f9cc5c7d17668",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "心力衰竭",
+        "青光眼"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心力衰竭",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "青光眼",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01602",
+      "per_diagnosis": [
+        {
+          "diagnosis": "心力衰竭",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "青光眼",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "493986d0e3e53b171bb6a31dda6d03d6a14504f13398d71d51ec16f942ed85fb",
+      "treatment_full": "启动多学科治疗方案，针对心力衰竭及伴快速心室率（RVR）的心房颤动给予指南指导的药物治疗，包括使用 ACE 抑制剂和 SGLT2 抑制剂，以支持心功能并进行容量管理，同时结合肾功能监测（获取基线肌酐/eGFR 和钾，起始用药或剂量调整后 1–2 周内复查，并监测容量状态/利尿剂使用，以降低 AKI 或高钾血症风险）。鉴于既往长期使用 β 受体阻滞剂且近期因低血压调整过剂量，应避免突然停药；当血流动力学稳定时（无心源性休克且血压/灌注充分），可谨慎滴定使用适合 HFrEF/房颤控率的指南推荐 β 受体阻滞剂（如琥珀酸美托洛尔、卡维地洛或比索洛尔），并密切监测血压；若低血压或病情不稳定限制 β 受体阻滞剂使用，则在稳定后重新评估前，应采取符合 HFrEF 的替代控率/节律策略（如使用地高辛控率，和/或根据临床指征采用胺碘酮为基础的节律控制）。对于伴房角狭窄/周边前粘连疑虑的青光眼，双眼每日开始局部使用前列腺素类似物，但应按可能的慢性闭角型/混合机制青光眼处理：紧急转诊进行房角镜及闭角评估，并进入明确的房角处理路径（如根据适应证行激光周边虹膜切开术和/或晶状体相关/其他开放房角干预），而不能仅依赖滴眼液。告知患者避免使用非处方减充血药及其他可导致瞳孔散大/具抗胆碱能作用的药物，以免诱发房角关闭；若出现突发眼痛、眼红、视物有光晕、头痛、恶心/呕吐或视力迅速恶化，应立即就医。实施严格的每日 2 克钠饮食并每日监测体重，以管理液体平衡。教育患者采用泪点压迫技术，以尽量减少局部药物的全身吸收。安排 1 周后复诊，评估症状控制和治疗耐受性；如出现气短、胸痛、晕厥/低血压加重或突发视力变化，需立即联系就医；在 GDMT 滴定期间继续进行肾功能和电解质监测。需注意，即使未达到明显肾功能损害，全身性碳酸酐酶抑制剂在 CKD 3 期（eGFR 约 42）患者中也应避免使用或谨慎使用",
+      "treatment_sha256": "a214b5722223dc54f377480d03f218311cb68bb65fac284915c1eafedd6feb8d"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:32a99d88f70b5a04397d7882340dbe484578d1decc55637a97737ceed8789d60",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "克兰费尔特综合征",
+        "前列腺癌"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "克兰费尔特综合征",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "激素",
+            "他汀",
+            "他汀类"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "前列腺癌",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "激素",
+            "他汀",
+            "他汀类"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01606",
+      "per_diagnosis": [
+        {
+          "diagnosis": "克兰费尔特综合征",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "前列腺癌",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "301115f21b881c3501775c7ffdc59c8a479ad63833d3ed164abcadcab3610ef3",
+      "treatment_full": "开始使用GnRH激动剂进行雄激素剥夺治疗，如亮丙瑞林，以治疗转移性前列腺癌，并安排放射肿瘤科会诊，评估对有症状的L4及髂骨病灶实施姑息性放疗的可行性。他的排尿迟疑/尿流变弱最符合前列腺癌相关的膀胱出口梗阻（可伴或不伴良性前列腺增生，BPH）；可开始使用选择性α1受体阻滞剂，如坦索罗辛，以缓解症状，并密切监测病情进展。评估/监测尿潴留情况（例如症状加重时测定排尿后残余尿量），并告知患者如出现无法排尿、耻骨上疼痛/膨隆加重，或新发/加重的血尿，应立即就医；如出现脊髓压迫征象，如新发严重背痛、下肢无力或大小便失禁，也应继续立即就医。通过重新开始使用他汀类药物和二甲双胍来管理其代谢性合并症，并结合其手机应用程序制定结构化依从性计划。实施切实可行的生活方式方案，重点采用低升糖饮食以改善代谢健康，并安排规律的盆底肌锻炼以帮助缓解泌尿症状。应于4周后复诊，监测PSA并评估治疗反应",
+      "treatment_sha256": "153ebc851cb3b791632b45ac645f06ebf1be4b7d556c099f1c198b25fb4cb7eb"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:febfdb7d4498cf374d10b2ffd2de2acbe0be2efb952cba4d5202eb88b1440709",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "先天畸形",
+        "局灶性癫痫"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "先天畸形",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "局灶性癫痫",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01638",
+      "per_diagnosis": [
+        {
+          "diagnosis": "先天畸形",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "局灶性癫痫",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "6afd2bc3ed27795dbd2d920ecbbc60c285644b1c5009fa490227ad7a1a6c0434",
+      "treatment_full": "开始使用左乙拉西坦，并逐步调整至治疗剂量以控制癫痫发作，同时通过照护者提醒确保每日规律用药。与此同时，让她参加个体化的早期干预项目，重点进行言语治疗、作业治疗和物理治疗，以改善发育迟缓。保持高度规律的日常作息，安排可预测的进餐和睡眠时间，以减少诱发因素。安排1个月后复诊小儿神经内科，以评估癫痫发作频率和药物耐受性，并告知照护者，如出现持续超过5分钟的长时间发作或呼吸窘迫迹象，应立即返回就诊",
+      "treatment_sha256": "032f13735d707fb7a12f361b5c6456c0a7e54c9f18a037509309957f8f576f70"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:b8afc964a80f87ac86dbceb45337b8c0ce21fe3d099ea4c09eae7875b396e183",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "肝硬化",
+        "肺动静脉瘘"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肝硬化",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肺动静脉瘘",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01640",
+      "per_diagnosis": [
+        {
+          "diagnosis": "肝硬化",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肺动静脉瘘",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "fc33b036d1d352a8cc8a957707e5454002dc03a35614918a20306cf92f36aa79",
+      "treatment_full": "立即进行肺血管造影，并对血管造影发现的局灶性肺动静脉瘘实施弹簧圈栓塞，以减少导致严重低氧血症的局限性分流负担（同时注意到合并存在与肝肺综合征生理相符的弥漫性肺内血管扩张，需通过肝移植进行根治性处理）。紧急加快肝移植评估。继续居家氧疗，经鼻导管以4-5 L/min给氧，将SpO2维持在90%以上。对于腹水管理，谨慎继续使用螺内酯，并以较低且监测下的剂量使用呋塞米，根据每日体重、血压和肾功能进行调整。仅在血流动力学和肾功能保持稳定时继续使用非选择性β受体阻滞剂预防静脉曲张出血（无伴低血压的难治性腹水、无AKI、无SBP）；若收缩压下降或肌酐升高，则减量或暂停。继续使用乳果糖预防肝性脑病，严格限制钠摄入饮食，并嘱患者一旦出现意识混乱加重、出血、尿量减少，或吸氧状态下SpO2降至85%以下，应立即返院就诊",
+      "treatment_sha256": "5eee223653905fba5c548f1c730d85252a55df4b74e87ad04fcaddca4c8ecef3"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:50f1c2e8f4ebc5c1e129c6a415bf192562432a03137be72229c4870399a18849",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "先天性心脏病",
+        "咖啡牛奶斑"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "先天性心脏病",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "咖啡牛奶斑",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01676",
+      "per_diagnosis": [
+        {
+          "diagnosis": "先天性心脏病",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "咖啡牛奶斑",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "0e4fb513ea84fa44b9ab1abd2062246c4c1af6f9c5ffa890586c6881dc728efd",
+      "treatment_full": "开始采用低剂量β受体阻滞剂治疗，如普萘洛尔，以减轻左心室流出道梗阻并控制心动过速，同时继续接受心脏科密切监测。将患者转诊至小儿遗传科，进行全面的RAS病综合征管理，包括对相关并发症的监测；咖啡牛奶斑无需积极治疗，但应监测其是否出现任何变化。实施结构化活动计划，包括中等强度、非竞技性运动，并安排定时休息，以防症状加重，同时练习深呼吸技巧以管理焦虑。患者应于三个月后返回心脏科随访；如出现气短加重、胸痛、心悸或头晕，应立即就诊",
+      "treatment_sha256": "89f8d3d39530c2e1e802d29a15cf80f82a22cd1c8eecdf77e70d154757f8a1e3"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:42a5cc0ed697a8204cde8cfb7e8639d7c5b34947f2a73e501b1d0c543e51d5ce",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "哮喘",
+        "肺不张"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "哮喘",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素",
+            "支气管扩张"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肺不张",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素",
+            "支气管扩张"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01697",
+      "per_diagnosis": [
+        {
+          "diagnosis": "哮喘",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肺不张",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "d6c6e00d0d5ab68ba91e7e86fd0eabfc9e43f1302407d594dd43252d2e932ca6",
+      "treatment_full": "启动高剂量吸入性糖皮质激素-福莫特罗联合治疗以控制哮喘，并给予全身性糖皮质激素以快速减轻气道炎症，同时联合雾化支气管扩张剂治疗急性支气管痉挛。实施胸部物理治疗、体位引流及按计划使用高渗盐水进行黏液溶解雾化，以促进导致肺不张的顽固黏液栓排出。增加口服液体摄入以保证充分水化，并避免使用会抑制咳嗽和呼吸驱动的镇静药物（包括助眠类抗组胺药），以维持有效咳嗽能力和呼吸驱动。鉴于主诉低热及白细胞增多，应密切监测症状以评估是否存在并发感染；若痰液检查仅见少量细菌且无脓性表现，目前感染可能性较低，但若发热升高（如≥38.0 C）、痰液变为脓性或有恶臭，或全身症状加重，应嘱患者尽早复诊重新评估，并在有指征时考虑进一步感染性检查及针对性治疗。监测呼吸困难是否加重，并于一周后复诊评估肺复张情况及调整吸入控制药物",
+      "treatment_sha256": "fef9b224651c4b79dc4ad4b71533c795d5a42e4d47714afc4149e841b42398e8"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:540d4263b358a23139f9cea59cc30389c4a573f6b10442d176d54941e2162aac",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "多发性肌炎",
+        "系统性红斑狼疮"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "多发性肌炎",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "系统性红斑狼疮",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01703",
+      "per_diagnosis": [
+        {
+          "diagnosis": "多发性肌炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "系统性红斑狼疮",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "5daacba6fb478f9737813bb9eeaca85f44db1e144320420e6ffbbb2459857cbf",
+      "treatment_full": "开始系统性糖皮质激素治疗，使用泼尼松 0.5-1 mg/kg/日，以控制多发性肌炎和系统性红斑狼疮的急性发作。若狼疮性肾炎已被确认/分期，则启用吗替麦考酚酯作为激素减量药物；在决定进行长期针对肾炎的免疫抑制治疗前，获取尿蛋白定量（随机尿蛋白/肌酐比或24小时尿蛋白）及肾功能评估（血清肌酐/eGFR），并在有指征时考虑肾活检。因活动性系统性红斑狼疮及围手术期状态下血栓风险增加，停用含雌激素避孕药；评估是否存在抗磷脂综合征，如劳力性呼吸困难或其他症状提示则评估血栓栓塞，并讨论如含铜宫内节育器等非激素避孕方案。处方羟氯喹用于狼疮的长期控制及光敏感管理。实施严格防晒，并建议循序渐进的物理治疗方案。针对免疫抑制状态及手术伤口愈合，提供严格的感染预防宣教，并安排两周后密切随访，进行临床和实验室复评，包括监测贫血、白细胞减少和雷诺现象症状",
+      "treatment_sha256": "b62f78d2e83e88313b90d34217272fd8f81949b4c436711cdd966fb8e04063c8"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:96a38ffd9f6314495178ed0600d10ad8dfb91ab1cae9e78c7af214a90d5847c7",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "脾功能亢进",
+        "骨髓纤维化"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "脾功能亢进",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗血小板"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "骨髓纤维化",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗血小板"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01710",
+      "per_diagnosis": [
+        {
+          "diagnosis": "脾功能亢进",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "骨髓纤维化",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "74db94555f7db36b78d4d57cd46bf7a4313d3cd53b7aadc0af70de02a4fb720c",
+      "treatment_full": "基于基线PLT 62 x10^9/L及白细胞减少，启动鲁索替尼治疗，采用适用于血小板约50–100 x10^9/L的降低起始剂量（例如5 mg，每日2次），并严密监测CBC（开始用药后3–5天内复查CBC，随后前3–4周至少每周复查一次，如血细胞计数下降则调整剂量或暂停用药）。降低感染风险：在开始治疗前或开始治疗时，按照当地方案筛查潜伏性感染；宣教严格的发热警戒值及及时就诊要求（如≥38.0 C）；如症状加重或血细胞计数下降，应提前复诊，而不是等待满一周。安排输血并明确阈值：如有活动性出血（如牙龈出血/瘀点加重）或在操作前，给予血小板输注；如出现症状性贫血或血流动力学受损，给予浓缩红细胞输注。进行出血预防宣教，包括避免使用NSAIDs/抗血小板药物，并避免非必要的肌内注射；严格执行防跌倒及防出血措施。采取软食、低渣饮食，少量多餐，以缓解早饱。安排一周后密切随访，进行临床及实验室复评，包括肝功能检查；并告知如出现发热、剧烈头痛或明显出血征象，应立即就医",
+      "treatment_sha256": "786d47e4fea92a969b6455a3ef327ef796c3efff3a253c60f717f1e128b7d81f"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:fb56ac051b0a510f9c9dfd76c18cb193095a2897d47d0a50b4063f7f3570882e",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "心力衰竭",
+        "心房颤动"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心力衰竭",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "抗凝"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "心房颤动",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "利尿",
+            "抗凝"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01712",
+      "per_diagnosis": [
+        {
+          "diagnosis": "心力衰竭",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "心房颤动",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "7ab6ca7502e85e2a09d362a44f216f0f78fcbf85c5f75ad401ee3cd766be0931",
+      "treatment_full": "首先稳定急性失代偿性射血分数降低型心力衰竭（HFrEF）和伴快速心室率（RVR）的心房颤动：开始袢利尿治疗，并在启动或上调β受体阻滞剂治疗前重新评估容量状态/血流动力学（症状、体重、出入量、血压/心率及BNP趋势）。根据耐受情况开始使用沙库巴曲/缬沙坦并加用SGLT2抑制剂；仅在符合条件时加用螺内酯（基础K <5.0 mEq/L，且eGFR >30 mL/min/1.73m^2/Cr无明显升高）。在开始ARNI/MRA治疗前获取基线钾/肌酐，随后在开始治疗或调整剂量后3天至1周内复查K/Cr，并在约4周时再次复查（此后定期复查）。告知停止服用非处方利尿茶，除非医生指导，否则避免使用非处方钾或镁制品。关于β受体阻滞剂策略：仅在达到正常容量状态且临床稳定后开始/上调卡维地洛（无低血压、无明显心动过缓、无充血加重）；监测血压、心率、晕厥前兆/晕厥症状及液体潴留体征。处理明显甲状腺功能亢进（TSH 0.12，游离T4 2.2），其很可能是心房颤动的诱因并促成心力衰竭：复查甲状腺功能，包括游离/总T3，检测甲状腺抗体（如TRAb/TSI、TPO），并进行甲状腺影像学检查（超声和/或适当时行放射性碘摄取率检查），同时进行内分泌科随访。按指征开始甲状腺毒症治疗，给予抗甲状腺药物（如无禁忌可用甲巯咪唑）及症状控制，并采用与HFrEF一致的β受体阻滞剂方案（强调在临床稳定基础上进行心率控制，避免在失代偿期间激进启动）。节律/心律失常管理：若考虑使用胺碘酮进行复律/维持治疗，鉴于QTc 0.49秒及NSVT/频发PVCs，应明确降低QT延长/室性心律失常风险：纠正并监测电解质，目标为K >=4.0 mEq/L、Mg >=2.0 mg/dL；审查并尽可能停用其他可延长QT的药物，包括非处方药/补充剂；并在开始治疗期间使用遥测/住院监护；记录关于QTc/心律失常风险获益的讨论。抗凝：继续使用阿哌沙班进行治疗性抗凝，并根据已记录因素明确记录CHA2DS2-VASc评分计算（充血性心力衰竭/HFrEF = 1；女性 = 1；总分 = 2），支持因心房颤动进行抗凝治疗。生活方式/支持治疗：严格执行每日液体限制1.5-2升，完全避免饮酒和能量饮料，并坚持每晚规律使用CPAP。1周后复诊复评；如气短加重、晕厥或出现卒中征象，应立即就诊",
+      "treatment_sha256": "9bf6fb527531083978359718c201b0efa6f35cc1f91e16da0410a650289ab0d9"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:cf3cb71560ab18bab24e466da9cc8d84b71fe1e927508135172c86e8f07db2c0",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "冷球蛋白血症",
+        "系统性红斑狼疮"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "冷球蛋白血症",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗病毒"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "系统性红斑狼疮",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗病毒"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01722",
+      "per_diagnosis": [
+        {
+          "diagnosis": "冷球蛋白血症",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "系统性红斑狼疮",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "0ce29cb2fb28e4ee6c44d8e18a6b3d833c2226ddb58f5739b20026eb261d651d",
+      "treatment_full": "我们的首要目标是迅速诱导您的狼疮和冷球蛋白血症性血管炎缓解，以保护肾脏，起始方案为大剂量口服泼尼松联合吗替麦考酚酯。由于慢性丙型肝炎可驱动冷球蛋白血症，我们还将评估您当前的丙型肝炎活动情况（包括HCV病毒载量及相关肝脏评估），并与肝病科/感染科协同制定适当的抗病毒治疗方案，同时继续肾脏/血管炎的诱导治疗策略。鉴于您的血细胞计数偏低，我们将在治疗期间密切监测全血细胞计数，动态观察各系细胞减少，以区分是疾病活动还是药物或HCV相关影响，并向您说明感染风险防护措施（如出现发热、寒战、新发咳嗽或其他感染征象，应及时就医）。为控制高血压并进一步保护肾脏，我们将把您当前的用药调整为规律每日使用赖诺普利。您必须严格避免受寒，并认真做好防晒，使用防晒霜和防护性衣物。立即停止所有NSAIDs；对于关节痛，我们将采用对肾脏更安全的非NSAID方案（例如在推荐剂量内使用对乙酰氨基酚，以及其他适当的非NSAID措施）。我们将安排您两周后复诊，以监测症状、血压、血细胞计数和肾功能；如出现尿量突然减少、呼吸困难、严重头痛、神经系统改变或感染征象，应立即就医",
+      "treatment_sha256": "3ac11ec177ced79f592bf46df163353d38b6504406fbbbdd621a4a3d5747549f"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:f2bf0840a21d1dd124e554ee99be99b7b9cba85178066ea93df2b8a17f572b30",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "子宫复旧不全",
+        "缺铁性贫血"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "子宫复旧不全",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "缺铁性贫血",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01767",
+      "per_diagnosis": [
+        {
+          "diagnosis": "子宫复旧不全",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "缺铁性贫血",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "c4d586287578eb69fe387861439bef7e92e303d286b1987b47598366b8c1d327",
+      "treatment_full": "最佳治疗方案包括行子宫清宫以去除疑似残留妊娠组织，并给予催产素以促进子宫收缩，同时联合广谱静脉抗生素疗程，针对厌氧菌治疗疑似产后子宫内膜炎。鉴于 PT/INR 轻度升高，在清宫前应通过复查凝血参数并评估可逆性因素来重新评估出血风险。如需紧急清宫，应根据机构规范在必要时先行纠正后再进行。对于产后低水平 hCG 阳性（38 mIU/mL），如临床需要，应在清宫后和/或随访时检测并动态监测定量 hCG。对于明显的缺铁性贫血，应开始治疗性口服铁剂补充，并联合抗坏血酸以增强吸收，同时确保严格依从。继续治疗出血/感染病灶，并纳入升级处理标准：若口服摄入差，或口服铁剂不耐受/无效，可考虑静脉补铁；若血流动力学不稳定、存在持续明显出血，或出现严重/持续性心肺症状，应评估是否需要输血。建议采用高蛋白饮食，纳入扁豆、菠菜等纯素高铁食物，并在可耐受情况下开始轻度盆底肌锻炼及每日短时间步行，以帮助子宫复旧。1 周后复诊，复查血常规、盆腔情况并重新评估症状；如出现发热、大量出血或头晕加重，应立即就诊",
+      "treatment_sha256": "b1db53796274b436a3630bb5160cee8c2d592d1b4c4834cb167885c8d777ee8e"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:b6b67a29151b86127af0272d96596fa3838953b3826e6c8901f6fbee589e91c2",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "桥本甲状腺炎",
+        "系统性红斑狼疮"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "桥本甲状腺炎",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素",
+            "抗凝"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "系统性红斑狼疮",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素",
+            "抗凝"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01812",
+      "per_diagnosis": [
+        {
+          "diagnosis": "桥本甲状腺炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "系统性红斑狼疮",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "d4a2db925ebf8c38e0c4496ede05a518f58c46ef6ae1355c1f96222d1dcdc912",
+      "treatment_full": "开始使用羟氯喹控制系统性红斑狼疮，并使用左甲状腺素治疗甲状腺功能减退。根据蛋白尿/血尿提示疑似狼疮性肾炎：在明确诱导治疗强度前，先完成肾活检结果解读；在病理结果待回报期间，开始使用ACE抑制剂以保护肾脏并管理蛋白尿，同时仅以最低有效剂量使用泼尼松，并在肾活检分型及活动性-慢性化指数回报后重新评估。若活检证实为增生性狼疮性肾炎（III/IV类 +/- V类）且存在活动性病变，则按指南采用吗替麦考酚酯联合糖皮质激素进行诱导治疗；若为II类或孤立V类且蛋白尿未达肾病水平，则避免不必要的高强度免疫抑制，并据此个体化调整治疗。吗替麦考酚酯/糖皮质激素治疗期间的细胞减少安全性：先获取基线CBC及分类计数，随后前4周每周监测CBC一次，接下来的4周每2周一次，此后在调整剂量/诱导治疗期间每月监测。可考虑以较低剂量开始吗替麦考酚酯，并根据血细胞计数耐受情况逐步加量。若WBC <3.0 x10^9/L、ANC <1.5 x10^9/L、血小板 <100 x10^9/L，或出现明显下降趋势，应暂停/减量吗替麦考酚酯；若ANC <1.0 x10^9/L或血小板 <50 x10^9/L，应停药并紧急评估。告知患者感染风险（发热、咽痛、泌尿道/呼吸道症状）及需及时就诊评估；若使用大剂量激素和/或联合诱导治疗，应根据最终方案和风险特征考虑给予肺孢子菌肺炎预防。尽管甲减生化指标明显但仍有体重下降的解释：体重下降很可能与活动性全身炎症及疾病发作期间摄入减少有关；在治疗基础疾病并支持热量/蛋白质摄入的同时，进行营养评估，并筛查继发原因（CMP、ESR/CRP趋势、必要时粪便/隐血检查，以及复核符合年龄的恶性肿瘤筛查项目）。激素替代治疗（HRT）：评估血栓病史和危险因素；获取/确认抗磷脂抗体评估（狼疮抗凝物、抗心磷脂抗体、抗β2糖蛋白I抗体），若结果阳性或血栓风险升高，则重新评估HRT。鉴于目前症状控制良好，暂继续当前HRT，但计划在完成血栓风险评估后再次评估；若风险超过获益，则考虑减量或停用。继续严格防晒、保持均衡营养以稳定体重，并补充维生素D。监测血压、肾功能、尿液分析/蛋白尿及甲状腺功能。2周后复诊，复查CBC及分类计数、CMP、尿液分析加蛋白定量，以及TFTs，以评估治疗反应，并根据肾活检结果和实验室检查调整治疗",
+      "treatment_sha256": "164522bb27748f7f68c3234d3fd4987174163a5591f5e79df9f1e97fd194e463"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:fc7b0cba009211c4fe447c12ab2cc37ed92baf663c8b97a886cdfcd70805620b",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "哮喘",
+        "慢性蝶窦炎"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "哮喘",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性蝶窦炎",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "抗生素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01824",
+      "per_diagnosis": [
+        {
+          "diagnosis": "哮喘",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "慢性蝶窦炎",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "4cc5f553aaeb61e2a945be9b2e108e2e8659620f865faa4181270f2fd8f47655",
+      "treatment_full": "开始联合气道管理：使用氟替卡松/沙美特罗 250/50 mcg，每次 1 吸、每日 2 次以控制哮喘；同时使用糠酸莫米松鼻喷雾剂，每侧鼻孔每日 2 喷以治疗慢性鼻窦炎。加用孟鲁司特 10 mg，每晚一次，以同时针对上下气道炎症及嗜酸性粒细胞参与，并辅以每日鼻腔生理盐水冲洗。将蝶窦病变按慢性蝶窦炎处理，目前无系统性感染征象；安排耳鼻喉科随访，并考虑行鼻内镜检查及培养；如黏脓性引流持续/加重或出现发热/全身中毒表现，则开始抗生素治疗或依据培养结果进行针对性治疗。严格戒烟并避免二手烟暴露。针对夜间反流/微误吸症状，优化 GERD 管理：开始规律抑酸治疗（如每日使用 PPI），避免临睡前进食（睡前 3 小时内禁食），并继续抬高床头。鉴于既往急性发作时动脉血气提示低氧血症，提供升级就医标准：若呼吸困难加重、无法说完整句子、发绀、胸痛、意识混乱，或家庭/门诊氧饱和度 <92%（或任何持续性低氧血症），应立即前往急诊/急救就医；并于 2–4 周后复诊重新评估",
+      "treatment_sha256": "aed381089817e922a92c97d322fe0df2c9c1df3948ab0c0cac6b7170d0fbe7e6"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:07a238e5f85bf2ab399275abca70323c5377cb8e18e78ebaa8b0d7ef983cd45c",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "获得性免疫缺陷综合征（AIDS）",
+        "进行性多灶性白质脑病"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "获得性免疫缺陷综合征（AIDS）",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "降压",
+            "他汀",
+            "他汀类"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "进行性多灶性白质脑病",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "降压",
+            "他汀",
+            "他汀类"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01871",
+      "per_diagnosis": [
+        {
+          "diagnosis": "获得性免疫缺陷综合征（AIDS）",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "进行性多灶性白质脑病",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "7673852b78b2933af3c5f7f5f0bcfe91d04629fa977956874e3811867d53fe83",
+      "treatment_full": "根据耐药谱启动优化的抗逆转录病毒治疗方案，例如以整合酶链转移抑制剂为基础的联合方案，以快速抑制HIV复制并促进免疫重建。提供强化的物理治疗、作业治疗和言语治疗，以改善左侧无力、协调障碍及认知-语言功能损害。严格坚持其有益心脏健康的饮食，确保每晚持续使用CPAP以管理睡眠呼吸暂停，并继续服用处方的降压药和他汀类药物。鉴于晚期HIV/AIDS和PML控制不佳，与感染病科/风湿免疫科协作暂停甲氨蝶呤，并在监督下将泼尼松逐步减量至可行的最低剂量（同时平衡自身免疫性疾病控制），并密切监测IRIS。安排两周后复诊神经内科和感染病科，以监测临床改善情况及免疫重建炎症综合征的迹象",
+      "treatment_sha256": "a457d07572d79c49bbe270076ef89a91f0f3bd6cf6a7c029025871e933d6ec8f"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:1996866a017f498c10bdcfcfe24e94a731744104facd0b8d98458ade85f37e73",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "外斜视",
+        "开角型青光眼"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "外斜视",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "开角型青光眼",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01889",
+      "per_diagnosis": [
+        {
+          "diagnosis": "外斜视",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "开角型青光眼",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "12d8be5674036d06e08319b0b22512f71b84ef21d89bef17188b429d4ee5c2c1",
+      "treatment_full": "开始对左眼使用前列腺素类似物降低眼压，并仅在记录完成心肺筛查后才考虑加用局部β受体阻滞剂（哮喘/COPD/喘鸣病史、基线脉搏和血压，以及心动过缓/房室传导阻滞/晕厥病史）；如存在任何禁忌证或筛查结果不确定，则改用其他替代/加用药物（如局部碳酸酐酶抑制剂或α受体激动剂）而非β受体阻滞剂。继续佩戴棱镜眼镜以控制有症状的外斜视，并提供即时的功能性双眼视支持。短期内（如 2 周）复查眼压及视神经/视功能，以判断药物治疗是否达到低于 18 mmHg 的目标。若眼压仍高于目标值或进展风险高，则计划行青光眼手术，同时明确考虑既往控压手术及术后粘连/瘢痕情况（重复滤过手术失败风险更高）：可考虑联合抗代谢药修订/针拨既往滤过部位，或视情况进行引流管分流手术，而不是不加甄别地直接行新的小梁切除术。待眼压稳定后，且如进行了青光眼手术，则待术后愈合完成后，再安排针对性的斜视手术（如左眼外直肌后徙术）以处理持续存在的外斜视。优先戒烟，并实施减压措施，以减轻加重眼压波动的因素。如出现突发视力丧失、严重眼痛或眼位偏斜明显加重，应立即就诊",
+      "treatment_sha256": "88055802e4a65206ea0177fbacfe0078cdfe1eb4cf266da5042cd226054a9121"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:a874a08aecba503078a42412cbdea1301f881261bd52983b922013708a171187",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "睑黄瘤",
+        "肥胖症"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "睑黄瘤",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "他汀"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肥胖症",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "他汀"
+          ],
+          "treatment_target": "fail"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01892",
+      "per_diagnosis": [
+        {
+          "diagnosis": "睑黄瘤",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肥胖症",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "c736447b1645f88a5c0ad4b90b39e1ac60469c49abd601fd3df16663f2fc7f47",
+      "treatment_full": "开始每日服用阿托伐他汀 20 mg，并启动结构化生活方式干预计划，将地中海式饮食、限制饱和脂肪摄入以及每周至少 150 分钟中等强度有氧运动相结合。鉴于有糖尿病前期病史且空腹血糖升高，应进行宣教，减少精制碳水化合物/含糖饮料摄入，增加膳食纤维，并以在 3-6 个月内减重 5-10% 为目标；在 8 周随访时复查空腹血糖并检测 HbA1c（如有症状则更早复查），若血糖进一步恶化，则升级预防策略（例如 HbA1c 处于糖尿病前期范围且具有高危特征，如 BMI >=35、年龄 <60 或有妊娠期糖尿病史），包括根据指南标准考虑使用二甲双胍。我们将转诊您至皮肤科评估睑黄瘤，手术切除或三氯乙酸外用是明确治疗方案。由于已知脂肪肝背景下基线肝酶升高，应建议限制/避免饮酒及其他肝毒性物质；开始使用他汀后 6-12 周复查肝功能，如升高持续或加重，应评估其他病因。如出现黄疸、严重右上腹痛、尿色加深、瘙痒，或酶明显升高（例如 >3 倍正常上限），应暂停他汀并尽快就诊评估；同时继续监测肌痛或乏力。务必参加结构化团体体重管理课程，以学习可持续的饮食策略，并监测新药可能引起的任何肌肉疼痛或胃肠道不适。8 周后回诊随访，重新评估您的血脂检测组合、肝酶、体重变化及血糖指标（FBG/HbA1c）",
+      "treatment_sha256": "79d5b39548421b0a86394fe5c52100d53de8ac3ea05ceb5701af97d4bbd68a39"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:2f29acfe29ee3a4eda0a82c5eef0dcc73549cbcd2a0fc0113555197502aee55a",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "慢性鼻炎",
+        "腺样体肥大"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性鼻炎",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "fail"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "腺样体肥大",
+          "drug_interaction": "fail",
+          "monitoring": "pass",
+          "named_drugs": [
+            "糖皮质激素",
+            "激素"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01942",
+      "per_diagnosis": [
+        {
+          "diagnosis": "慢性鼻炎",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "腺样体肥大",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "ed743d97d35df1253365db437fe865999f642479b8bb9b4675d931dd28d7880f",
+      "treatment_full": "开始每日使用鼻用糖皮质激素喷雾治疗，如糠酸莫米松，同时规律进行生理盐水鼻腔冲洗，以减轻黏膜炎症并清除分泌物。鉴于存在明显腺样体肥大及咽鼓管功能障碍证据，腺样体切除术是下一步的根治性治疗。由于成人腺样体肥大较不典型，切除组织将送常规组织病理学检查。你应优先保证持续充足的水分摄入，并安排规律的高蛋白饮食。请在两周内预约耳鼻咽喉科医生复诊，以安排手术干预并监测睡眠呼吸暂停或听力下降是否加重",
+      "treatment_sha256": "11cf166e74e198f48aa1efe85f17dcd14e212ae1e902f228cb51a7274ffb2ca2"
+    },
+    {
+      "case_memory_provenance": {
+        "evaluation_hash": "sha256:874b470339f1be50e1e9559e0146b74ae622e88fe048b4aff7594645cfc99638",
+        "source": "train_evaluation"
+      },
+      "diagnoses": [
+        "慢性阻塞性肺疾病",
+        "肺放线菌病"
+      ],
+      "five_dimension": [
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "慢性阻塞性肺疾病",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "支气管扩张"
+          ],
+          "treatment_target": "pass"
+        },
+        {
+          "acute_sequence": "pass",
+          "contraindication": "pass",
+          "contraindication_hits": [],
+          "diagnosis": "肺放线菌病",
+          "drug_interaction": "not_proven",
+          "monitoring": "pass",
+          "named_drugs": [
+            "支气管扩张"
+          ],
+          "treatment_target": "pass"
+        }
+      ],
+      "patient_id": "Patient_Comorbid-01944",
+      "per_diagnosis": [
+        {
+          "diagnosis": "慢性阻塞性肺疾病",
+          "issue_codes": [],
+          "passed": true
+        },
+        {
+          "diagnosis": "肺放线菌病",
+          "issue_codes": [],
+          "passed": true
+        }
+      ],
+      "registry_hash": "321233583d6287a2f02d3114b6ba41cf053d32654b3841b1eb9781a890be3ae7",
+      "treatment_full": "针对肺放线菌病，开始高剂量静脉注射头孢曲松 2g，每日一次，疗程2-4周；鉴于已有青霉素过敏记录，随后改为口服多西环素 100mg、每日两次的长期疗程，使总治疗时长达到6-12个月。优化其长期氧疗以维持SpO2 >90%，并继续其吸入支气管扩张剂方案（长效毒蕈碱受体拮抗剂和长效β受体激动剂）以管理慢性阻塞性肺疾病。使用质子泵抑制剂处理胃食管反流病，并与风湿科协作管理其免疫抑制治疗。提供高蛋白补充剂进行营养支持，并强化细致的口腔卫生，以降低误吸风险。安排一周后随访，以评估临床反应和耐受性，并密切监测肝功能检查",
+      "treatment_sha256": "1d33d1c0da6237141c8465452559e20ef0c48223278b2ceac2c5e6351c7e0bd7"
+    }
+  ],
+  "schema_version": "dual-diagnosis-fixpoint/v2",
+  "summary_sha256": "541e22df72220f37baf207018752f126aad97a95e4342429a8050efe2ffc4bd7"
+}
