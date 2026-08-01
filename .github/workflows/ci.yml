@@ -40,6 +40,22 @@ jobs:
       - name: Compile runtime sources
         run: python -m compileall -q agent offline scripts
 
+      - name: Normalize pinned text assets
+        run: |
+          git config core.autocrlf false
+          python - <<'PY'
+          from pathlib import Path
+
+          for pattern in ("*.json", "*.py"):
+              for path in Path(".").rglob(pattern):
+                  if ".git" in path.parts:
+                      continue
+                  raw = path.read_bytes()
+                  normalized = raw.replace(b"\\r\\n", b"\\n").replace(b"\\r", b"\\n")
+                  if normalized != raw:
+                      path.write_bytes(normalized)
+          PY
+
       - name: Run strict startup self-check
         run: python scripts/startup_selfcheck.py --pointer releases/current.json --expect-assets 9972
 
