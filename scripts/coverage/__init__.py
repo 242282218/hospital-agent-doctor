@@ -1,0 +1,1 @@
+"""Offline coverage snapshot tooling."""
