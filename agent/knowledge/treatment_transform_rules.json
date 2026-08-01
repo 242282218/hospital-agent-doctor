@@ -1,0 +1,446 @@
+{
+  "schema_version": "compiled-knowledge-rules/v2",
+  "rules": [
+    {
+      "rule_id": "sanitize_prophylactic_antibiotic_recommendations",
+      "candidate_type": "treatment_gate_rule",
+      "candidate_hash": "0000000000000000000000000000000000000000000000000000000000000021",
+      "effect_hash": "0000000000000000000000000000000000000000000000000000000000000022",
+      "triggers": [
+        "预防性抗生素推荐"
+      ],
+      "required_evidence": [
+        "无明确感染依据"
+      ],
+      "exclusions": [
+        "活动性感染"
+      ],
+      "effect": {
+        "remove_treatment_codes": [
+          "prophylactic_antibiotic"
+        ],
+        "preserve_treatment_codes": [
+          "supportive_care"
+        ],
+        "gate_policy": "require_infection_evidence"
+      },
+      "positive_controls": [
+        {
+          "control_id": "sanitize_prophylactic_antibiotic_positive_1",
+          "kind": "positive",
+          "facts": [
+            "预防性使用抗生素"
+          ],
+          "assertions": [
+            "prophylactic antibiotic is removed"
+          ]
+        },
+        {
+          "control_id": "sanitize_prophylactic_antibiotic_positive_2",
+          "kind": "positive",
+          "facts": [
+            "常规预防性头孢克洛"
+          ],
+          "assertions": [
+            "prophylactic antibiotic is removed"
+          ]
+        }
+      ],
+      "negative_controls": [
+        {
+          "control_id": "sanitize_prophylactic_antibiotic_neighbor_1",
+          "kind": "near_neighbor",
+          "facts": [
+            "治疗性抗生素使用"
+          ],
+          "assertions": [
+            "therapeutic antibiotic is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_prophylactic_antibiotic_neighbor_2",
+          "kind": "near_neighbor",
+          "facts": [
+            "支持治疗"
+          ],
+          "assertions": [
+            "unrelated treatment is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_prophylactic_antibiotic_exception_1",
+          "kind": "reasonable_exception",
+          "facts": [
+            "活动性感染，预防性抗生素"
+          ],
+          "assertions": [
+            "active infection preserves antibiotic"
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "path": "agent/legacy_orchestrator.py",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000023"
+        }
+      ],
+      "test_refs": [
+        {
+          "path": "tests/mechanism/test_typed_treatment_transform_p3.py",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000024"
+        }
+      ],
+      "priority": 10,
+      "scope": {
+        "phase": "treatment",
+        "application": "trigger_bound"
+      },
+      "runtime": {
+        "status": "active",
+        "stage": "treatment",
+        "opcode": "transform_treatment_codes",
+        "parameters": {
+          "remove_codes": [
+            "prophylactic_antibiotic"
+          ],
+          "replace_codes": [],
+          "append_codes": [
+            "prophylactic_antibiotic_removed"
+          ]
+        }
+      }
+    },
+    {
+      "rule_id": "sanitize_unindicated_aspirin_discontinuation",
+      "candidate_type": "treatment_gate_rule",
+      "candidate_hash": "0000000000000000000000000000000000000000000000000000000000000025",
+      "effect_hash": "0000000000000000000000000000000000000000000000000000000000000026",
+      "triggers": [
+        "无指征停用阿司匹林"
+      ],
+      "required_evidence": [
+        "卒中二级预防 Context",
+        "无活动性出血"
+      ],
+      "exclusions": [
+        "活动性出血"
+      ],
+      "effect": {
+        "remove_treatment_codes": [
+          "aspirin_discontinuation"
+        ],
+        "preserve_treatment_codes": [
+          "aspirin_continuation"
+        ],
+        "gate_policy": "require_infection_evidence"
+      },
+      "positive_controls": [
+        {
+          "control_id": "sanitize_unindicated_aspirin_positive_1",
+          "kind": "positive",
+          "facts": [
+            "建议停用阿司匹林"
+          ],
+          "assertions": [
+            "aspirin discontinuation is removed"
+          ]
+        },
+        {
+          "control_id": "sanitize_unindicated_aspirin_positive_2",
+          "kind": "positive",
+          "facts": [
+            "将阿司匹林停掉"
+          ],
+          "assertions": [
+            "aspirin discontinuation is removed"
+          ]
+        }
+      ],
+      "negative_controls": [
+        {
+          "control_id": "sanitize_unindicated_aspirin_neighbor_1",
+          "kind": "near_neighbor",
+          "facts": [
+            "继续阿司匹林"
+          ],
+          "assertions": [
+            "aspirin continuation is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_unindicated_aspirin_neighbor_2",
+          "kind": "near_neighbor",
+          "facts": [
+            "氯吡格雷替代"
+          ],
+          "assertions": [
+            "alternative antiplatelet is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_unindicated_aspirin_exception_1",
+          "kind": "reasonable_exception",
+          "facts": [
+            "活动性出血，停用阿司匹林"
+          ],
+          "assertions": [
+            "active bleed preserves discontinuation"
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "path": "agent/legacy_orchestrator.py",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000027"
+        }
+      ],
+      "test_refs": [
+        {
+          "path": "tests/mechanism/test_typed_treatment_transform_p3.py",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000028"
+        }
+      ],
+      "priority": 20,
+      "scope": {
+        "phase": "treatment",
+        "application": "trigger_bound"
+      },
+      "runtime": {
+        "status": "active",
+        "stage": "treatment",
+        "opcode": "transform_treatment_codes",
+        "parameters": {
+          "remove_codes": [
+            "aspirin_discontinuation"
+          ],
+          "replace_codes": [],
+          "append_codes": [
+            "aspirin_continuation_preserved"
+          ]
+        }
+      }
+    },
+    {
+      "rule_id": "sanitize_pbmv_before_thrombus_exclusion",
+      "candidate_type": "treatment_gate_rule",
+      "candidate_hash": "0000000000000000000000000000000000000000000000000000000000000029",
+      "effect_hash": "000000000000000000000000000000000000000000000000000000000000002a",
+      "triggers": [
+        "PBMV术前未排除血栓"
+      ],
+      "required_evidence": [
+        "二尖瓣狭窄",
+        "未排除血栓"
+      ],
+      "exclusions": [
+        "已排除血栓"
+      ],
+      "effect": {
+        "remove_treatment_codes": [
+          "pbmv_procedure"
+        ],
+        "preserve_treatment_codes": [
+          "supportive_care"
+        ],
+        "gate_policy": "require_infection_evidence"
+      },
+      "positive_controls": [
+        {
+          "control_id": "sanitize_pbmv_positive_1",
+          "kind": "positive",
+          "facts": [
+            "尽快行经皮球囊二尖瓣成形术"
+          ],
+          "assertions": [
+            "PBMV without thrombus exclusion is removed"
+          ]
+        },
+        {
+          "control_id": "sanitize_pbmv_positive_2",
+          "kind": "positive",
+          "facts": [
+            "PBMV治疗"
+          ],
+          "assertions": [
+            "PBMV is removed"
+          ]
+        }
+      ],
+      "negative_controls": [
+        {
+          "control_id": "sanitize_pbmv_neighbor_1",
+          "kind": "near_neighbor",
+          "facts": [
+            "食道超声排除血栓后行PBMV"
+          ],
+          "assertions": [
+            "PBMV after thrombus exclusion is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_pbmv_neighbor_2",
+          "kind": "near_neighbor",
+          "facts": [
+            "药物治疗二尖瓣狭窄"
+          ],
+          "assertions": [
+            "medical therapy is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_pbmv_exception_1",
+          "kind": "reasonable_exception",
+          "facts": [
+            "左房血栓，PBMV"
+          ],
+          "assertions": [
+            "thrombus present blocks PBMV"
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "path": "agent/legacy_orchestrator.py",
+          "sha256": "000000000000000000000000000000000000000000000000000000000000002b"
+        }
+      ],
+      "test_refs": [
+        {
+          "path": "tests/mechanism/test_typed_treatment_transform_p3.py",
+          "sha256": "000000000000000000000000000000000000000000000000000000000000002c"
+        }
+      ],
+      "priority": 30,
+      "scope": {
+        "phase": "treatment",
+        "application": "trigger_bound"
+      },
+      "runtime": {
+        "status": "active",
+        "stage": "treatment",
+        "opcode": "transform_treatment_codes",
+        "parameters": {
+          "remove_codes": [
+            "pbmv_procedure"
+          ],
+          "replace_codes": [],
+          "append_codes": [
+            "pbmv_deferred_until_thrombus_excluded"
+          ]
+        }
+      }
+    },
+    {
+      "rule_id": "sanitize_tricyclic_continuation",
+      "candidate_type": "treatment_gate_rule",
+      "candidate_hash": "000000000000000000000000000000000000000000000000000000000000002d",
+      "effect_hash": "000000000000000000000000000000000000000000000000000000000000002e",
+      "triggers": [
+        "三环类抗抑郁药继续服用"
+      ],
+      "required_evidence": [
+        "QT延长",
+        "三环类过量"
+      ],
+      "exclusions": [
+        "无QT延长"
+      ],
+      "effect": {
+        "remove_treatment_codes": [
+          "tricyclic_continuation"
+        ],
+        "preserve_treatment_codes": [
+          "supportive_care"
+        ],
+        "gate_policy": "require_toxicity_evidence"
+      },
+      "positive_controls": [
+        {
+          "control_id": "sanitize_tricyclic_positive_1",
+          "kind": "positive",
+          "facts": [
+            "继续服用阿米替林"
+          ],
+          "assertions": [
+            "tricyclic continuation is removed"
+          ]
+        },
+        {
+          "control_id": "sanitize_tricyclic_positive_2",
+          "kind": "positive",
+          "facts": [
+            "三环类抗抑郁药维持"
+          ],
+          "assertions": [
+            "tricyclic continuation is removed"
+          ]
+        }
+      ],
+      "negative_controls": [
+        {
+          "control_id": "sanitize_tricyclic_neighbor_1",
+          "kind": "near_neighbor",
+          "facts": [
+            "停用三环类"
+          ],
+          "assertions": [
+            "tricyclic discontinuation is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_tricyclic_neighbor_2",
+          "kind": "near_neighbor",
+          "facts": [
+            "SSRI继续服用"
+          ],
+          "assertions": [
+            "non-tricyclic is preserved"
+          ]
+        },
+        {
+          "control_id": "sanitize_tricyclic_exception_1",
+          "kind": "reasonable_exception",
+          "facts": [
+            "继续三环类，但无QT延长"
+          ],
+          "assertions": [
+            "no QT prolongation preserves continuation"
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "path": "agent/legacy_orchestrator.py",
+          "sha256": "000000000000000000000000000000000000000000000000000000000000002f"
+        }
+      ],
+      "test_refs": [
+        {
+          "path": "tests/mechanism/test_typed_treatment_transform_p3.py",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000030"
+        }
+      ],
+      "priority": 40,
+      "scope": {
+        "phase": "treatment",
+        "application": "trigger_bound"
+      },
+      "runtime": {
+        "status": "active",
+        "stage": "treatment",
+        "opcode": "transform_treatment_codes",
+        "parameters": {
+          "remove_codes": [
+            "tricyclic_continuation"
+          ],
+          "replace_codes": [],
+          "append_codes": [
+            "tricyclic_tapered_under_supervision"
+          ]
+        }
+      }
+    }
+  ],
+  "rule_count": 4,
+  "rules_hash": "2aec303ead77a32bdb09074c21d017951d961196e5e8bbeb5e9c9d6e070e8864"
+}

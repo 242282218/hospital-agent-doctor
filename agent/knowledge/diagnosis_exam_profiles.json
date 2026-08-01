@@ -1,0 +1,78 @@
+{
+  "rules": [
+    {
+      "id": "exam_profile_eczema_herpeticum_high_risk",
+      "status": "verified",
+      "source": "clinical_topic:eczema_herpeticum_high_risk_infection",
+      "rationale": "Eczema background, fever, vesicular rash, and immunosuppression point to viral confirmation and secondary infection assessment.",
+      "diagnoses": ["卡波西水痘样疹"],
+      "evidence": ["湿疹/特应性皮炎", "发热/高热", "疱疹/水泡/水疱"],
+      "exam_intents": [
+        "评估全身状态和关键体征",
+        "评估感染严重度和血液炎症反应",
+        "确认病毒病原",
+        "寻找皮损细胞学证据",
+        "判断是否合并继发细菌感染并指导抗生素"
+      ]
+    },
+    {
+      "id": "exam_profile_sle_multisystem_autoimmune",
+      "status": "verified",
+      "source": "clinical_topic:sle_multisystem_axis",
+      "rationale": "Photosensitive rash, inflammatory joint symptoms, mucosal or hair findings, and renal risk point to autoimmune activity and organ-involvement assessment.",
+      "diagnoses": ["系统性红斑狼疮"],
+      "evidence": ["红斑", "关节"],
+      "exam_intents": [
+        "评估血细胞减少或炎症背景",
+        "评估肾脏受累和尿异常",
+        "评估免疫活动度",
+        "自身免疫筛查或确证",
+        "评估血栓和妊娠风险",
+        "评估心脏受累",
+        "明确狼疮性肾炎病理分型"
+      ]
+    },
+    {
+      "id": "exam_profile_acute_bacterial_prostatitis",
+      "status": "verified",
+      "source": "clinical_topic:acute_bacterial_prostatitis_axis",
+      "rationale": "Fever or chills with urinary irritation and retention or perineal symptoms point to acute prostatitis, requiring severity, pathogen, susceptibility, and complication assessment.",
+      "diagnoses": ["急性细菌性前列腺炎"],
+      "evidence": ["尿痛", "排尿困难"],
+      "exam_intents": [
+        "评估前列腺压痛和急性炎症体征",
+        "评估感染严重度",
+        "评估尿路感染证据",
+        "鉴定尿路致病菌",
+        "指导抗菌药物选择",
+        "排查脓肿、尿潴留或复杂情况"
+      ]
+    },
+    {
+      "id": "exam_profile_thiamine_deficiency_cardiac_neuropathy_axis",
+      "status": "verified",
+      "source": "clinical_topic:thiamine_deficiency_axis",
+      "rationale": "Nutrition or lactation risk with distal neuropathic symptoms and heart-failure-like signs points to thiamine deficiency assessment and cardiac severity evaluation.",
+      "diagnoses": ["脚气病"],
+      "evidence": ["哺乳|营养|饮酒|低镁", "火烧|发麻|麻木", "水肿|心慌|胸闷|气短|端坐"],
+      "exam_intents": [
+        "评估硫胺素或维生素B1状态",
+        "评估镁缺乏",
+        "评估心脏功能和心衰严重度"
+      ]
+    },
+    {
+      "id": "exam_profile_osteopetrosis_genetic_marrow_axis",
+      "status": "verified",
+      "source": "clinical_topic:osteopetrosis_axis",
+      "rationale": "Family osteosclerosis, low-energy fractures, growth delay, and marrow-risk signs point to genetic bone disease and marrow involvement assessment.",
+      "diagnoses": ["大理石骨病"],
+      "evidence": ["骨硬化症|大理石|近亲|家族", "骨折|骨痛|腿疼", "生长|身高|苍白|贫血|肚子鼓"],
+      "exam_intents": [
+        "评估遗传性骨病基因变异",
+        "评估骨髓受累或骨髓功能",
+        "评估血细胞减少或炎症背景"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "rules": [
+    {
+      "id": "treatment_safety_severe_hsv_immunosuppressed",
+      "status": "verified",
+      "source": "clinical_topic:eczema_herpeticum_high_risk_infection",
+      "rationale": "High fever, herpetic lesions, and systemic steroid exposure suggest high-risk HSV infection requiring inpatient IV therapy and medication adjustment.",
+      "risk_factors": ["高热", "疱疹样皮损", "全身激素"],
+      "treatment_goals": ["住院", "静脉阿昔洛韦", "静脉抗生素", "调整免疫抑制"],
+      "patch_templates": {
+        "hospitalization": "存在免疫抑制和全身症状，应立即住院或急诊/专科监测。",
+        "iv_acyclovir": "应优先使用静脉阿昔洛韦抗病毒治疗。",
+        "iv_antibiotic": "疑似继发细菌感染时应给予静脉抗生素覆盖，并根据培养结果调整。",
+        "immunosuppression": "应与开方医生协作，在急性感染期暂停或调整全身糖皮质激素/免疫抑制药物。"
+      }
+    }
+  ]
+}

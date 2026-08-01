@@ -1,0 +1,204 @@
+{
+  "rules": [
+    {
+      "id": "diagnosis_alias_eczema_herpeticum",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "English and common clinical names should normalize to the official disease name.",
+      "input": [
+        "Kaposi varicelliform eruption",
+        "eczema herpeticum",
+        "疱疹性湿疹"
+      ],
+      "output": "卡波西水痘样疹"
+    },
+    {
+      "id": "diagnosis_alias_sle",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Common abbreviation and English name should normalize to the official disease name.",
+      "input": [
+        "SLE",
+        "systemic lupus erythematosus",
+        "系统性红斑狼疮（SLE）"
+      ],
+      "output": "系统性红斑狼疮"
+    },
+    {
+      "id": "diagnosis_alias_osteopetrosis",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Osteopetrosis and common Chinese clinical expressions should normalize to the official catalog name.",
+      "input": [
+        "骨硬化症",
+        "osteopetrosis",
+        "石骨症",
+        "大理石骨病（Osteopetrosis）"
+      ],
+      "output": "大理石骨病"
+    },
+    {
+      "id": "diagnosis_alias_beriberi_thiamine_deficiency",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Thiamine and vitamin B1 deficiency expressions should normalize to the official catalog name.",
+      "input": [
+        "维生素B1缺乏",
+        "维生素 B1 缺乏",
+        "硫胺素缺乏",
+        "thiamine deficiency",
+        "湿性脚气病",
+        "干性脚气病",
+        "Wernicke脑病"
+      ],
+      "output": "脚气病"
+    },
+    {
+      "id": "diagnosis_alias_acute_leukemia_broad_fallback",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Acute leukemia expressions should conservatively fall back to the official broad leukemia name when the catalog lacks the stated subtype.",
+      "input": [
+        "急性白血病",
+        "急性髓系白血病",
+        "acute leukemia",
+        "acute myeloid leukemia"
+      ],
+      "output": "白血病"
+    },
+    {
+      "id": "diagnosis_alias_suppurative_otitis_media",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Acute and chronic suppurative otitis expressions should normalize to the official broad suppurative otitis name.",
+      "input": [
+        "急性化脓性中耳炎",
+        "慢性化脓性中耳炎",
+        "慢性化脓性中耳炎急性发作"
+      ],
+      "output": "化脓性中耳炎"
+    },
+    {
+      "id": "diagnosis_alias_legionella_pneumonia",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Legionella pneumonia is the pulmonary presentation of the official Legionnaires' disease catalog entry.",
+      "input": [
+        "军团菌肺炎",
+        "Legionella pneumonia"
+      ],
+      "output": "军团菌病"
+    },
+    {
+      "id": "diagnosis_alias_lateral_ankle_ligament_injury",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Common lateral ankle ligament injury expressions should normalize to the official ankle sprain name.",
+      "input": [
+        "踝关节外侧副韧带损伤",
+        "踝外侧韧带损伤",
+        "距腓前韧带损伤"
+      ],
+      "output": "踝关节扭伤"
+    },
+    {
+      "id": "diagnosis_alias_inherited_retinal_dystrophy",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Retinitis pigmentosa is represented by the official broader inherited retinal dystrophy catalog name.",
+      "input": [
+        "视网膜色素变性",
+        "色素性视网膜炎",
+        "retinitis pigmentosa"
+      ],
+      "output": "遗传性视网膜营养不良"
+    },
+    {
+      "id": "diagnosis_alias_vibrio_parahaemolyticus_food_poisoning",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Vibrio parahaemolyticus enteritis expressions should normalize to the official food-poisoning catalog name.",
+      "input": [
+        "副溶血性弧菌肠炎"
+      ],
+      "output": "副溶血性弧菌食物中毒"
+    },
+    {
+      "id": "diagnosis_alias_bronchogenic_lung_cancer",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Common bronchogenic carcinoma expressions should normalize to the official broad lung cancer catalog name.",
+      "input": [
+        "支气管肺癌",
+        "原发性支气管肺癌"
+      ],
+      "output": "肺癌"
+    },
+    {
+      "id": "diagnosis_alias_recurrent_herpes_labialis",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Recurrent herpes labialis expressions should normalize to the official herpes simplex virus infection catalog name.",
+      "input": [
+        "复发性单纯疱疹",
+        "复发性唇疱疹",
+        "唇疱疹",
+        "herpes labialis"
+      ],
+      "output": "单纯疱疹病毒感染"
+    },
+    {
+      "id": "diagnosis_alias_hfref_heart_failure",
+      "status": "verified",
+      "source": "offline_regression:20260722_hfref_axis",
+      "rationale": "HFrEF and acute decompensated chronic heart failure are official heart-failure expressions, not separate unrelated diseases.",
+      "input": [
+        "HFrEF",
+        "射血分数降低型心力衰竭",
+        "射血分数降低型心衰",
+        "慢性心力衰竭",
+        "慢性心衰",
+        "急性失代偿性心力衰竭",
+        "慢性心力衰竭急性加重"
+      ],
+      "output": "心力衰竭"
+    },
+    {
+      "id": "diagnosis_alias_anal_polyp",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Rectal-polyp wording from a distal anorectal examination maps to the official anal-polyp catalog entry.",
+      "input": [
+        "直肠息肉",
+        "肛管息肉"
+      ],
+      "output": "肛门息肉"
+    },
+    {
+      "id": "diagnosis_alias_pml",
+      "status": "verified",
+      "source": "offline_regression:20260722_pml_axis",
+      "rationale": "PML and its shortened Chinese expression are exact clinical aliases of the official catalog name.",
+      "input": [
+        "PML",
+        "进行性多灶白质脑病",
+        "progressive multifocal leukoencephalopathy"
+      ],
+      "output": "进行性多灶性白质脑病"
+    },
+    {
+      "id": "diagnosis_alias_pjp",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "Common Pneumocystis expressions normalize to the official catalog name without bypassing evidence gates.",
+      "input": [
+        "PJP",
+        "PCP",
+        "肺孢子菌肺炎",
+        "肺囊虫肺炎",
+        "Pneumocystis jirovecii pneumonia"
+      ],
+      "output": "耶氏肺孢子菌肺炎（PJP）"
+    }
+  ]
+}

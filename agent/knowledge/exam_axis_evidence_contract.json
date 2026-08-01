@@ -1,0 +1,22 @@
+{
+  "schema_version": "exam-axis-evidence-contract/v1",
+  "findings": [
+    {
+      "finding_code": "controlled_respiratory_finding_against_ocular_axis",
+      "target_system_id": "respiratory",
+      "polarities": [
+        "present"
+      ],
+      "contradictions": [
+        {
+          "axis_id": "pediatric_congenital_glaucoma",
+          "axis_system_id": "ocular"
+        },
+        {
+          "axis_id": "pediatric_leukocoria_retinoblastoma_until_excluded",
+          "axis_system_id": "ocular"
+        }
+      ]
+    }
+  ]
+}

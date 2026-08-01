@@ -1,0 +1,290 @@
+{
+  "schema_version": "diagnosis-axis-remaining-migration/v1",
+  "count": 40,
+  "rules": [
+    {
+      "rule_id": "arrhythmia_electrolyte_precipitant_axis",
+      "helper": "has_palpitation_arrhythmia_pattern",
+      "fact_code": "palpitation_arrhythmia_pattern",
+      "excluded_codes": [
+        "active_upper_gi_bleed_pattern"
+      ],
+      "axis_id": "arrhythmia_electrolyte_precipitant"
+    },
+    {
+      "rule_id": "elbow_overuse_enthesopathy_axis",
+      "helper": "has_elbow_overuse_pattern",
+      "fact_code": "elbow_overuse_pattern",
+      "excluded_codes": [
+        "systemic_infection_or_inflammation_pattern"
+      ],
+      "axis_id": "elbow_overuse_enthesopathy"
+    },
+    {
+      "rule_id": "hypersplenism_vs_primary_marrow_axis",
+      "helper": "has_hepato_splenic_cytopenia_pattern",
+      "fact_code": "hepato_splenic_cytopenia_pattern",
+      "excluded_codes": [],
+      "axis_id": "hypersplenism_vs_primary_marrow"
+    },
+    {
+      "rule_id": "pulmonary_renal_vasculitis_vs_infection_axis",
+      "helper": "has_pulmonary_renal_vasculitis_pattern",
+      "fact_code": "pulmonary_renal_vasculitis_pattern",
+      "excluded_codes": [],
+      "axis_id": "pulmonary_renal_vasculitis_vs_infection"
+    },
+    {
+      "rule_id": "multi_electrolyte_hypomagnesemia_axis",
+      "helper": "has_symptomatic_hypokalemia_malabsorption_pattern",
+      "fact_code": "symptomatic_hypokalemia_malabsorption_pattern",
+      "excluded_codes": [],
+      "axis_id": "multi_electrolyte_hypomagnesemia"
+    },
+    {
+      "rule_id": "symptomatic_urinary_infection_vs_stone_axis",
+      "helper": "has_urinary_stone_infection_differential_pattern",
+      "fact_code": "urinary_stone_infection_differential_pattern",
+      "excluded_codes": [],
+      "axis_id": "symptomatic_urinary_infection_vs_stone"
+    },
+    {
+      "rule_id": "systemic_infection_vs_primary_hematologic_axis",
+      "helper": "has_systemic_infection_hematologic_axis_pattern",
+      "fact_code": "systemic_infection_hematologic_axis_pattern",
+      "excluded_codes": [],
+      "axis_id": "systemic_infection_vs_primary_hematologic"
+    },
+    {
+      "rule_id": "focal_ear_pain_conductive_loss_axis",
+      "helper": "has_focal_ear_conductive_axis_pattern",
+      "fact_code": "focal_ear_conductive_axis_pattern",
+      "excluded_codes": [],
+      "axis_id": "focal_ear_pain_conductive_loss"
+    },
+    {
+      "rule_id": "cryoglobulinemia_secondary_cause_axis",
+      "helper": "has_cryoglobulinemia_secondary_axis_pattern",
+      "fact_code": "cryoglobulinemia_secondary_axis_pattern",
+      "excluded_codes": [],
+      "axis_id": "cryoglobulinemia_secondary_cause"
+    },
+    {
+      "rule_id": "postmenopausal_urogenital_irritation_vs_infection_axis",
+      "helper": "has_postmenopausal_urogenital_irritation_pattern",
+      "fact_code": "postmenopausal_urogenital_irritation_pattern",
+      "excluded_codes": [],
+      "axis_id": "postmenopausal_urogenital_irritation_vs_infection"
+    },
+    {
+      "rule_id": "chronic_alcohol_liver_injury_axis",
+      "helper": "has_chronic_alcohol_liver_injury_pattern",
+      "fact_code": "chronic_alcohol_liver_injury_pattern",
+      "excluded_codes": [],
+      "axis_id": "chronic_alcohol_liver_injury"
+    },
+    {
+      "rule_id": "pleuritic_pain_infection_embolism_effusion_axis",
+      "helper": "has_pleuritic_pain_infection_embolism_pattern",
+      "fact_code": "pleuritic_pain_infection_embolism_pattern",
+      "excluded_codes": [],
+      "axis_id": "pleuritic_pain_infection_embolism_effusion"
+    },
+    {
+      "rule_id": "febrile_polyuria_dehydration_hyperglycemic_crisis_axis",
+      "helper": "has_febrile_polyuria_dehydration_pattern",
+      "fact_code": "febrile_polyuria_dehydration_pattern",
+      "excluded_codes": [],
+      "axis_id": "febrile_polyuria_dehydration_hyperglycemic_crisis"
+    },
+    {
+      "rule_id": "postop_chylothorax_or_pleural_effusion_axis",
+      "helper": "has_postop_chylothorax_or_pleural_effusion_pattern",
+      "fact_code": "postop_chylothorax_or_pleural_effusion_pattern",
+      "excluded_codes": [],
+      "axis_id": "postop_chylothorax_or_pleural_effusion"
+    },
+    {
+      "rule_id": "immunosuppressed_progressive_lower_respiratory_infection_axis",
+      "helper": "has_immunosuppressed_progressive_respiratory_pattern",
+      "fact_code": "immunosuppressed_progressive_respiratory_pattern",
+      "excluded_codes": [],
+      "axis_id": "immunosuppressed_progressive_lower_respiratory_infection"
+    },
+    {
+      "rule_id": "seizure_with_intracranial_calcifications_axis",
+      "helper": "has_seizure_intracranial_calcification_pattern",
+      "fact_code": "seizure_intracranial_calcification_pattern",
+      "excluded_codes": [],
+      "axis_id": "seizure_with_intracranial_calcifications"
+    },
+    {
+      "rule_id": "acute_pressure_headache_intracranial_calcification_axis",
+      "helper": "has_acute_pressure_headache_intracranial_calcification_pattern",
+      "fact_code": "acute_pressure_headache_intracranial_calcification_pattern",
+      "excluded_codes": [],
+      "axis_id": "acute_pressure_headache_intracranial_calcification"
+    },
+    {
+      "rule_id": "decompensated_cirrhosis_etiology_and_hcc_risk_axis",
+      "helper": "has_decompensated_cirrhosis_pattern",
+      "fact_code": "decompensated_cirrhosis_pattern",
+      "excluded_codes": [],
+      "axis_id": "decompensated_cirrhosis_etiology_and_hcc_risk"
+    },
+    {
+      "rule_id": "developmental_genetic_epilepsy_axis",
+      "helper": "has_developmental_genetic_epilepsy_pattern",
+      "fact_code": "developmental_genetic_epilepsy_pattern",
+      "excluded_codes": [],
+      "axis_id": "developmental_genetic_epilepsy"
+    },
+    {
+      "rule_id": "post_spinal_surgery_positional_duodenal_obstruction_axis",
+      "helper": "has_post_spinal_surgery_positional_bilious_vomiting_pattern",
+      "fact_code": "post_spinal_surgery_positional_bilious_vomiting_pattern",
+      "excluded_codes": [],
+      "axis_id": "post_spinal_surgery_positional_duodenal_obstruction"
+    },
+    {
+      "rule_id": "renovascular_hypertension_with_target_organ_risk_axis",
+      "helper": "has_renovascular_hypertension_pattern",
+      "fact_code": "renovascular_hypertension_pattern",
+      "excluded_codes": [],
+      "axis_id": "renovascular_hypertension_with_target_organ_risk"
+    },
+    {
+      "rule_id": "pedunculated_anal_lesion_with_hematochezia_axis",
+      "helper": "has_anal_polyp_pattern",
+      "fact_code": "anal_polyp_pattern",
+      "excluded_codes": [],
+      "axis_id": "pedunculated_anal_lesion_with_hematochezia"
+    },
+    {
+      "rule_id": "rheumatoid_arthritis_with_ocular_involvement_axis",
+      "helper": "has_rheumatoid_arthritis_ocular_pattern",
+      "fact_code": "rheumatoid_arthritis_ocular_pattern",
+      "excluded_codes": [],
+      "axis_id": "rheumatoid_arthritis_with_ocular_involvement"
+    },
+    {
+      "rule_id": "pediatric_leukocoria_retinoblastoma_until_excluded_axis",
+      "helper": "has_pediatric_leukocoria_red_flag_pattern",
+      "fact_code": "pediatric_leukocoria_red_flag_pattern",
+      "excluded_codes": [],
+      "axis_id": "pediatric_leukocoria_retinoblastoma_until_excluded"
+    },
+    {
+      "rule_id": "heart_failure_decompensation_axis",
+      "helper": "has_acute_decompensated_heart_failure_pattern",
+      "fact_code": "acute_decompensated_heart_failure_pattern",
+      "excluded_codes": [],
+      "axis_id": "heart_failure_decompensation"
+    },
+    {
+      "rule_id": "acute_pharyngitis_in_diabetic_child_axis",
+      "helper": "has_acute_pharyngitis_in_diabetic_child_pattern",
+      "fact_code": "acute_pharyngitis_in_diabetic_child_pattern",
+      "excluded_codes": [],
+      "axis_id": "acute_pharyngitis_in_diabetic_child"
+    },
+    {
+      "rule_id": "immunosuppressed_subacute_multifocal_white_matter_disease_axis",
+      "helper": "has_pml_imaging_pattern",
+      "fact_code": "pml_imaging_pattern",
+      "excluded_codes": [],
+      "axis_id": "immunosuppressed_subacute_multifocal_white_matter_disease"
+    },
+    {
+      "rule_id": "pediatric_deep_pharyngeal_airway_danger_axis",
+      "helper": "has_pediatric_upper_airway_danger_pattern",
+      "fact_code": "pediatric_upper_airway_danger_pattern",
+      "excluded_codes": [],
+      "axis_id": "pediatric_deep_pharyngeal_airway_danger"
+    },
+    {
+      "rule_id": "suspected_asthma_control_issue_axis",
+      "helper": "has_suspected_asthma_control_pattern",
+      "fact_code": "suspected_asthma_control_pattern",
+      "excluded_codes": [],
+      "axis_id": "suspected_asthma_control_issue"
+    },
+    {
+      "rule_id": "hypothalamic_pituitary_axis_dysfunction_axis",
+      "helper": "has_hypothalamic_pituitary_amenorrhea_pattern",
+      "fact_code": "hypothalamic_pituitary_amenorrhea_pattern",
+      "excluded_codes": [],
+      "axis_id": "hypothalamic_pituitary_axis_dysfunction"
+    },
+    {
+      "rule_id": "neck_mass_b_symptoms_axis",
+      "helper": "has_neck_mass_b_symptoms_pattern",
+      "fact_code": "neck_mass_b_symptoms_pattern",
+      "excluded_codes": [],
+      "axis_id": "neck_mass_b_symptoms"
+    },
+    {
+      "rule_id": "cholestatic_liver_disease_axis",
+      "helper": "has_cholestatic_liver_disease_pattern",
+      "fact_code": "cholestatic_liver_disease_pattern",
+      "excluded_codes": [],
+      "axis_id": "cholestatic_liver_disease"
+    },
+    {
+      "rule_id": "congenital_infection_differential_axis",
+      "helper": "has_congenital_infection_pattern",
+      "fact_code": "congenital_infection_pattern",
+      "excluded_codes": [],
+      "axis_id": "congenital_infection_differential"
+    },
+    {
+      "rule_id": "leptospirosis_exposure_systemic_infection_axis",
+      "helper": "has_leptospirosis_exposure_pattern",
+      "fact_code": "leptospirosis_exposure_pattern",
+      "excluded_codes": [],
+      "axis_id": "leptospirosis_exposure_systemic_infection"
+    },
+    {
+      "rule_id": "diuretic_induced_symptomatic_hypokalemia_axis",
+      "helper": "has_diuretic_hypokalemia_pattern",
+      "fact_code": "diuretic_hypokalemia_pattern",
+      "excluded_codes": [],
+      "axis_id": "diuretic_induced_symptomatic_hypokalemia"
+    },
+    {
+      "rule_id": "acute_chest_wall_trauma_axis",
+      "helper": "has_chest_wall_trauma_pattern",
+      "fact_code": "chest_wall_trauma_pattern",
+      "excluded_codes": [],
+      "axis_id": "acute_chest_wall_trauma"
+    },
+    {
+      "rule_id": "cyanosis_oxidant_dyshemoglobinemia_axis",
+      "helper": "has_methemoglobin_risk_pattern",
+      "fact_code": "methemoglobin_risk_pattern",
+      "excluded_codes": [],
+      "axis_id": "cyanosis_oxidant_dyshemoglobinemia"
+    },
+    {
+      "rule_id": "pediatric_airway_esophageal_compression_axis",
+      "helper": "has_pediatric_airway_compression_pattern",
+      "fact_code": "pediatric_airway_compression_pattern",
+      "excluded_codes": [],
+      "axis_id": "pediatric_airway_esophageal_compression"
+    },
+    {
+      "rule_id": "symptomatic_anemia_chronic_blood_loss_axis",
+      "helper": "has_symptomatic_anemia_loss_pattern",
+      "fact_code": "symptomatic_anemia_loss_pattern",
+      "excluded_codes": [],
+      "axis_id": "symptomatic_anemia_chronic_blood_loss"
+    },
+    {
+      "rule_id": "pediatric_progressive_night_blindness_axis",
+      "helper": "has_pediatric_progressive_night_blindness_pattern",
+      "fact_code": "pediatric_progressive_night_blindness_pattern",
+      "excluded_codes": [],
+      "axis_id": "pediatric_progressive_night_blindness"
+    }
+  ]
+}

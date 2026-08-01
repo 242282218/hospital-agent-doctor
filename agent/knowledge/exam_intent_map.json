@@ -1,0 +1,1674 @@
+{
+  "rules": [
+    {
+      "id": "exam_intent_congenital_infection_pathogen",
+      "status": "verified",
+      "source": "offline_regression:congenital_infection_differential",
+      "rationale": "Congenital viral exposure with neonatal multisystem findings requires pathogen-specific congenital infection testing.",
+      "input": [
+        "先天性感染病原评估"
+      ],
+      "output": [
+        "巨细胞病毒（CMV）抗体检测",
+        "风疹抗体检测"
+      ]
+    },
+    {
+      "id": "exam_intent_congenital_infection_organ_involvement",
+      "status": "verified",
+      "source": "offline_regression:congenital_infection_differential",
+      "rationale": "Congenital infection requires blood and organ involvement assessment rather than symptom-only closure.",
+      "input": [
+        "先天性感染器官受累评估"
+      ],
+      "output": [
+        "全血细胞计数（CBC）",
+        "听力测定"
+      ]
+    },
+    {
+      "id": "exam_intent_physical_status",
+      "status": "verified",
+      "source": "clinical_topic:eczema_herpeticum_high_risk_infection",
+      "rationale": "Systemic symptoms and skin findings require objective physical assessment.",
+      "input": [
+        "评估全身状态",
+        "关键体征",
+        "皮肤体征",
+        "体征"
+      ],
+      "output": [
+        "体格检查"
+      ]
+    },
+    {
+      "id": "exam_intent_inflammation_blood",
+      "status": "verified",
+      "source": "clinical_topic:eczema_herpeticum_high_risk_infection",
+      "rationale": "Fever and suspected infection require blood inflammation and cell count assessment.",
+      "input": [
+        "感染严重度",
+        "血液炎症反应",
+        "全身炎症反应",
+        "血细胞减少",
+        "血细胞数量与严重度评估"
+      ],
+      "output": [
+        "全血细胞计数（CBC）"
+      ]
+    },
+    {
+      "id": "exam_intent_confirm_viral_pathogen",
+      "status": "verified",
+      "source": "clinical_topic:eczema_herpeticum_high_risk_infection",
+      "rationale": "Herpetic lesions require viral pathogen confirmation.",
+      "input": [
+        "确认病毒病原",
+        "HSV",
+        "疱疹病毒",
+        "病毒病原"
+      ],
+      "output": [
+        "病毒核酸检测（Viral NAT）"
+      ]
+    },
+    {
+      "id": "exam_intent_skin_cytology",
+      "status": "verified",
+      "source": "clinical_topic:eczema_herpeticum_high_risk_infection",
+      "rationale": "Vesicular skin lesions may need cytologic evidence.",
+      "input": [
+        "皮损细胞学",
+        "细胞学证据",
+        "细胞学"
+      ],
+      "output": [
+        "细胞学检查"
+      ]
+    },
+    {
+      "id": "exam_intent_secondary_bacterial_infection",
+      "status": "verified",
+      "source": "clinical_topic:eczema_herpeticum_high_risk_infection",
+      "rationale": "Pustules or crusted lesions may indicate secondary bacterial infection.",
+      "input": [
+        "继发细菌感染",
+        "指导抗生素",
+        "细菌感染",
+        "培养"
+      ],
+      "output": [
+        "细菌培养及鉴定"
+      ]
+    },
+    {
+      "id": "exam_intent_renal_urine_abnormality",
+      "status": "verified",
+      "source": "clinical_topic:sle_multisystem_axis",
+      "rationale": "Suspected lupus kidney involvement requires urine abnormality screening.",
+      "input": [
+        "肾脏受累",
+        "尿异常",
+        "尿蛋白",
+        "尿路感染证据"
+      ],
+      "output": [
+        "尿液分析（UA）"
+      ]
+    },
+    {
+      "id": "exam_intent_complement_activity",
+      "status": "verified",
+      "source": "clinical_topic:sle_multisystem_axis",
+      "rationale": "Complement levels help assess autoimmune activity.",
+      "input": [
+        "免疫活动度",
+        "补体"
+      ],
+      "output": [
+        "补体成分分析"
+      ]
+    },
+    {
+      "id": "exam_intent_autoimmune_confirmation",
+      "status": "verified",
+      "source": "clinical_topic:sle_multisystem_axis",
+      "rationale": "SLE suspicion requires ANA spectrum confirmation.",
+      "input": [
+        "自身免疫筛查",
+        "自身免疫确证",
+        "ANA",
+        "抗核抗体"
+      ],
+      "output": [
+        "抗核抗体（ANA）谱"
+      ]
+    },
+    {
+      "id": "exam_intent_antiphospholipid_risk",
+      "status": "verified",
+      "source": "clinical_topic:sle_multisystem_axis",
+      "rationale": "SLE/APS/pregnancy thrombosis risk needs APA; bare thrombosis must not open APA on soft-tissue DVT differentials.",
+      "input": [
+        "抗磷脂",
+        "APS",
+        "抗磷脂综合征",
+        "妊娠风险",
+        "SLE血栓",
+        "狼疮血栓",
+        "血栓和妊娠"
+      ],
+      "output": [
+        "抗磷脂抗体（APA）组合检测"
+      ]
+    },
+    {
+      "id": "exam_intent_cardiac_involvement",
+      "status": "verified",
+      "source": "clinical_topic:sle_multisystem_axis",
+      "rationale": "Multisystem autoimmune disease may require cardiac involvement screening when clinically relevant.",
+      "input": [
+        "心脏受累",
+        "心包",
+        "心肌"
+      ],
+      "output": [
+        "超声心动图"
+      ]
+    },
+    {
+      "id": "exam_intent_lupus_nephritis_pathology",
+      "status": "verified",
+      "source": "clinical_topic:sle_multisystem_axis",
+      "rationale": "Possible lupus nephritis may require renal biopsy for classification.",
+      "input": [
+        "狼疮性肾炎病理",
+        "肾炎病理",
+        "病理分型"
+      ],
+      "output": [
+        "肾活检"
+      ]
+    },
+    {
+      "id": "exam_intent_prostate_tenderness",
+      "status": "verified",
+      "source": "clinical_topic:acute_bacterial_prostatitis_axis",
+      "rationale": "Acute prostatitis assessment requires careful prostate tenderness evaluation.",
+      "input": [
+        "前列腺压痛",
+        "急性炎症体征"
+      ],
+      "output": [
+        "直肠指检（DRE）"
+      ]
+    },
+    {
+      "id": "exam_intent_urine_pathogen_identification",
+      "status": "verified",
+      "source": "clinical_topic:acute_bacterial_prostatitis_axis",
+      "rationale": "Suspected bacterial urinary source requires pathogen identification.",
+      "input": [
+        "鉴定尿路致病菌",
+        "尿路致病菌",
+        "泌尿系致病菌",
+        "尿培养",
+        "尿液培养",
+        "尿液病原"
+      ],
+      "output": [
+        "尿培养"
+      ]
+    },
+    {
+      "id": "exam_intent_deep_wound_bone_involvement",
+      "status": "verified",
+      "source": "offline_regression:deep_wound_bone_involvement",
+      "rationale": "Deep purulent wounds with systemic symptoms require severity assessment and direct imaging of possible bone involvement.",
+      "input": [
+        "感染严重程度及是否累及骨骼",
+        "感染严重度和骨受累",
+        "是否累及骨骼",
+        "骨受累评估"
+      ],
+      "output": [
+        {
+          "name": "四肢X线检查",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "extremity_xray",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "全血细胞计数（CBC）",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "cbc",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "C反应蛋白（CRP）",
+          "stage": "first_line",
+          "priority": 80,
+          "semantic_key": "crp",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_nasal_mucosal_assessment",
+      "status": "verified",
+      "source": "offline_regression:persistent_upper_airway_mucosa",
+      "rationale": "Persistent nasal obstruction and upper-airway symptoms require direct assessment of nasal mucosa and secretions.",
+      "input": [
+        "评估鼻腔及鼻窦黏膜炎症情况",
+        "鼻腔黏膜评估",
+        "鼻窦黏膜评估"
+      ],
+      "output": [
+        "鼻内镜检查"
+      ]
+    },
+    {
+      "id": "exam_intent_antibiotic_susceptibility",
+      "status": "verified",
+      "source": "clinical_topic:acute_bacterial_prostatitis_axis",
+      "rationale": "Bacterial prostatitis therapy should be guided by susceptibility testing.",
+      "input": [
+        "抗菌药物选择",
+        "药物敏感",
+        "药敏"
+      ],
+      "output": [
+        "抗菌药物敏感性试验（AST）"
+      ]
+    },
+    {
+      "id": "exam_intent_prostate_complications",
+      "status": "verified",
+      "source": "clinical_topic:acute_bacterial_prostatitis_axis",
+      "rationale": "Prostatitis retention/abscess risk needs prostate US; bare abscess must not fire on airway or soft-tissue intents.",
+      "input": [
+        "前列腺脓肿",
+        "前列腺炎",
+        "会阴痛",
+        "会阴部",
+        "尿潴留",
+        "排查脓肿",
+        "前列腺复杂"
+      ],
+      "output": [
+        "前列腺超声"
+      ]
+    },
+    {
+      "id": "exam_intent_lower_extremity_soft_tissue_severity",
+      "status": "verified",
+      "source": "offline_regression:exam_offaxis_soft_tissue_apa_20260723",
+      "rationale": "Acute leg soft-tissue infection needs CBC/CRP severity and soft-tissue imaging; DVT wording must not divert to APA.",
+      "input": [
+        "下肢软组织感染严重度评估",
+        "软组织感染",
+        "蜂窝织炎",
+        "深静脉血栓鉴别",
+        "鉴别深静脉血栓",
+        "下肢软组织"
+      ],
+      "output": [
+        {
+          "name": "全血细胞计数（CBC）",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "cbc",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "C反应蛋白（CRP）",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "crp",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "软组织超声",
+          "stage": "first_line",
+          "priority": 80,
+          "semantic_key": "soft_tissue_us",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "四肢血管超声",
+          "stage": "add_on",
+          "priority": 60,
+          "semantic_key": "extremity_vascular_us"
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_thiamine_status",
+      "status": "verified",
+      "source": "clinical_topic:thiamine_deficiency_axis",
+      "rationale": "Suspected beriberi or thiamine deficiency requires direct thiamine status assessment.",
+      "input": [
+        "硫胺素",
+        "维生素B1"
+      ],
+      "output": [
+        "24小时尿硫胺素检测",
+        "硫胺素负荷试验"
+      ]
+    },
+    {
+      "id": "exam_intent_magnesium_deficiency",
+      "status": "verified",
+      "source": "clinical_topic:thiamine_deficiency_axis",
+      "rationale": "Possible thiamine deficiency may be accompanied by magnesium deficiency.",
+      "input": [
+        "镁缺乏",
+        "低镁"
+      ],
+      "output": [
+        "镁负荷试验"
+      ]
+    },
+    {
+      "id": "exam_intent_cardiac_function_failure",
+      "status": "verified",
+      "source": "clinical_topic:thiamine_deficiency_axis",
+      "rationale": "Edema, dyspnea, orthopnea, and palpitations require cardiac function assessment.",
+      "input": [
+        "心脏功能",
+        "心衰",
+        "心功能",
+        "心脏结构与功能",
+        "心脏结构和功能",
+        "超声心动图",
+        "射血分数",
+        "左室收缩功能",
+        "左室收缩力"
+      ],
+      "output": [
+        "超声心动图"
+      ]
+    },
+    {
+      "id": "exam_intent_genetic_bone_disease",
+      "status": "verified",
+      "source": "clinical_topic:osteopetrosis_axis",
+      "rationale": "Familial bone sclerosis or osteopetrosis suspicion requires genetic evaluation.",
+      "input": [
+        "遗传性骨病",
+        "基因变异"
+      ],
+      "output": [
+        "基因检测"
+      ]
+    },
+    {
+      "id": "exam_intent_marrow_involvement",
+      "status": "verified",
+      "source": "clinical_topic:osteopetrosis_axis",
+      "rationale": "Pallor, abdominal distension, and suspected marrow involvement require marrow assessment.",
+      "input": [
+        "骨髓受累",
+        "骨髓功能"
+      ],
+      "output": [
+        "骨髓穿刺和活检（BMAB）"
+      ]
+    },
+    {
+      "id": "exam_intent_local_bleeding_skin_lesion",
+      "status": "verified",
+      "source": "offline_regression:sixth_round_axis",
+      "rationale": "A localized moist bleeding skin or umbilical mass requires local lesion assessment and possible pathology.",
+      "input": [
+        "局部皮肤病变评估",
+        "出血病变病理评估"
+      ],
+      "output": [
+        "皮肤检查",
+        "皮肤活检"
+      ]
+    },
+    {
+      "id": "exam_intent_corneal_infection_axis",
+      "status": "verified",
+      "source": "offline_regression:sixth_round_axis",
+      "rationale": "Corneal infection signs require corneal assessment and pathogen testing.",
+      "input": [
+        "角膜感染评估",
+        "眼部病原培养"
+      ],
+      "output": [
+        "角膜检查",
+        "角膜刮片分析",
+        "眼部分泌物培养"
+      ]
+    },
+    {
+      "id": "exam_intent_skin_mucosal_reaction",
+      "status": "verified",
+      "source": "offline_regression:sixth_round_axis",
+      "rationale": "Targetoid rash or blistering with eye disease requires skin and mucosal severity assessment.",
+      "input": [
+        "皮肤黏膜反应评估"
+      ],
+      "output": [
+        "皮肤检查"
+      ]
+    },
+    {
+      "id": "exam_intent_pregnancy_status",
+      "status": "verified",
+      "source": "offline_regression:sixth_round_axis",
+      "rationale": "Reproductive-age medication planning requires pregnancy status confirmation.",
+      "input": [
+        "妊娠状态确认",
+        "妊娠状态"
+      ],
+      "output": [
+        "尿hCG妊娠试验",
+        "妊娠试验（hCG）"
+      ]
+    },
+    {
+      "id": "exam_intent_epistaxis_coagulation",
+      "status": "verified",
+      "source": "offline_regression:sixth_round_axis",
+      "rationale": "Recurrent epistaxis requires coagulation and basic blood assessment.",
+      "input": [
+        "凝血功能",
+        "血液学筛查"
+      ],
+      "output": [
+        "凝血功能全套",
+        "全血细胞计数（CBC）"
+      ]
+    },
+    {
+      "id": "exam_intent_post_traumatic_neuro_vestibular_cognitive",
+      "status": "verified",
+      "source": "offline_regression:post_traumatic_brain_injury_axis",
+      "rationale": "Post-traumatic headache with cognitive or vestibular symptoms requires neurologic, vestibular, and cognitive assessment.",
+      "input": [
+        "神经系统体征评估",
+        "前庭功能评估",
+        "认知功能评估"
+      ],
+      "output": [
+        "神经系统检查",
+        "前庭功能检查",
+        "神经心理评估"
+      ]
+    },
+    {
+      "id": "exam_intent_infant_congenital_heart_structure",
+      "status": "verified",
+      "source": "offline_regression:infant_congenital_heart_axis",
+      "rationale": "Infant respiratory distress, feeding difficulty, cyanosis, and pulmonary hypertension signs require congenital heart structure and hemodynamic assessment.",
+      "input": [
+        "心脏结构和血流动力学评估",
+        "明确是否存在先天性心脏结构异常及血流动力学改变",
+        "明确先天性心脏病类型及血流动力学影响",
+        "评估心功能状态及是否存在左向右分流或右向左分流"
+      ],
+      "output": [
+        "超声心动图"
+      ]
+    },
+    {
+      "id": "exam_intent_upper_arm_long_bone_imaging",
+      "status": "verified",
+      "source": "offline_regression:eighth_round_anatomy_coverage",
+      "rationale": "Acute upper-arm trauma with pain, swelling, and dysfunction requires long-bone imaging that covers the humeral shaft, not neighbor-joint films alone.",
+      "input": [
+        "上臂长骨骨折影像",
+        "损伤段骨性成像"
+      ],
+      "output": [
+        "四肢X线检查"
+      ]
+    },
+    {
+      "id": "exam_intent_chest_wall_trauma",
+      "status": "verified",
+      "source": "offline_regression:ref_data_targeted_chest_trauma",
+      "rationale": "Anterior chest trauma with breathing-provoked pain requires chest imaging for rib and pulmonary complications, not limb films.",
+      "input": [
+        "胸部外伤结构影像",
+        "胸壁软组织损伤评估"
+      ],
+      "output": [
+        "胸部X线检查（CXR）"
+      ]
+    },
+    {
+      "id": "exam_intent_chest_wall_soft_tissue",
+      "status": "verified",
+      "source": "offline_regression:ref_data_targeted_chest_trauma",
+      "rationale": "Chest wall bruising and pain require direct chest imaging; a limb film cannot cover the injured anatomy.",
+      "input": [
+        "胸壁软组织损伤评估"
+      ],
+      "output": [
+        "胸部X线检查（CXR）"
+      ]
+    },
+    {
+      "id": "exam_intent_rhythm_assessment",
+      "status": "verified",
+      "source": "offline_regression:eighth_round_arrhythmia_axis",
+      "rationale": "Sudden palpitations require rhythm confirmation before assuming ACS pathways.",
+      "input": [
+        "心律评估",
+        "心电节律",
+        "明确是否存在心律失常及其类型"
+      ],
+      "output": [
+        "心电图（ECG）"
+      ]
+    },
+    {
+      "id": "exam_intent_electrolyte_precipitant",
+      "status": "verified",
+      "source": "offline_regression:eighth_round_arrhythmia_axis",
+      "rationale": "Palpitations with GI loss, poor intake, or diuretic risk require electrolyte assessment.",
+      "input": [
+        "电解质评估",
+        "电解质"
+      ],
+      "output": [
+        "血清电解质"
+      ]
+    },
+    {
+      "id": "exam_intent_leptospirosis_pathogen",
+      "status": "verified",
+      "source": "offline_regression:ref_data_targeted_leptospirosis",
+      "rationale": "Water or animal-urine exposure with febrile calf pain requires serologic pathogen confirmation.",
+      "input": [
+        "钩端螺旋体病原学评估"
+      ],
+      "output": [
+        "双份血清抗体检测"
+      ]
+    },
+    {
+      "id": "exam_intent_liver_renal_function",
+      "status": "verified",
+      "source": "offline_regression:ref_data_targeted_leptospirosis",
+      "rationale": "Systemic exposure-directed infection with dark urine or oliguria requires liver and renal function assessment.",
+      "input": [
+        "肝肾功能评估"
+      ],
+      "output": [
+        "肝肾功能检查（LFTs/RFTs）"
+      ]
+    },
+    {
+      "id": "exam_intent_local_enthesopathy_assessment",
+      "status": "verified",
+      "source": "offline_regression:eighth_round_elbow_overuse",
+      "rationale": "Activity-triggered focal elbow pain is evaluated as local enthesopathy; CBC is not a default intent.",
+      "input": [
+        "局部肌腱附着点评估"
+      ],
+      "output": [
+        "体格检查"
+      ]
+    },
+    {
+      "id": "exam_intent_hepato_splenic_portal",
+      "status": "verified",
+      "source": "offline_regression:eighth_round_hypersplenism_axis",
+      "rationale": "Chronic liver disease with left-upper-quadrant fullness and cytopenia requires hepato-splenic structural assessment before marrow-specific therapy.",
+      "input": [
+        "肝脾门脉结构评估",
+        "肝脾结构"
+      ],
+      "output": [
+        "腹部超声"
+      ]
+    },
+    {
+      "id": "exam_intent_hematologic_differential_support",
+      "status": "verified",
+      "source": "offline_regression:eighth_round_hypersplenism_axis",
+      "rationale": "Cytopenia workup may include CBC when not already completed; marrow remains a later differentiator.",
+      "input": [
+        "血液学鉴别评估"
+      ],
+      "output": [
+        "全血细胞计数（CBC）"
+      ]
+    },
+    {
+      "id": "exam_intent_anca_vasculitis_screen",
+      "status": "verified",
+      "source": "offline_regression:ninth_round_pulmonary_renal_axis",
+      "rationale": "Chronic cough with hemoptysis plus renal or multi-system clues requires ANCA screening for pulmonary-renal vasculitis before infection-only pathways dominate.",
+      "input": [
+        "ANCA血管炎筛查",
+        "ANCA"
+      ],
+      "output": [
+        "抗中性粒细胞胞质抗体（ANCA）谱"
+      ]
+    },
+    {
+      "id": "exam_intent_urine_kidney_assessment",
+      "status": "verified",
+      "source": "offline_regression:ninth_round_pulmonary_renal_axis",
+      "rationale": "Pulmonary hemorrhage-like presentations need concurrent urine sediment and protein assessment for pulmonary-renal syndromes.",
+      "input": [
+        "尿液肾脏评估",
+        "尿液"
+      ],
+      "output": [
+        "尿液分析（UA）"
+      ]
+    },
+    {
+      "id": "exam_intent_renal_function_assessment",
+      "status": "verified",
+      "source": "offline_regression:ninth_round_pulmonary_renal_axis",
+      "rationale": "Edema or suspected renal involvement with airway bleeding requires renal function assessment.",
+      "input": [
+        "肾功能评估",
+        "肾功能"
+      ],
+      "output": [
+        "肾功能检查（RFTs）"
+      ]
+    },
+    {
+      "id": "exam_intent_chest_structure_imaging",
+      "status": "verified",
+      "source": "offline_regression:ninth_round_pulmonary_renal_axis",
+      "rationale": "Chronic cough and hemoptysis require chest structural imaging to map pulmonary involvement.",
+      "input": [
+        "胸部结构影像",
+        "胸部影像"
+      ],
+      "output": [
+        "胸部X线检查（CXR）"
+      ]
+    },
+    {
+      "id": "exam_intent_tb_pathogen_assessment",
+      "status": "verified",
+      "source": "offline_regression:ninth_round_pulmonary_renal_axis",
+      "rationale": "Infection and tuberculosis remain on the differential; sputum studies close pathogen evidence rather than replacing vasculitis workup.",
+      "input": [
+        "感染结核病原评估",
+        "结核病原"
+      ],
+      "output": [
+        "痰培养及染色"
+      ]
+    },
+    {
+      "id": "exam_intent_multi_electrolyte_magnesium",
+      "status": "verified",
+      "source": "offline_regression:ninth_round_hypomagnesemia_axis",
+      "rationale": "Symptomatic hypokalemia with diarrhea or malabsorption requires a multi-electrolyte panel that can surface concurrent magnesium depletion.",
+      "input": [
+        "多电解质与镁评估",
+        "镁评估"
+      ],
+      "output": [
+        "血清电解质"
+      ]
+    },
+    {
+      "id": "exam_intent_neuromuscular_junction_function",
+      "status": "verified",
+      "source": "clinical_topic:neuromuscular_junction_differential",
+      "rationale": "Fatigable ptosis with negative structural imaging requires a focused neuromuscular junction function test before etiologic closure.",
+      "input": [
+        "鉴别重症肌无力",
+        "神经肌肉接头",
+        "新斯的明试验"
+      ],
+      "output": [
+        "新斯的明试验"
+      ]
+    },
+    {
+      "id": "exam_intent_quantitative_hearing_assessment",
+      "status": "verified",
+      "source": "clinical_topic:acute_audio_vestibular_differential",
+      "rationale": "Acute vestibular symptoms with subjective hearing change require objective hearing characterization before a chronic cochleovestibular label dominates.",
+      "input": [
+        "听力损失性质",
+        "听力损失类型",
+        "听力损失程度",
+        "听力学检查",
+        "纯音测听"
+      ],
+      "output": [
+        "听力测定"
+      ]
+    },
+    {
+      "id": "exam_intent_urinary_stone_imaging",
+      "status": "verified",
+      "source": "clinical_topic:urinary_infection_stone_differential",
+      "rationale": "Flank pain with hematuria and urinary symptoms requires noninvasive urinary imaging before a stone diagnosis is closed.",
+      "input": [
+        "泌尿系结石影像",
+        "泌尿系影像",
+        "泌尿道影像",
+        "影像学检查确认是否存在泌尿系结石",
+        "结石位置和大小",
+        "泌尿系超声",
+        "输尿管结石影像"
+      ],
+      "output": [
+        "泌尿道超声"
+      ]
+    },
+    {
+      "id": "exam_intent_abnormal_blood_cell_morphology",
+      "status": "verified",
+      "source": "clinical_topic:systemic_infection_hematologic_differential",
+      "rationale": "Systemic fever with bleeding and multilineage blood abnormalities requires peripheral morphology review before a primary platelet disorder is closed.",
+      "input": [
+        "血液细胞形态鉴别",
+        "异常血细胞形态",
+        "原始细胞鉴别"
+      ],
+      "output": [
+        "外周血涂片"
+      ]
+    },
+    {
+      "id": "exam_intent_systemic_pathogen_assessment",
+      "status": "verified",
+      "source": "clinical_topic:systemic_infection_hematologic_differential",
+      "rationale": "Unexplained relapsing systemic fever requires pathogen assessment before immunosuppression or a primary hematologic closure.",
+      "input": [
+        "全身感染病原评估",
+        "系统性感染病原评估"
+      ],
+      "output": [
+        "血培养"
+      ]
+    },
+    {
+      "id": "exam_intent_systemic_infection_activity",
+      "status": "verified",
+      "source": "clinical_topic:systemic_infection_hematologic_differential",
+      "rationale": "Systemic fever with bleeding requires an objective infection activity marker before treatment risk is considered resolved.",
+      "input": [
+        "全身感染活动度评估",
+        "感染活动度评估"
+      ],
+      "output": [
+        "C反应蛋白（CRP）"
+      ]
+    },
+    {
+      "id": "exam_intent_vector_exposure_pathogen_assessment",
+      "status": "verified",
+      "source": "clinical_topic:exposure_directed_infection_differential",
+      "rationale": "Positive vector or outdoor exposure should direct pathogen testing without naming a case-specific organism.",
+      "input": [
+        "媒介或暴露相关病原评估",
+        "媒介暴露病原评估"
+      ],
+      "output": [
+        "血清学抗体检测"
+      ]
+    },
+    {
+      "id": "exam_intent_middle_ear_conduction_mechanism",
+      "status": "verified",
+      "source": "clinical_topic:focal_ear_pain_conductive_loss",
+      "rationale": "Objective conductive hearing loss unexplained by otoscopy requires middle-ear mechanism localization before deeper imaging.",
+      "input": [
+        "中耳传导机制评估",
+        "传导性听损机制评估"
+      ],
+      "output": [
+        "鼓室压图及声导抗检查"
+      ]
+    },
+    {
+      "id": "exam_intent_deep_ear_structure_localization",
+      "status": "verified",
+      "source": "clinical_topic:focal_ear_pain_conductive_loss",
+      "rationale": "Persistent severe focal otalgia that remains unexplained after surface and middle-ear assessment may require deep structural imaging.",
+      "input": [
+        "耳部深层结构定位",
+        "颞骨结构定位"
+      ],
+      "output": [
+        "耳部CT扫描（Ear CT）"
+      ]
+    },
+    {
+      "id": "exam_intent_monoclonal_protein_assessment",
+      "status": "verified",
+      "source": "clinical_topic:cryoglobulinemia_secondary_etiology",
+      "rationale": "Symptomatic cryoglobulinemia requires first-line monoclonal protein screening before a clonal cause is closed.",
+      "input": [
+        "单克隆蛋白或浆细胞病评估",
+        "单克隆蛋白评估",
+        "浆细胞病评估"
+      ],
+      "output": [
+        "血清蛋白电泳（SPEP）"
+      ]
+    },
+    {
+      "id": "exam_intent_hcv_etiology_assessment",
+      "status": "verified",
+      "source": "clinical_topic:cryoglobulinemia_secondary_etiology",
+      "rationale": "HCV is a common treatable secondary cause of symptomatic cryoglobulinemia and warrants first-line antibody screening.",
+      "input": [
+        "HCV病因评估",
+        "丙型肝炎病因评估"
+      ],
+      "output": [
+        "丙型肝炎病毒（HCV）抗体检测"
+      ]
+    },
+    {
+      "id": "exam_intent_oxygenation_vitals",
+      "status": "verified",
+      "source": "clinical_topic:acute_respiratory_illness_oxygenation",
+      "rationale": "Acute lower respiratory symptoms with tachypnea require objective vitals and oxygenation before final treatment.",
+      "input": [
+        "氧合与生命体征评估",
+        "血氧评估",
+        "生命体征与氧合评估"
+      ],
+      "output": [
+        "生命体征",
+        "脉搏血氧饱和度监测（SpO2）"
+      ]
+    },
+    {
+      "id": "exam_intent_high_risk_pediatric_lower_respiratory",
+      "status": "verified",
+      "source": "clinical_topic:immunosuppressed_child_lower_respiratory_infection",
+      "rationale": "Persistent fever and productive cough in an immunosuppressed child require chest imaging and bloodstream pathogen sampling before a low-acuity bronchitis pathway is closed.",
+      "input": [
+        "高危儿童下呼吸道感染结构与病原评估"
+      ],
+      "output": [
+        {
+          "name": "胸部X线检查（CXR）",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "chest_xray",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "血培养",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "blood_culture",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_acute_ear_pain_otoscopy",
+      "status": "verified",
+      "source": "clinical_topic:acute_ear_pain_after_instrumentation",
+      "rationale": "Acute ear pain after ear-canal instrumentation requires direct assessment of the canal and tympanic membrane before irrigation or extraction advice.",
+      "input": [
+        "外耳道与鼓膜直视评估"
+      ],
+      "output": [
+        "耳镜检查"
+      ]
+    },
+    {
+      "id": "exam_intent_urine_infection_assessment",
+      "status": "verified",
+      "source": "clinical_topic:postmenopausal_urogenital_irritation_differential",
+      "rationale": "Urinary irritation needs urine infection evidence before choosing systemic antibiotics.",
+      "input": [
+        "尿液感染评估",
+        "尿路病原学评估"
+      ],
+      "output": [
+        "尿液分析（UA）",
+        "细菌培养及鉴定"
+      ]
+    },
+    {
+      "id": "exam_intent_alcohol_liver_lab_injury",
+      "status": "verified",
+      "source": "clinical_topic:chronic_alcohol_liver_injury",
+      "rationale": "Chronic heavy alcohol use with systemic liver symptoms requires objective hepatic injury and synthetic function labs before finalizing.",
+      "input": [
+        "酒精性肝损伤实验室评估",
+        "肝细胞损伤与合成功能评估"
+      ],
+      "output": [
+        {
+          "name": "肝功能检查（LFTs）",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "lfts",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "凝血功能全套",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "coagulation_panel",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_alcohol_liver_structure",
+      "status": "verified",
+      "source": "clinical_topic:chronic_alcohol_liver_injury",
+      "rationale": "Alcohol-related liver disease needs hepatic and portal structural imaging, not inspection alone.",
+      "input": [
+        "肝脾门脉结构评估",
+        "酒精肝结构评估"
+      ],
+      "output": [
+        "腹部超声"
+      ]
+    },
+    {
+      "id": "exam_intent_pleuritic_chest_imaging",
+      "status": "verified",
+      "source": "clinical_topic:pleuritic_pain_infection_embolism_effusion",
+      "rationale": "Pleuritic pain with cough or prior pulmonary infarct requires chest structural imaging before non-specific autoimmune or cardiac tests close the case.",
+      "input": [
+        "胸膜肺结构影像评估",
+        "胸膜肺影像评估"
+      ],
+      "output": [
+        "胸部X线检查（CXR）",
+        "胸部CT扫描（Chest CT）"
+      ]
+    },
+    {
+      "id": "exam_intent_hindfoot_bone_imaging",
+      "status": "verified",
+      "source": "clinical_topic:high_energy_hindfoot_trauma",
+      "rationale": "High-energy heel trauma needs hindfoot bone imaging before soft-tissue sprain closure.",
+      "input": [
+        "足跟骨性结构影像",
+        "跟骨结构影像"
+      ],
+      "output": [
+        "四肢X线检查"
+      ]
+    },
+    {
+      "id": "exam_intent_hyperglycemic_crisis_glucose",
+      "status": "verified",
+      "source": "clinical_topic:febrile_polyuria_dehydration_hyperglycemic_crisis",
+      "rationale": "Fever with polyuria, polydipsia and dehydration requires immediate glucose measurement before diabetes-insipidus pathways.",
+      "input": [
+        "高血糖危象血糖评估",
+        "危象血糖评估"
+      ],
+      "output": [
+        "血糖检测",
+        "空腹血糖（FBG）"
+      ]
+    },
+    {
+      "id": "exam_intent_hyperglycemic_crisis_metabolic",
+      "status": "verified",
+      "source": "clinical_topic:febrile_polyuria_dehydration_hyperglycemic_crisis",
+      "rationale": "Suspected hyperglycemic crisis needs acid-base or ketone-oriented assessment, not electrolytes alone.",
+      "input": [
+        "代谢酸中毒与酮症评估",
+        "酮症酸中毒评估"
+      ],
+      "output": [
+        "动脉血气（ABG）",
+        "尿液分析（UA）"
+      ]
+    },
+    {
+      "id": "exam_intent_postop_chest_effusion_imaging",
+      "status": "verified",
+      "source": "clinical_topic:postop_chylothorax_or_pleural_effusion",
+      "rationale": "Post-thoracic surgery respiratory distress with negative bedside ultrasound still needs further chest structural imaging.",
+      "input": [
+        "术后胸腔积液结构评估",
+        "术后乳糜胸影像评估"
+      ],
+      "output": [
+        "胸部X线检查（CXR）",
+        "胸部CT扫描（Chest CT）"
+      ]
+    },
+    {
+      "id": "exam_intent_immunosuppressed_lower_respiratory",
+      "status": "verified",
+      "source": "clinical_mechanism:immunosuppressed_progressive_dyspnea",
+      "rationale": "Immunosuppression with cough and progressive dyspnea requires lung imaging, oxygenation and respiratory viral testing before ENT or background-disease closure.",
+      "input": [
+        "免疫抑制下呼吸道感染结构与病原评估"
+      ],
+      "output": [
+        {
+          "name": "胸部X线检查（CXR）",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "chest_xray",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "脉搏血氧饱和度监测（SpO2）",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "spo2",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "鼻咽拭子病毒核酸检测",
+          "stage": "first_line",
+          "priority": 80,
+          "semantic_key": "nasopharyngeal_viral_naat",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_neurocysticercosis_etiology",
+      "status": "verified",
+      "source": "clinical_mechanism:seizure_intracranial_calcifications",
+      "rationale": "Seizure with intracranial punctate calcifications requires cysticercosis etiology assessment rather than symptom-only epilepsy closure.",
+      "input": [
+        "神经囊虫病病因评估"
+      ],
+      "output": [
+        "囊虫抗体检测"
+      ]
+    },
+    {
+      "id": "exam_intent_seizure_electrophysiology",
+      "status": "verified",
+      "source": "clinical_mechanism:seizure_etiology",
+      "rationale": "Seizure assessment needs electrophysiologic characterization when the cause or treatment plan is unresolved.",
+      "input": [
+        "神经发作电生理评估"
+      ],
+      "output": [
+        "脑电图（EEG）"
+      ]
+    },
+    {
+      "id": "exam_intent_decompensated_liver_etiology_function",
+      "status": "verified",
+      "source": "clinical_mechanism:decompensated_cirrhosis",
+      "rationale": "Jaundice and ascites with cirrhotic morphology require viral etiology, hepatic function and coagulation assessment.",
+      "input": [
+        "失代偿肝病病因与功能评估"
+      ],
+      "output": [
+        {
+          "name": "乙型肝炎病毒（HBV）检测组合",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "hbv_panel",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "丙型肝炎病毒（HCV）抗体检测",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "hcv_ab",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "肝功能检查（LFTs）",
+          "stage": "first_line",
+          "priority": 80,
+          "semantic_key": "lfts",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "凝血功能全套",
+          "stage": "first_line",
+          "priority": 70,
+          "semantic_key": "coagulation_panel",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_hcc_risk_stratification",
+      "status": "verified",
+      "source": "clinical_mechanism:cirrhosis_hcc_risk",
+      "rationale": "Decompensated cirrhosis requires hepatocellular carcinoma risk stratification, with urgent cross-sectional imaging when a lesion or strong red flag exists.",
+      "input": [
+        "肝癌风险分层评估"
+      ],
+      "output": [
+        {
+          "name": "甲胎蛋白（AFP）检测",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "afp",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "增强腹部CT扫描（Abdominal CECT）",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "abdominal_cect",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_developmental_genetic_epilepsy",
+      "status": "verified",
+      "source": "clinical_mechanism:childhood_epilepsy_developmental_clues",
+      "rationale": "Childhood-onset seizures with learning or FMR1 clues require genetic etiology confirmation and seizure characterization.",
+      "input": [
+        "发育遗传性癫痫病因评估"
+      ],
+      "output": [
+        "脆性X综合征基因检测",
+        "脑电图（EEG）"
+      ]
+    },
+    {
+      "id": "exam_intent_sma_duodenal_obstruction",
+      "status": "verified",
+      "source": "clinical_mechanism:post_spinal_surgery_positional_bilious_vomiting",
+      "rationale": "Post-spinal surgery meal-triggered bilious vomiting with positional relief requires direct duodenal/SMA compression imaging, not consequence-only electrolyte closure.",
+      "input": [
+        "肠系膜上动脉压迫与十二指肠梗阻评估"
+      ],
+      "output": [
+        "上消化道造影（UGI）",
+        "增强腹部CT扫描（Abdominal CECT）"
+      ]
+    },
+    {
+      "id": "exam_intent_vomiting_electrolytes",
+      "status": "verified",
+      "source": "clinical_mechanism:prolonged_bilious_vomiting",
+      "rationale": "Persistent vomiting requires electrolyte assessment while the mechanical cause is investigated.",
+      "input": [
+        "呕吐水电解质评估"
+      ],
+      "output": [
+        "血清电解质"
+      ]
+    },
+    {
+      "id": "exam_intent_pediatric_leukocoria_tumor",
+      "status": "verified",
+      "source": "clinical_mechanism:pediatric_leukocoria_visual_decline",
+      "rationale": "Recurrent leukocoria with visual tracking decline requires definitive ocular tumor assessment even after a normal screening red reflex.",
+      "input": [
+        "儿童白瞳眼内肿瘤评估",
+        "儿童白瞳病因评估"
+      ],
+      "output": [
+        {
+          "name": "眼部超声",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "ocular_ultrasound",
+          "mandatory_parallel": false
+        },
+        {
+          "name": "眼底镜检查",
+          "stage": "add_on",
+          "priority": 80,
+          "semantic_key": "fundoscopy",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_secondary_headache_structure",
+      "status": "verified",
+      "source": "clinical_mechanism:acute_pressure_headache_intracranial_calcification",
+      "rationale": "Acute severe positional headache with vomiting or cognitive change and intracranial calcification requires structural imaging before primary-headache closure.",
+      "input": [
+        "继发性头痛结构与病因评估"
+      ],
+      "output": [
+        "增强脑部MRI"
+      ]
+    },
+    {
+      "id": "exam_intent_intracranial_pressure",
+      "status": "verified",
+      "source": "clinical_mechanism:acute_pressure_headache_intracranial_calcification",
+      "rationale": "Pressure-pattern headache requires intracranial pressure assessment after structural contraindications are addressed.",
+      "input": [
+        "颅内压评估"
+      ],
+      "output": [
+        "脑脊液（CSF）压力测定"
+      ]
+    },
+    {
+      "id": "exam_intent_dyshemoglobin_oxygenation",
+      "status": "verified",
+      "source": "clinical_mechanism:cyanosis_oxidant_dyshemoglobinemia",
+      "rationale": "Cyanosis with oxidant exposure requires objective oxygenation and dyshemoglobin-oriented assessment before structural-heart closure.",
+      "input": [
+        "异常血红蛋白与氧合鉴别"
+      ],
+      "output": [
+        "动脉血气（ABG）",
+        "红细胞酶检测"
+      ]
+    },
+    {
+      "id": "exam_intent_pediatric_mediastinal_structure",
+      "status": "verified",
+      "source": "clinical_mechanism:pediatric_airway_esophageal_compression",
+      "rationale": "Persistent pediatric airway symptoms with positional or swallowing pressure clues require chest and mediastinal structural imaging.",
+      "input": [
+        "胸部及纵隔结构评估"
+      ],
+      "output": [
+        "胸部X线检查（CXR）"
+      ]
+    },
+    {
+      "id": "exam_intent_pediatric_mediastinal_ct",
+      "status": "verified",
+      "source": "clinical_mechanism:pediatric_airway_esophageal_compression",
+      "rationale": "A mediastinal abnormality on pediatric chest radiography requires CT characterization before diagnostic closure.",
+      "input": [
+        "纵隔异常胸片进一步CT评估"
+      ],
+      "output": [
+        "胸部CT扫描（Chest CT）"
+      ]
+    },
+    {
+      "id": "exam_intent_symptomatic_anemia_iron",
+      "status": "verified",
+      "source": "clinical_mechanism:symptomatic_anemia_chronic_blood_loss",
+      "rationale": "Progressive anemia symptoms with chronic blood-loss risk require blood-count severity and iron-deficiency evidence.",
+      "input": [
+        "贫血严重度与铁缺乏评估"
+      ],
+      "output": [
+        "全血细胞计数（CBC）",
+        "铁代谢检查"
+      ]
+    },
+    {
+      "id": "exam_intent_pediatric_night_blindness_retinal_workup",
+      "status": "verified",
+      "source": "clinical_mechanism:pediatric_progressive_night_blindness",
+      "rationale": "Progressive childhood night blindness requires first-line retinal morphology and electrophysiology assessment.",
+      "input": [
+        "儿童进行性夜盲视网膜功能评估"
+      ],
+      "output": [
+        {
+          "name": "眼底镜检查",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "fundoscopy",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "视网膜电图（ERG）",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "erg",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_water_aerosol_pneumonia",
+      "status": "verified",
+      "source": "clinical_mechanism:water_aerosol_severe_pneumonia",
+      "rationale": "Water-aerosol exposure with severe pneumonia features requires lung imaging and exposure-linked pathogen testing rather than generic culture alone.",
+      "input": [
+        "水气溶胶肺炎结构与病原评估"
+      ],
+      "output": [
+        {
+          "name": "胸部X线检查（CXR）",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "chest_xray",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "病原体抗原检测",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "pathogen_antigen",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_seafood_gastroenteritis_pathogen",
+      "status": "verified",
+      "source": "clinical_mechanism:seafood_acute_watery_diarrhea",
+      "rationale": "Acute watery diarrhea after raw seafood exposure requires stool pathogen culture before consequence-only closure.",
+      "input": [
+        "生食海鲜相关胃肠病原评估",
+        "鉴别生食海鲜后细菌性胃肠感染病原"
+      ],
+      "output": [
+        "粪便培养"
+      ]
+    },
+    {
+      "id": "exam_intent_suppurative_middle_ear_otoscopy",
+      "status": "verified",
+      "source": "clinical_mechanism:chronic_suppurative_middle_ear",
+      "rationale": "Chronic purulent otorrhea with hearing decline requires direct canal and tympanic-membrane assessment before symptom-only closure.",
+      "input": [
+        "化脓性中耳病变直视评估",
+        "明确鼓膜完整性及中耳病变性质以区分单纯型与骨疡型或胆脂瘤型",
+        "明确鼓膜穿孔位置及大小评估中耳腔情况"
+      ],
+      "output": [
+        "耳镜检查"
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_pml",
+      "status": "verified",
+      "source": "offline_regression:20260722_pml_axis",
+      "rationale": "PML suspicion needs JC-virus evidence before broad vascular imaging.",
+      "input": [
+        "PML病原与免疫状态评估"
+      ],
+      "output": [
+        {
+          "name": "脑脊液（CSF）病原体检测组合",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "csf_jc_pathogen_panel",
+          "mandatory_parallel": false
+        },
+        {
+          "name": "淋巴细胞亚群分析",
+          "stage": "add_on",
+          "priority": 80,
+          "semantic_key": "lymphocyte_subsets",
+          "mandatory_parallel": false
+        },
+        {
+          "name": "HIV病毒载量检测",
+          "stage": "add_on",
+          "priority": 70,
+          "semantic_key": "hiv_viral_load",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_hf_volume",
+      "status": "verified",
+      "source": "offline_regression:20260722_hfref_axis",
+      "rationale": "Decompensated HFrEF needs one natriuretic peptide first-line volume marker when echo is already known.",
+      "input": [
+        "心衰容量与器官功能评估"
+      ],
+      "output": [
+        {
+          "name": "B型利钠肽（BNP）",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "natriuretic_peptide",
+          "mandatory_parallel": false
+        },
+        {
+          "name": "N末端B型利钠肽原（NT-proBNP）",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "natriuretic_peptide",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_airway_safety",
+      "status": "verified",
+      "source": "offline_regression:20260722_airway_axis",
+      "rationale": "Pediatric deep-pharyngeal danger needs a direct upper-airway assessment in parallel with pathogen testing.",
+      "input": [
+        "儿童气道危险评估"
+      ],
+      "output": [
+        {
+          "name": "口咽部检查",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "oropharyngeal_airway_assessment",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_perioral_skin",
+      "status": "verified",
+      "source": "offline_regression:20260722_perioral_axis",
+      "rationale": "Perioral inflammatory lesions after topical steroid exposure require local skin examination, not nasal screening.",
+      "input": [
+        "局部面部皮损评估"
+      ],
+      "output": [
+        {
+          "name": "皮肤检查",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "local_facial_skin_assessment",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_anal_polyp",
+      "status": "verified",
+      "source": "offline_regression:20260722_anal_polyp_axis",
+      "rationale": "Pedunculated anal lesions with hematochezia require direct anorectal visualization.",
+      "input": [
+        "肛门直肠病变直视评估"
+      ],
+      "output": [
+        {
+          "name": "肛门镜检查",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "anoscopy",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_rheumatoid_ocular",
+      "status": "verified",
+      "source": "offline_regression:20260722_rheumatoid_ocular_axis",
+      "rationale": "Ocular pain and photophobia in a rheumatoid pattern need slit-lamp assessment before treatment is delayed.",
+      "input": [
+        "类风湿眼部受累与活动度评估"
+      ],
+      "output": [
+        {
+          "name": "裂隙灯检查",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "slit_lamp",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_renovascular_hypertension",
+      "status": "verified",
+      "source": "offline_regression:20260722_renovascular_axis",
+      "rationale": "Documented renal artery stenosis with severe hypertension needs renal vascular imaging.",
+      "input": [
+        "肾血管高血压病因与靶器官评估"
+      ],
+      "output": [
+        {
+          "name": "肾血管造影",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "renal_artery_angiography",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_strep_pathogen",
+      "status": "verified",
+      "source": "offline_regression:20260722_airway_axis",
+      "rationale": "Suspected streptococcal pharyngitis should use pharyngeal culture; catalog has no strep-specific rapid antigen leaf.",
+      "input": [
+        "链球菌病原评估"
+      ],
+      "output": [
+        {
+          "name": "咽拭子培养",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "throat_swab_culture",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_renal_vascular",
+      "status": "verified",
+      "source": "offline_regression:20260722_renal_vascular",
+      "rationale": "Renal vascular workup uses catalog renal angiography leaf rather than invented names.",
+      "input": [
+        "肾血管病因评估"
+      ],
+      "output": [
+        {
+          "name": "肾血管造影",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "renal_artery_angiography",
+          "mandatory_parallel": false
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_20260722_tb_parallel",
+      "status": "verified",
+      "source": "offline_regression:20260722_tb_parallel",
+      "rationale": "Cavitary TB workup needs imaging and AFB in parallel as an explicit complementary pair.",
+      "input": [
+        "结核影像与病原并行评估"
+      ],
+      "output": [
+        {
+          "name": "胸部X线检查（CXR）",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "chest_xray",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "抗酸杆菌染色（AFB）",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "afb_stain",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_active_upper_gi_bleed",
+      "status": "verified",
+      "source": "clinical_mechanism:active_upper_gi_bleed",
+      "rationale": "Overt hematemesis or melena with cirrhosis or hemodynamic symptoms needs parallel resuscitation and urgent hemostasis preparation.",
+      "input": [
+        "活动性上消化道出血严重度与止血准备"
+      ],
+      "output": [
+        {
+          "name": "凝血功能全套",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "coagulation",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "血型鉴定及交叉配血",
+          "stage": "first_line",
+          "priority": 95,
+          "semantic_key": "blood_type_crossmatch",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "内镜检查",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "endoscopy",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_pediatric_glaucoma",
+      "status": "verified",
+      "source": "clinical_mechanism:pediatric_congenital_glaucoma",
+      "rationale": "Childhood high intraocular pressure with corneal edema requires angle and optic nerve assessment.",
+      "input": [
+        "儿童高眼压病因与视神经损害评估"
+      ],
+      "output": [
+        {
+          "name": "房角镜检查",
+          "stage": "first_line",
+          "priority": 100,
+          "semantic_key": "gonioscopy",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "眼底镜检查",
+          "stage": "first_line",
+          "priority": 90,
+          "semantic_key": "fundoscopy",
+          "mandatory_parallel": true
+        },
+        {
+          "name": "眼压测量（IOP）",
+          "stage": "first_line",
+          "priority": 80,
+          "semantic_key": "iop",
+          "mandatory_parallel": true
+        }
+      ]
+    },
+    {
+      "id": "exam_intent_lipid_metabolic",
+      "status": "verified",
+      "source": "clinical_pattern:hyperlipidemia_with_xanthelasma",
+      "rationale": "Xanthelasma with dyslipidemia requires objective lipid panel assessment.",
+      "input": [
+        "血脂代谢评估",
+        "脂质代谢评估",
+        "高脂血症评估"
+      ],
+      "output": [
+        "血脂检测组合"
+      ]
+    }
+  ]
+}

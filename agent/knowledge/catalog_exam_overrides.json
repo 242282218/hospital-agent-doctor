@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "id": "exam_override_abdominal_thrust",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "This maneuver is therapeutic rather than purely diagnostic and has meaningful risk.",
+      "official_name": "腹部冲击法",
+      "procedure_kind": "therapeutic_like",
+      "risk_level": "high"
+    },
+    {
+      "id": "exam_override_laparotomy",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "This invasive exploration requires interventional safety handling.",
+      "official_name": "剖腹探查术",
+      "procedure_kind": "diagnostic_interventional",
+      "risk_level": "high"
+    },
+    {
+      "id": "exam_override_dilation_curettage",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "This invasive uterine procedure requires interventional safety handling.",
+      "official_name": "扩张和刮宫术（D&C）",
+      "procedure_kind": "diagnostic_interventional",
+      "risk_level": "high"
+    },
+    {
+      "id": "exam_override_excisional_biopsy",
+      "status": "verified",
+      "source": "catalog/manual",
+      "rationale": "This biopsy is interventional and has more than minimal procedural risk.",
+      "official_name": "切除活检",
+      "procedure_kind": "diagnostic_interventional",
+      "risk_level": "medium"
+    }
+  ]
+}

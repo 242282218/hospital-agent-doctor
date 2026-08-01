@@ -1,0 +1,30 @@
+# Baseline agent configuration.
+#
+# Runtime endpoint and credential values are read from environment variables:
+# SERVICE_BASE_URL, SERVICE_TRAIN_TOKEN, MODEL_API_KEY, TEAM_ID.
+# Do not put tokens or model keys in this file.
+
+output_dir: outputs
+
+train:
+  # selection supports random, forward, and reverse.
+  selection: random
+  patient_count: 1
+  random_seed: 42
+  patient_ids: []
+
+test:
+  # Used by local /test calls.
+  selection: random
+  patient_count: 1
+  random_seed: 42
+  patient_ids: []
+
+memory:
+  md_path: data/memory_data/memory.md
+  # 只读取最近几条训练评估反思，避免 prompt 过长。
+  max_notes: 3
+  max_note_chars: 1200
+
+# Raw prompts may contain patient data and must be enabled explicitly for local debugging only.
+log_llm_prompts: false

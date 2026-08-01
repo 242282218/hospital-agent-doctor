@@ -1,0 +1,118 @@
+{
+  "schema_version": "exam-coverage-rules/v1",
+  "description": "Data table for the exams_cover_* coverage predicates. Each rule is matched by substring against the completed examination names. `mode` selects how markers combine: any (default), any_excluding (any marker but none of `excluding`), all_groups (every group must match at least one marker), any_group_pair (any group matches).",
+  "rules": [
+    {
+      "id": "advanced_chest_imaging",
+      "markers": ["胸部X线", "胸部CT", "Chest CT", "胸片", "CXR"]
+    },
+    {
+      "id": "anca",
+      "markers": ["ANCA", "抗中性粒细胞胞质抗体"]
+    },
+    {
+      "id": "blood_culture",
+      "markers": ["血培养"]
+    },
+    {
+      "id": "blood_smear",
+      "markers": ["外周血涂片"]
+    },
+    {
+      "id": "cbc",
+      "markers": ["全血细胞计数", "血常规", "CBC"]
+    },
+    {
+      "id": "chest_imaging",
+      "markers": ["胸部X线", "胸部CT", "Chest CT", "Chest HRCT", "胸片", "CXR"]
+    },
+    {
+      "id": "deep_ear_structure",
+      "markers": ["耳部CT", "颞骨CT"]
+    },
+    {
+      "id": "echocardiography",
+      "markers": ["超声心动图", "心脏超声", "TTE", "TEE"]
+    },
+    {
+      "id": "electrolytes",
+      "markers": ["电解质", "血钾", "血清钾", "镁"]
+    },
+    {
+      "id": "glucose",
+      "mode": "any_excluding",
+      "markers": ["血糖检测", "空腹血糖", "FBG", "随机血糖", "血糖"],
+      "excluding": ["糖化"]
+    },
+    {
+      "id": "hcv_etiology",
+      "mode": "all_groups",
+      "groups": [["丙型肝炎病毒"], ["抗体", "核酸"]]
+    },
+    {
+      "id": "hepato_splenic_structure",
+      "markers": ["腹部超声", "肝脏超声", "脾脏", "门脉", "腹部CT"]
+    },
+    {
+      "id": "hindfoot_bone_imaging",
+      "markers": ["四肢X线", "足部X线", "跟骨", "踝关节X线", "下肢X线"]
+    },
+    {
+      "id": "infection_activity",
+      "markers": ["C反应蛋白", "CRP", "降钙素原", "PCT"]
+    },
+    {
+      "id": "liver_injury_labs",
+      "markers": ["肝功能", "LFT", "凝血功能全套", "全血细胞计数", "血常规", "CBC"]
+    },
+    {
+      "id": "local_enthesopathy",
+      "markers": ["体格检查", "肌骨", "肌肉骨骼超声", "关节超声"]
+    },
+    {
+      "id": "metabolic_acidosis_or_ketosis",
+      "markers": ["动脉血气", "ABG", "血气", "尿液分析", "UA", "酮"]
+    },
+    {
+      "id": "middle_ear_mechanism",
+      "markers": ["鼓室压图", "声导抗"]
+    },
+    {
+      "id": "monoclonal_protein",
+      "markers": ["血清蛋白电泳", "血清免疫电泳", "尿蛋白电泳"]
+    },
+    {
+      "id": "otoscopy",
+      "markers": ["耳镜检查", "气压耳镜", "耳内镜"]
+    },
+    {
+      "id": "oxygenation_vitals",
+      "markers": ["生命体征", "脉搏血氧", "SpO2", "血氧饱和度", "动脉血气"]
+    },
+    {
+      "id": "renal_urine",
+      "mode": "any_group_pair",
+      "groups": [
+        ["尿液分析", "UA", "尿常规", "24小时尿蛋白"],
+        ["肾功能", "RFT", "肝肾功能", "肌酐"]
+      ]
+    },
+    {
+      "id": "rhythm",
+      "markers": ["心电图", "ECG", "Holter", "动态心电图"]
+    },
+    {
+      "id": "soft_tissue_local_imaging",
+      "markers": ["软组织超声", "皮肤超声", "肌肉骨骼超声"]
+    },
+    {
+      "id": "upper_arm_fracture",
+      "markers": ["肱骨", "上臂"],
+      "exact_names": ["四肢X线检查"]
+    },
+    {
+      "id": "urinary_imaging",
+      "markers": ["泌尿道超声", "泌尿系超声", "肾脏超声", "腹部CT", "泌尿系CT", "CT尿路成像"]
+    }
+  ]
+}
