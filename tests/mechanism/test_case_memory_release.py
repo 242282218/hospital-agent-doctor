@@ -326,7 +326,13 @@ def test_release_builder_accepts_equivalent_approval_paths(tmp_path: Path) -> No
     staging_path = batch_dir / "verified_registry.json"
     staging_registry = read_json(staging_path)
     for asset in staging_registry["assets"]:
-        asset["approval_ref"] = os.path.relpath(asset["approval_ref"], Path.cwd())
+        try:
+            asset["approval_ref"] = os.path.relpath(asset["approval_ref"], Path.cwd())
+        except ValueError:
+            # Cross-drive paths (tmp on C:, checkout on D:) cannot be made
+            # relative; keep the resolved absolute path, the release builder
+            # canonicalizes both forms identically.
+            asset["approval_ref"] = str(Path(asset["approval_ref"]).resolve())
     staging_registry["registry_hash"] = content_hash(
         {key: value for key, value in staging_registry.items() if key != "registry_hash"}
     )
