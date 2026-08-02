@@ -75,10 +75,28 @@ jobs:
           print("health smoke: ok")
           PY
 
-      - name: Install offline test runner
-        run: python -m pip install --disable-pip-version-check "pytest<9"
+  offline-regression:
+    name: Full offline regression (Windows Python 3.11)
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Run offline regression suite
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install locked runtime dependencies
+        run: >-
+          python -m pip install --require-hashes --only-binary=:all: -r requirements.txt
+
+      - name: Install offline test runner
+        run: python -m pip install --disable-pip-version-check pytest==9.1.1
+
+      - name: Run full offline regression suite
         run: python -m pytest -q
 
   docker-check:

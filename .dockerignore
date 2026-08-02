@@ -19,8 +19,8 @@ outputs/
 # Keep only the immutable runtime pack referenced by current.json.
 releases/*
 !releases/current.json
-!releases/release_C_runtime_final-d7ee89433f5e-portable-github-lazy-import/
-!releases/release_C_runtime_final-d7ee89433f5e-portable-github-lazy-import/**
+!releases/runtime_final_clinical-2242afb040a7/
+!releases/runtime_final_clinical-2242afb040a7/**
 
 *.log
 *.tmp
