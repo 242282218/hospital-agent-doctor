@@ -1175,6 +1175,18 @@ def diagnosis_supportive_treatment_plan(diagnosis: str) -> str:
             "结合饮食与职业压力做个体化指导。",
         ),
         (
+            "混合型高脂血症",
+            "针对混合型高脂血症：复核空腹血脂并评估ASCVD风险，先行低饱和脂肪饮食、"
+            "体重管理与规律运动；依据血脂分层和肝肾功能由专科决定他汀等降脂治疗，"
+            "定期复查血脂及肝酶，出现急性胸痛或神经系统症状立即急诊。",
+        ),
+        (
+            "蜂窝织炎",
+            "针对蜂窝织炎：立即急诊或住院评估急性下肢软组织感染；完善血常规、"
+            "C反应蛋白和降钙素原，必要时软组织超声排除脓肿或坏死性筋膜炎，"
+            "经验性覆盖革兰阳性菌并避开已知过敏药物，抬高患肢并监测红肿范围与生命体征。",
+        ),
+        (
             "睑内翻",
             "针对睑内翻/倒睫：眼科评估角膜损伤，润滑保护与必要拔除倒睫或手术矫正；"
             "排查泪道阻塞与贫血相关眼表问题，结合职业用眼与心理负担随访。",
@@ -1457,6 +1469,10 @@ def finalize_treatment_with_verified_fallback(
         if rebuilt:
             rebuilt_plan = clean_text(rebuilt.get("patched_treatment"))
             rebuilt_reasoning = clean_text(rebuilt.get("reasoning")) or reasoning
+            if dominant_axis is not None:
+                axis_id = clean_text(dominant_axis.get("axis_id"))
+                if axis_id and axis_id not in rebuilt_reasoning:
+                    rebuilt_reasoning = "%s 临床轴：%s" % (rebuilt_reasoning, axis_id)
             # Re-run safety + final verifier on the rebuilt text for the new dx.
             safety_report = apply_treatment_safety(
                 rebuilt_plan,
@@ -1484,9 +1500,39 @@ def finalize_treatment_with_verified_fallback(
                     safety_profiles=safety_profiles,
                 )
                 receipt = dict(converged or {})
+            if (
+                dominant_axis is not None
+                and clean_text(dominant_axis.get("axis_id"))
+                == "acute_lower_extremity_soft_tissue_infection"
+                and not validate_safe_escalation_plan(
+                    rebuilt_plan,
+                    axis_id="acute_lower_extremity_soft_tissue_infection",
+                    evidence=as_text_list(dominant_axis.get("evidence")),
+                )
+            ):
+                rebuilt_plan, rebuilt_reasoning = build_safe_escalation_plan(
+                    axis_id="acute_lower_extremity_soft_tissue_infection",
+                    closure_requirement=clean_text(
+                        dominant_axis.get("closure_requirement")
+                    ),
+                    evidence=as_text_list(dominant_axis.get("evidence")),
+                    existing_treatment=rebuilt_plan,
+                )
             receipt["patched_treatment"] = rebuilt_plan
             receipt["treatment_hash"] = treatment_review_plan_hash(rebuilt_plan)
-            receipt["degraded"] = "diagnosis_changed_rebuild"
+            receipt["degraded"] = (
+                "safe_escalation"
+                if soft_tissue_cellulitis_label_allowed(case_features, dominant_axis)
+                else (
+                    "axis_aligned_repair"
+                    if dominant_axis is not None
+                    else "diagnosis_changed_rebuild"
+                )
+            )
+            if receipt["degraded"] == "safe_escalation":
+                receipt["passed"] = False
+                receipt["verified"] = False
+                receipt["verification_status"] = "axis_closure_only"
             receipt["aligned_diagnosis"] = fallback_diagnosis
             receipt["selected_diagnosis"] = fallback_diagnosis
             receipt["upstream_issues"] = (verifier_result or {}).get("issues", [])
