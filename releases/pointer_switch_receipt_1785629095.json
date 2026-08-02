@@ -1,0 +1,12 @@
+{
+  "schema_version": "pointer-switch-receipt/v1",
+  "timestamp": "2026-08-02T08:04:55+0800",
+  "reason": "bind target hospital_agent runtime after clinical closure fix",
+  "from_release": "releases/release_C_runtime_final-d7ee89433f5e-portable-github-lazy-import",
+  "from_pack_hash": "657491d3afe2dbb944ed496c7022a252bc0d9d2bde2179747c365759f6ec2592",
+  "to_release": "releases/runtime_final_clinical-2242afb040a7",
+  "to_pack_hash": "84876410553f874a023df650ebd4a382dc18ff2fc77321eda332d341372c50f5",
+  "target_registry_file_hash": "3556430a83c2716aa4a5d4d61e7c34e89eef55cf3ba1f95296af0b0cf8bc5956",
+  "target_asset_count": 9972,
+  "rolled_back": false
+}

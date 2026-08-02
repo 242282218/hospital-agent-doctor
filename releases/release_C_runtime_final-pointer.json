@@ -1,1 +1,7 @@
-{"pack_hash":"657491d3afe2dbb944ed496c7022a252bc0d9d2bde2179747c365759f6ec2592","promotion_record_hash":"","release_dir":"releases/release_C_runtime_final-d7ee89433f5e-portable-github-lazy-import","runtime_schema_version":"clinical-runtime/v2","schema_version":"release-pointer/v1"}
+{
+  "schema_version": "release-pointer/v1",
+  "release_dir": "releases/runtime_final_clinical-2242afb040a7",
+  "pack_hash": "84876410553f874a023df650ebd4a382dc18ff2fc77321eda332d341372c50f5",
+  "promotion_record_hash": "",
+  "runtime_schema_version": "clinical-runtime/v2"
+}
